@@ -18,7 +18,16 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\dbc.hpp">
+    <ClInclude Include="..\..\..\simc\engine\dbc\dbc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\simc\engine\util\generic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\simc\engine\sc_timespan.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\simc\engine\config.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -31,16 +40,58 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\sc_item_data.inc">
+    <None Include="..\..\..\simc\engine\dbc\generated\azerite.inc">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\sc_item_data2.inc">
+    <None Include="..\..\..\simc\engine\dbc\generated\azerite_ptr.inc">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\sc_spell_data.inc">
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data.inc">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\azerite.inc">
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data_ptr.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data_ptr2.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data2.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_scale_data.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_scale_data_ptr.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spec_list.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spec_list_ptr.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_specialization_data.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_specialization_data_ptr.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_data.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_data_ptr.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_lists.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_lists_ptr.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_talent_data.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_talent_data_ptr.inc">
       <Filter>Header Files</Filter>
     </None>
   </ItemGroup>

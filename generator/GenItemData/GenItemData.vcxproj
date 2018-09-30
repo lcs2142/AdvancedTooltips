@@ -23,7 +23,7 @@
     <ProjectGuid>{E82BE784-7104-4092-A37F-CD1A5534176D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>GenItemData</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -107,6 +107,10 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\..\simc\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <ShowIncludes>false</ShowIncludes>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +156,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\dbc.hpp" />
+    <ClInclude Include="..\..\..\simc\engine\config.hpp" />
+    <ClInclude Include="..\..\..\simc\engine\dbc\dbc.hpp" />
+    <ClInclude Include="..\..\..\simc\engine\sc_timespan.hpp" />
+    <ClInclude Include="..\..\..\simc\engine\util\generic.hpp" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -165,10 +172,24 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\azerite.inc" />
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\sc_item_data.inc" />
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\sc_item_data2.inc" />
-    <None Include="..\..\..\..\..\..\Develop\simc-bfa-dev\engine\dbc\generated\sc_spell_data.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\azerite.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\azerite_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data2.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_item_data_ptr2.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_scale_data.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_scale_data_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_specialization_data.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_specialization_data_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spec_list.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spec_list_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_data.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_data_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_lists.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_spell_lists_ptr.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_talent_data.inc" />
+    <None Include="..\..\..\simc\engine\dbc\generated\sc_talent_data_ptr.inc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
