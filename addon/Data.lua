@@ -3,6 +3,7 @@ E_RPPM = 2
 E_NAME = 3
 E_ICD = 4
 E_AZERITE_POWER = 5
+E_SPELLID = 6
 AdvancedTooltips.Items = {
 	[28370] = {
 		[1] = {
@@ -10,6 +11,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Proc Mana Regen",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 38334,
 		},
 	},
 	[37064] = {
@@ -18,6 +20,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Vestige of Haldor",
 			[E_ICD] = 0,
+			[E_SPELLID] = 60306,
 		},
 	},
 	[37111] = {
@@ -26,6 +29,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Soul Preserver",
 			[E_ICD] = 0,
+			[E_SPELLID] = 60510,
 		},
 	},
 	[37220] = {
@@ -34,6 +38,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Essence of Gossamer",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 60221,
 		},
 	},
 	[37264] = {
@@ -42,6 +47,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Pendulum of Telluric Currents",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60482,
 		},
 	},
 	[37390] = {
@@ -50,6 +56,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Meteorite Whetstone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 60301,
 		},
 	},
 	[37657] = {
@@ -58,6 +65,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Spark of Life",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 60519,
 		},
 	},
 	[37660] = {
@@ -66,6 +74,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Forge Ember",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60473,
 		},
 	},
 	[37835] = {
@@ -74,6 +83,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Bonus Mana Regen",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 49622,
 		},
 	},
 	[39229] = {
@@ -82,6 +92,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Embrace of the Spider",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60490,
 		},
 	},
 	[39889] = {
@@ -90,6 +101,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Argent Fury",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 55747,
 		},
 	},
 	[40255] = {
@@ -98,6 +110,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Dying Curse",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60493,
 		},
 	},
 	[40256] = {
@@ -106,6 +119,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Grim Toll",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60436,
 		},
 	},
 	[40258] = {
@@ -114,6 +128,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Forethought Talisman",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60529,
 		},
 	},
 	[40371] = {
@@ -122,6 +137,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Bandit\'s Insignia",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60442,
 		},
 	},
 	[40373] = {
@@ -130,6 +146,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Extract of Necromatic Power",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 60487,
 		},
 	},
 	[40382] = {
@@ -138,6 +155,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Soul of the Dead",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60537,
 		},
 	},
 	[40682] = {
@@ -146,6 +164,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Now is the Time!",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60063,
 		},
 	},
 	[40684] = {
@@ -154,6 +173,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Reflection of Torment",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 33648,
 		},
 	},
 	[40685] = {
@@ -162,6 +182,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Essence of Life",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 33953,
 		},
 	},
 	[40767] = {
@@ -170,6 +191,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sonic Awareness (DND)",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 54707,
 		},
 	},
 	[40865] = {
@@ -178,6 +200,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sonic Shield",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 54808,
 		},
 	},
 	[42987] = {
@@ -186,6 +209,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Darkmoon Card: Greatness",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 57345,
 		},
 	},
 	[42989] = {
@@ -194,6 +218,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Berserker!",
 			[E_ICD] = 0,
+			[E_SPELLID] = 57351,
 		},
 	},
 	[42990] = {
@@ -202,6 +227,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Darkmoon Card: Death",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 57352,
 		},
 	},
 	[43573] = {
@@ -210,6 +236,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Tears of Anguish",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 58901,
 		},
 	},
 	[43829] = {
@@ -218,6 +245,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Chagrin",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 59345,
 		},
 	},
 	[43838] = {
@@ -226,6 +254,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Tentacles",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 61618,
 		},
 	},
 	[44096] = {
@@ -234,6 +263,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Thrash Blade",
 			[E_ICD] = 0,
+			[E_SPELLID] = 182395,
 		},
 	},
 	[44253] = {
@@ -242,6 +272,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Darkmoon Card: Greatness",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 57345,
 		},
 	},
 	[44254] = {
@@ -250,6 +281,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Darkmoon Card: Greatness",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 57345,
 		},
 	},
 	[44255] = {
@@ -258,6 +290,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Darkmoon Card: Greatness",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 57345,
 		},
 	},
 	[44308] = {
@@ -266,6 +299,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Signet of Edward the Odd",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60317,
 		},
 	},
 	[44912] = {
@@ -274,6 +308,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Flow of Knowledge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 62114,
 		},
 	},
 	[44914] = {
@@ -282,6 +317,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Strength of the Titans",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 62115,
 		},
 	},
 	[45131] = {
@@ -290,6 +326,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Glory of the Jouster",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 63251,
 		},
 	},
 	[45219] = {
@@ -298,6 +335,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Glory of the Jouster",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 63251,
 		},
 	},
 	[45286] = {
@@ -306,6 +344,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Pyrite Infusion",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65013,
 		},
 	},
 	[45490] = {
@@ -314,6 +353,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Pandora\'s Plea",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64742,
 		},
 	},
 	[45507] = {
@@ -322,6 +362,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "The General\'s Heart",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64764,
 		},
 	},
 	[45518] = {
@@ -330,6 +371,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flame of the Heavens",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64714,
 		},
 	},
 	[45522] = {
@@ -338,6 +380,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Blood of the Old God",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64792,
 		},
 	},
 	[45535] = {
@@ -346,6 +389,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Show of Faith",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64738,
 		},
 	},
 	[45609] = {
@@ -354,6 +398,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Comet\'s Trail",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 64786,
 		},
 	},
 	[45866] = {
@@ -362,6 +407,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Alacrity of the Elements",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65005,
 		},
 	},
 	[45929] = {
@@ -370,6 +416,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Sif\'s Remembrance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65002,
 		},
 	},
 	[45931] = {
@@ -378,6 +425,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mjolnir Runestone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65020,
 		},
 	},
 	[46017] = {
@@ -386,6 +434,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Val\'anyr Hammer of Ancient Kings - Equip Effect",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 64415,
 		},
 	},
 	[46038] = {
@@ -394,6 +443,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Dark Matter",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 65025,
 		},
 	},
 	[47115] = {
@@ -402,6 +452,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Coliseum 25 Normal Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 67702,
 		},
 	},
 	[47131] = {
@@ -410,6 +461,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Coliseum 25 Heroic Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 67771,
 		},
 	},
 	[47213] = {
@@ -418,6 +470,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coliseum 5 CasterTrinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 67670,
 		},
 	},
 	[47214] = {
@@ -426,6 +479,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coliseum 5 Melee Trinket",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 67672,
 		},
 	},
 	[47215] = {
@@ -434,6 +488,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coliseum 5 Healer Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 67667,
 		},
 	},
 	[47216] = {
@@ -442,6 +497,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coliseum 5 Tank Trinket",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 67653,
 		},
 	},
 	[47303] = {
@@ -450,6 +506,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Coliseum 25 Normal Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 67702,
 		},
 	},
 	[47464] = {
@@ -458,6 +515,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Coliseum 25 Heroic Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 67771,
 		},
 	},
 	[49074] = {
@@ -466,6 +524,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Reflection of Torment",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 33648,
 		},
 	},
 	[49076] = {
@@ -474,6 +533,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Now is the Time!",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 60063,
 		},
 	},
 	[49078] = {
@@ -482,6 +542,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Essence of Life",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 33953,
 		},
 	},
 	[49296] = {
@@ -490,6 +551,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Singed Vis\'kag the Bloodletter",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265310,
 		},
 	},
 	[49303] = {
@@ -498,6 +560,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Gleaming Quel\'Serrar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265317,
 		},
 	},
 	[49495] = {
@@ -506,6 +569,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Burnished Quel\'Serrar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265327,
 		},
 	},
 	[49501] = {
@@ -514,6 +578,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Tempered Vis\'kag the Bloodletter",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265331,
 		},
 	},
 	[49992] = {
@@ -522,6 +587,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Caster Weapon Proc",
 			[E_ICD] = 250,
+			[E_SPELLID] = 71845,
 		},
 	},
 	[50028] = {
@@ -530,6 +596,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Healer Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71865,
 		},
 	},
 	[50034] = {
@@ -538,6 +605,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Ranged Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71835,
 		},
 	},
 	[50035] = {
@@ -546,6 +614,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Slow Melee Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71876,
 		},
 	},
 	[50179] = {
@@ -554,6 +623,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Tank Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71871,
 		},
 	},
 	[50198] = {
@@ -562,6 +632,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Dungeon Melee Trinket",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 71404,
 		},
 	},
 	[50341] = {
@@ -570,6 +641,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 10 Normal Tank Trinket",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71576,
 		},
 	},
 	[50342] = {
@@ -578,6 +650,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 10 Normal Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 71402,
 		},
 	},
 	[50343] = {
@@ -586,6 +659,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 10 Heroic Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 71540,
 		},
 	},
 	[50344] = {
@@ -594,6 +668,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 10 Heroic Tank Trinket",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71578,
 		},
 	},
 	[50348] = {
@@ -602,6 +677,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Caster Trinket 1 Base",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 71645,
 		},
 	},
 	[50353] = {
@@ -610,6 +686,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Caster Trinket 1 Base",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 71602,
 		},
 	},
 	[50358] = {
@@ -618,6 +695,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Emblem Healer Trinket",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 71585,
 		},
 	},
 	[50359] = {
@@ -626,6 +704,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Healer Trinket 2",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 71611,
 		},
 	},
 	[50360] = {
@@ -634,6 +713,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Caster Trinket 2",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 71606,
 		},
 	},
 	[50362] = {
@@ -642,6 +722,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Normal Melee Trinket",
 			[E_ICD] = 105000,
+			[E_SPELLID] = 71519,
 		},
 	},
 	[50363] = {
@@ -650,6 +731,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Melee Trinket",
 			[E_ICD] = 105000,
+			[E_SPELLID] = 71562,
 		},
 	},
 	[50365] = {
@@ -658,6 +740,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Caster Trinket 2",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 71637,
 		},
 	},
 	[50366] = {
@@ -666,6 +749,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Healer Trinket 2",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 71642,
 		},
 	},
 	[50397] = {
@@ -674,6 +758,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Reputation Ring Caster Trigger",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 72417,
 		},
 	},
 	[50398] = {
@@ -682,6 +767,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Reputation Ring Caster Trigger",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 72417,
 		},
 	},
 	[50399] = {
@@ -690,6 +776,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Reputation Ring Healer Trigger",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 72419,
 		},
 	},
 	[50400] = {
@@ -698,6 +785,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Reputation Ring Healer Trigger",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 72419,
 		},
 	},
 	[50403] = {
@@ -706,6 +794,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Reputation Ring Tank Trigger",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 72415,
 		},
 	},
 	[50404] = {
@@ -714,6 +803,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown Reputation Ring Tank Trigger",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 72415,
 		},
 	},
 	[50638] = {
@@ -722,6 +812,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Ranged Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71836,
 		},
 	},
 	[50648] = {
@@ -730,6 +821,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Caster Weapon Proc",
 			[E_ICD] = 250,
+			[E_SPELLID] = 71846,
 		},
 	},
 	[50685] = {
@@ -738,6 +830,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Healer Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71868,
 		},
 	},
 	[50692] = {
@@ -746,6 +839,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Slow Melee Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71878,
 		},
 	},
 	[50708] = {
@@ -754,6 +848,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Icecrown 25 Heroic Tank Weapon Proc",
 			[E_ICD] = 0,
+			[E_SPELLID] = 71873,
 		},
 	},
 	[54569] = {
@@ -762,6 +857,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Chamber of Aspects 25 Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 75455,
 		},
 	},
 	[54572] = {
@@ -770,6 +866,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Chamber of Aspects 25 Nuker Trinket",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 75465,
 		},
 	},
 	[54588] = {
@@ -778,6 +875,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Chamber of Aspects 25 Heroic Nuker Trinket",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 75474,
 		},
 	},
 	[54590] = {
@@ -786,6 +884,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Chamber of Aspects 25 Heroic Melee Trinket",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 75457,
 		},
 	},
 	[55237] = {
@@ -794,6 +893,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 144204,
 		},
 	},
 	[55266] = {
@@ -802,6 +902,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Crit Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 144202,
 		},
 	},
 	[55787] = {
@@ -810,6 +911,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 90886,
 		},
 	},
 	[55795] = {
@@ -818,6 +920,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 92070,
 		},
 	},
 	[55810] = {
@@ -826,6 +929,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 90897,
 		},
 	},
 	[55819] = {
@@ -834,6 +938,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Versatility On Crit",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 91137,
 		},
 	},
 	[55854] = {
@@ -842,6 +947,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 91142,
 		},
 	},
 	[55868] = {
@@ -850,6 +956,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91361,
 		},
 	},
 	[55889] = {
@@ -858,6 +965,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 90990,
 		},
 	},
 	[55995] = {
@@ -866,6 +974,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91148,
 		},
 	},
 	[56100] = {
@@ -874,6 +983,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength On Crit",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 91369,
 		},
 	},
 	[56102] = {
@@ -882,6 +992,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility On Crit",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 92097,
 		},
 	},
 	[56280] = {
@@ -890,6 +1001,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Hardened Shell",
 			[E_ICD] = 0,
+			[E_SPELLID] = 92175,
 		},
 	},
 	[56295] = {
@@ -898,6 +1010,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Crit Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92088,
 		},
 	},
 	[56320] = {
@@ -906,6 +1019,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 90888,
 		},
 	},
 	[56328] = {
@@ -914,6 +1028,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Final Key",
 			[E_ICD] = 0,
+			[E_SPELLID] = 92093,
 		},
 	},
 	[56339] = {
@@ -922,6 +1037,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Tendrils of Darkness",
 			[E_ICD] = 0,
+			[E_SPELLID] = 90899,
 		},
 	},
 	[56351] = {
@@ -930,6 +1046,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cleansing Tears",
 			[E_ICD] = 0,
+			[E_SPELLID] = 91140,
 		},
 	},
 	[56377] = {
@@ -938,6 +1055,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Anthem",
 			[E_ICD] = 0,
+			[E_SPELLID] = 91144,
 		},
 	},
 	[56393] = {
@@ -946,6 +1064,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Heartened",
 			[E_ICD] = 0,
+			[E_SPELLID] = 91365,
 		},
 	},
 	[56407] = {
@@ -954,6 +1073,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 90993,
 		},
 	},
 	[56414] = {
@@ -962,6 +1082,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91150,
 		},
 	},
 	[56427] = {
@@ -970,6 +1091,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility On Crit",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 92095,
 		},
 	},
 	[56431] = {
@@ -978,6 +1100,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength On Crit",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 91366,
 		},
 	},
 	[57325] = {
@@ -986,6 +1109,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 92044,
 		},
 	},
 	[59224] = {
@@ -994,6 +1118,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91817,
 		},
 	},
 	[59326] = {
@@ -1002,6 +1127,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power On Dmg",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91011,
 		},
 	},
 	[59441] = {
@@ -1010,6 +1136,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 92125,
 		},
 	},
 	[59461] = {
@@ -1018,6 +1145,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Stacking Activator (5)",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 91833,
 		},
 	},
 	[59473] = {
@@ -1026,6 +1154,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Crit Rating",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 92127,
 		},
 	},
 	[59500] = {
@@ -1034,6 +1163,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 91186,
 		},
 	},
 	[59506] = {
@@ -1042,6 +1172,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 91822,
 		},
 	},
 	[59519] = {
@@ -1050,6 +1181,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91025,
 		},
 	},
 	[59520] = {
@@ -1058,6 +1190,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Increased Attack Power",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 92114,
 		},
 	},
 	[59661] = {
@@ -1066,6 +1199,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 90848,
 		},
 	},
 	[59664] = {
@@ -1074,6 +1208,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 90848,
 		},
 	},
 	[61045] = {
@@ -1082,6 +1217,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 85024,
 		},
 	},
 	[61046] = {
@@ -1090,6 +1226,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 85034,
 		},
 	},
 	[61047] = {
@@ -1098,6 +1235,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 85011,
 		},
 	},
 	[61411] = {
@@ -1106,6 +1244,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Crit Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 90892,
 		},
 	},
 	[61462] = {
@@ -1114,6 +1253,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste On Crit",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92056,
 		},
 	},
 	[62047] = {
@@ -1122,6 +1262,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Volcano",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 89088,
 		},
 	},
 	[62465] = {
@@ -1130,6 +1271,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 91048,
 		},
 	},
 	[62467] = {
@@ -1138,6 +1280,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 91193,
 		},
 	},
 	[62470] = {
@@ -1146,6 +1289,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 91048,
 		},
 	},
 	[62472] = {
@@ -1154,6 +1298,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 91193,
 		},
 	},
 	[63456] = {
@@ -1162,6 +1307,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Meteor Shard",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265353,
 		},
 	},
 	[63838] = {
@@ -1170,6 +1316,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste On Crit",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91353,
 		},
 	},
 	[63839] = {
@@ -1178,6 +1325,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Wandering DoT",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91080,
 		},
 	},
 	[63841] = {
@@ -1186,6 +1334,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste On Crit",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 91353,
 		},
 	},
 	[64761] = {
@@ -1194,6 +1343,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 92221,
 		},
 	},
 	[64762] = {
@@ -1202,6 +1352,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 92219,
 		},
 	},
 	[64763] = {
@@ -1210,6 +1361,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 92217,
 		},
 	},
 	[65026] = {
@@ -1218,6 +1370,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 92350,
 		},
 	},
 	[65053] = {
@@ -1226,6 +1379,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Spell Power On Dmg",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92319,
 		},
 	},
 	[65072] = {
@@ -1234,6 +1388,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92346,
 		},
 	},
 	[65105] = {
@@ -1242,6 +1397,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92322,
 		},
 	},
 	[65118] = {
@@ -1250,6 +1406,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Haste Rating",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 92343,
 		},
 	},
 	[65124] = {
@@ -1258,6 +1415,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 75000,
+			[E_SPELLID] = 92333,
 		},
 	},
 	[65140] = {
@@ -1266,6 +1424,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Crit Rating",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 92353,
 		},
 	},
 	[65803] = {
@@ -1274,6 +1433,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92164,
 		},
 	},
 	[65804] = {
@@ -1282,6 +1442,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 95878,
 		},
 	},
 	[65805] = {
@@ -1290,6 +1451,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92164,
 		},
 	},
 	[66969] = {
@@ -1298,6 +1460,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Crit Rating",
 			[E_ICD] = 100000,
+			[E_SPELLID] = 92054,
 		},
 	},
 	[68983] = {
@@ -1306,6 +1469,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Eye of Blazing Power",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 96967,
 		},
 	},
 	[68994] = {
@@ -1314,6 +1478,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Matrix Restabilizer",
 			[E_ICD] = 105000,
+			[E_SPELLID] = 96976,
 		},
 	},
 	[69149] = {
@@ -1322,6 +1487,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Eye of Blazing Power",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 97137,
 		},
 	},
 	[69150] = {
@@ -1330,6 +1496,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Matrix Restabilizer",
 			[E_ICD] = 105000,
+			[E_SPELLID] = 97138,
 		},
 	},
 	[70141] = {
@@ -1338,6 +1505,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Pumped Up Aura",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 100309,
 		},
 	},
 	[70144] = {
@@ -1346,6 +1514,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Meteor Magnet",
 			[E_ICD] = 120000,
+			[E_SPELLID] = 95871,
 		},
 	},
 	[70402] = {
@@ -1354,6 +1523,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 99743,
 		},
 	},
 	[70403] = {
@@ -1362,6 +1532,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 99747,
 		},
 	},
 	[70404] = {
@@ -1370,6 +1541,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 99749,
 		},
 	},
 	[70577] = {
@@ -1378,6 +1550,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 99718,
 		},
 	},
 	[70578] = {
@@ -1386,6 +1559,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 99720,
 		},
 	},
 	[70579] = {
@@ -1394,6 +1568,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 99722,
 		},
 	},
 	[71335] = {
@@ -1402,6 +1577,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Reflection of Torment",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 101288,
 		},
 	},
 	[71336] = {
@@ -1410,6 +1586,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Essence of Life",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 101290,
 		},
 	},
 	[71337] = {
@@ -1418,6 +1595,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Now is the Time!",
 			[E_ICD] = 45000,
+			[E_SPELLID] = 101292,
 		},
 	},
 	[72309] = {
@@ -1426,6 +1604,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102440,
 		},
 	},
 	[72449] = {
@@ -1434,6 +1613,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102436,
 		},
 	},
 	[72455] = {
@@ -1442,6 +1622,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102433,
 		},
 	},
 	[72897] = {
@@ -1450,6 +1631,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arrow of Time",
 			[E_ICD] = 0,
+			[E_SPELLID] = 102658,
 		},
 	},
 	[72898] = {
@@ -1458,6 +1640,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Foul Gift",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 102663,
 		},
 	},
 	[72899] = {
@@ -1466,6 +1649,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Varo\'then\'s Brooch",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 102665,
 		},
 	},
 	[72900] = {
@@ -1474,6 +1658,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Veil of Lies",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 102666,
 		},
 	},
 	[72901] = {
@@ -1482,6 +1667,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Rosary of Light",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 102661,
 		},
 	},
 	[73042] = {
@@ -1490,6 +1676,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73060] = {
@@ -1498,6 +1685,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Avoidance of the Snake",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102778,
 		},
 	},
 	[73061] = {
@@ -1506,6 +1694,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73062] = {
@@ -1514,6 +1703,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Strength of Courage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102775,
 		},
 	},
 	[73063] = {
@@ -1522,6 +1712,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Spirit of Wisdom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102780,
 		},
 	},
 	[73064] = {
@@ -1530,6 +1721,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102777,
 		},
 	},
 	[73065] = {
@@ -1538,6 +1730,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102745,
 		},
 	},
 	[73066] = {
@@ -1546,6 +1739,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Intellect of the Sage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102779,
 		},
 	},
 	[73067] = {
@@ -1554,6 +1748,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73068] = {
@@ -1562,6 +1757,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Agility of the Tiger",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102743,
 		},
 	},
 	[73101] = {
@@ -1570,6 +1766,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102745,
 		},
 	},
 	[73104] = {
@@ -1578,6 +1775,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Intellect of the Sage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102779,
 		},
 	},
 	[73106] = {
@@ -1586,6 +1784,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102745,
 		},
 	},
 	[73109] = {
@@ -1594,6 +1793,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Intellect of the Sage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102779,
 		},
 	},
 	[73111] = {
@@ -1602,6 +1802,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102777,
 		},
 	},
 	[73114] = {
@@ -1610,6 +1811,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Spirit of Wisdom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102780,
 		},
 	},
 	[73116] = {
@@ -1618,6 +1820,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102745,
 		},
 	},
 	[73119] = {
@@ -1626,6 +1829,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Intellect of the Sage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102779,
 		},
 	},
 	[73121] = {
@@ -1634,6 +1838,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73124] = {
@@ -1642,6 +1847,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Agility of the Tiger",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102743,
 		},
 	},
 	[73126] = {
@@ -1650,6 +1856,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102777,
 		},
 	},
 	[73129] = {
@@ -1658,6 +1865,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Spirit of Wisdom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102780,
 		},
 	},
 	[73132] = {
@@ -1666,6 +1874,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Agility of the Tiger",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102743,
 		},
 	},
 	[73135] = {
@@ -1674,6 +1883,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73137] = {
@@ -1682,6 +1892,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Intellect of the Sage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102779,
 		},
 	},
 	[73140] = {
@@ -1690,6 +1901,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102745,
 		},
 	},
 	[73142] = {
@@ -1698,6 +1910,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Spirit of Wisdom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102780,
 		},
 	},
 	[73145] = {
@@ -1706,6 +1919,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102777,
 		},
 	},
 	[73147] = {
@@ -1714,6 +1928,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Agility of the Tiger",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102743,
 		},
 	},
 	[73150] = {
@@ -1722,6 +1937,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73154] = {
@@ -1730,6 +1946,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73155] = {
@@ -1738,6 +1955,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Strength of Courage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102775,
 		},
 	},
 	[73157] = {
@@ -1746,6 +1964,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Avoidance of the Snake",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102778,
 		},
 	},
 	[73160] = {
@@ -1754,6 +1973,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73164] = {
@@ -1762,6 +1982,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73165] = {
@@ -1770,6 +1991,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Strength of Courage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102775,
 		},
 	},
 	[73167] = {
@@ -1778,6 +2000,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Avoidance of the Snake",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102778,
 		},
 	},
 	[73170] = {
@@ -1786,6 +2009,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[73491] = {
@@ -1794,6 +2018,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 105140,
 		},
 	},
 	[73497] = {
@@ -1802,6 +2027,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 105138,
 		},
 	},
 	[73643] = {
@@ -1810,6 +2036,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 105136,
 		},
 	},
 	[74035] = {
@@ -1818,6 +2045,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Master Pit Fighter",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 109996,
 		},
 	},
 	[75274] = {
@@ -1826,6 +2054,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Zen Alchemist Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 105574,
 		},
 	},
 	[77188] = {
@@ -1834,6 +2063,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Melee 1H Axe",
 			[E_ICD] = 0,
+			[E_SPELLID] = 107786,
 		},
 	},
 	[77190] = {
@@ -1842,6 +2072,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Versatile Staff",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 107805,
 		},
 	},
 	[77191] = {
@@ -1850,6 +2081,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Str Melee 2H Sword",
 			[E_ICD] = 0,
+			[E_SPELLID] = 107810,
 		},
 	},
 	[77193] = {
@@ -1858,6 +2090,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Str Tank Sword",
 			[E_ICD] = 0,
+			[E_SPELLID] = 107895,
 		},
 	},
 	[77194] = {
@@ -1866,6 +2099,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Melee Polearm",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 107824,
 		},
 	},
 	[77195] = {
@@ -1874,6 +2108,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Hit Dagger",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 107832,
 		},
 	},
 	[77196] = {
@@ -1882,6 +2117,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Spirit Mace 1H",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 107836,
 		},
 	},
 	[77202] = {
@@ -1890,6 +2126,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 107983,
 		},
 	},
 	[77203] = {
@@ -1898,6 +2135,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 107983,
 		},
 	},
 	[77204] = {
@@ -1906,6 +2144,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 107984,
 		},
 	},
 	[77205] = {
@@ -1914,6 +2153,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 107989,
 		},
 	},
 	[77206] = {
@@ -1922,6 +2162,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 107987,
 		},
 	},
 	[77207] = {
@@ -1930,6 +2171,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lightning Strike",
 			[E_ICD] = 9000,
+			[E_SPELLID] = 107995,
 		},
 	},
 	[77208] = {
@@ -1938,6 +2180,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Shadowbolt Volley",
 			[E_ICD] = 9000,
+			[E_SPELLID] = 108006,
 		},
 	},
 	[77209] = {
@@ -1946,6 +2189,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Nick of Time",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 108002,
 		},
 	},
 	[77210] = {
@@ -1954,6 +2198,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Whirling Maw",
 			[E_ICD] = 27000,
+			[E_SPELLID] = 107998,
 		},
 	},
 	[77530] = {
@@ -1962,6 +2207,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Pandaren Dragonling",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 109078,
 		},
 	},
 	[77969] = {
@@ -1970,6 +2216,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109803,
 		},
 	},
 	[77970] = {
@@ -1978,6 +2225,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109775,
 		},
 	},
 	[77971] = {
@@ -1986,6 +2234,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109788,
 		},
 	},
 	[77972] = {
@@ -1994,6 +2243,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109743,
 		},
 	},
 	[77973] = {
@@ -2002,6 +2252,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109710,
 		},
 	},
 	[77979] = {
@@ -2010,6 +2261,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lightning Strike",
 			[E_ICD] = 9000,
+			[E_SPELLID] = 109722,
 		},
 	},
 	[77980] = {
@@ -2018,6 +2270,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Shadowbolt Volley",
 			[E_ICD] = 9000,
+			[E_SPELLID] = 109799,
 		},
 	},
 	[77981] = {
@@ -2026,6 +2279,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Nick of Time",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 109823,
 		},
 	},
 	[77982] = {
@@ -2034,6 +2288,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Whirling Maw",
 			[E_ICD] = 27000,
+			[E_SPELLID] = 109753,
 		},
 	},
 	[77989] = {
@@ -2042,6 +2297,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109805,
 		},
 	},
 	[77990] = {
@@ -2050,6 +2306,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109777,
 		},
 	},
 	[77991] = {
@@ -2058,6 +2315,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109790,
 		},
 	},
 	[77992] = {
@@ -2066,6 +2324,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109745,
 		},
 	},
 	[77993] = {
@@ -2074,6 +2333,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 109712,
 		},
 	},
 	[77999] = {
@@ -2082,6 +2342,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lightning Strike",
 			[E_ICD] = 9000,
+			[E_SPELLID] = 109725,
 		},
 	},
 	[78000] = {
@@ -2090,6 +2351,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Shadowbolt Volley",
 			[E_ICD] = 9000,
+			[E_SPELLID] = 109801,
 		},
 	},
 	[78001] = {
@@ -2098,6 +2360,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Nick of Time",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 109826,
 		},
 	},
 	[78002] = {
@@ -2106,6 +2369,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Whirling Maw",
 			[E_ICD] = 27000,
+			[E_SPELLID] = 109755,
 		},
 	},
 	[78359] = {
@@ -2114,6 +2378,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Ranged Gun",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 107822,
 		},
 	},
 	[78471] = {
@@ -2122,6 +2387,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Ranged Gun Heroic",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 109859,
 		},
 	},
 	[78472] = {
@@ -2130,6 +2396,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Melee 1H Axe Heroic",
 			[E_ICD] = 0,
+			[E_SPELLID] = 109873,
 		},
 	},
 	[78473] = {
@@ -2138,6 +2405,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Melee Polearm Heroic",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 109865,
 		},
 	},
 	[78475] = {
@@ -2146,6 +2414,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Hit Dagger Heroic",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 109855,
 		},
 	},
 	[78476] = {
@@ -2154,6 +2423,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Spirit Mace 1H Heroic",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 109850,
 		},
 	},
 	[78477] = {
@@ -2162,6 +2432,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Versatile Staff Heroic",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 109846,
 		},
 	},
 	[78478] = {
@@ -2170,6 +2441,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Str Melee 2H Sword Heroic",
 			[E_ICD] = 0,
+			[E_SPELLID] = 109841,
 		},
 	},
 	[78479] = {
@@ -2178,6 +2450,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Str Tank Sword Heroic",
 			[E_ICD] = 0,
+			[E_SPELLID] = 109832,
 		},
 	},
 	[78480] = {
@@ -2186,6 +2459,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Ranged Gun LFR",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 109857,
 		},
 	},
 	[78481] = {
@@ -2194,6 +2468,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Melee 1H Axe LFR",
 			[E_ICD] = 0,
+			[E_SPELLID] = 109866,
 		},
 	},
 	[78482] = {
@@ -2202,6 +2477,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Agi Melee Polearm LFR",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 109862,
 		},
 	},
 	[78484] = {
@@ -2210,6 +2486,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Hit Dagger LFR",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 109853,
 		},
 	},
 	[78485] = {
@@ -2218,6 +2495,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Spirit Mace 1H LFR",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 109848,
 		},
 	},
 	[78486] = {
@@ -2226,6 +2504,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Int Versatile Staff LFR",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 109843,
 		},
 	},
 	[78487] = {
@@ -2234,6 +2513,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Str Melee 2H Sword LFR",
 			[E_ICD] = 0,
+			[E_SPELLID] = 109839,
 		},
 	},
 	[78488] = {
@@ -2242,6 +2522,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Dragon Soul - Proc - Str Tank Sword LFR",
 			[E_ICD] = 0,
+			[E_SPELLID] = 109829,
 		},
 	},
 	[79327] = {
@@ -2250,6 +2531,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Relic of Xuen",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 128989,
 		},
 	},
 	[79328] = {
@@ -2258,6 +2540,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Relic of Xuen",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 128445,
 		},
 	},
 	[79330] = {
@@ -2266,6 +2549,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Relic of Chi Ji",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 128991,
 		},
 	},
 	[79331] = {
@@ -2274,6 +2558,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Relic of Yu\'lon",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 128990,
 		},
 	},
 	[80773] = {
@@ -2282,6 +2567,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Singing Cricket Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117652,
 		},
 	},
 	[80774] = {
@@ -2290,6 +2576,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Grove Viper Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117653,
 		},
 	},
 	[80775] = {
@@ -2298,6 +2585,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coral Adder Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117654,
 		},
 	},
 	[80776] = {
@@ -2306,6 +2594,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Flamelager Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117655,
 		},
 	},
 	[80777] = {
@@ -2314,6 +2603,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Amberfly Idol",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117656,
 		},
 	},
 	[80778] = {
@@ -2322,6 +2612,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Silkbead Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117657,
 		},
 	},
 	[80779] = {
@@ -2330,6 +2621,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mirror Strider Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117658,
 		},
 	},
 	[80780] = {
@@ -2338,6 +2630,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Greenpaw Idol",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117659,
 		},
 	},
 	[80781] = {
@@ -2346,6 +2639,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Shoots of Life",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117660,
 		},
 	},
 	[80782] = {
@@ -2354,6 +2648,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Misty Jade Idol",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 117661,
 		},
 	},
 	[80960] = {
@@ -2362,6 +2657,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Scavenger\'s Medal",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 116765,
 		},
 	},
 	[80961] = {
@@ -2370,6 +2666,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Scavenger\'s Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 116764,
 		},
 	},
 	[80962] = {
@@ -2378,6 +2675,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Scavenger\'s Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 116763,
 		},
 	},
 	[80963] = {
@@ -2386,6 +2684,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Scavenger\'s Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 116767,
 		},
 	},
 	[80964] = {
@@ -2394,6 +2693,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Scavenger\'s Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 116766,
 		},
 	},
 	[81125] = {
@@ -2402,6 +2702,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 126482,
 		},
 	},
 	[81133] = {
@@ -2410,6 +2711,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[81138] = {
@@ -2418,6 +2720,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126516,
 		},
 	},
 	[81192] = {
@@ -2426,6 +2729,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Predation",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126473,
 		},
 	},
 	[81243] = {
@@ -2434,6 +2738,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[81266] = {
@@ -2442,6 +2747,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[81267] = {
@@ -2450,6 +2756,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attack Crits Proc Agi",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 126490,
 		},
 	},
 	[81527] = {
@@ -2458,6 +2765,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mist Incarnation Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118616,
 		},
 	},
 	[81528] = {
@@ -2466,6 +2774,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Bluetip Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118617,
 		},
 	},
 	[81529] = {
@@ -2474,6 +2783,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Badger Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118618,
 		},
 	},
 	[81530] = {
@@ -2482,6 +2792,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mauler Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118619,
 		},
 	},
 	[81531] = {
@@ -2490,6 +2801,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Glade Singer Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118620,
 		},
 	},
 	[81532] = {
@@ -2498,6 +2810,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Silkspawn Carving",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118621,
 		},
 	},
 	[81533] = {
@@ -2506,6 +2819,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Archivist\'s Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118622,
 		},
 	},
 	[81534] = {
@@ -2514,6 +2828,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Carp Hunter Feather",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118623,
 		},
 	},
 	[81535] = {
@@ -2522,6 +2837,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Glade Pincher Feather",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118624,
 		},
 	},
 	[81536] = {
@@ -2530,6 +2846,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Jungle Huntress Idol",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118625,
 		},
 	},
 	[81661] = {
@@ -2538,6 +2855,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Faded Forest Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118762,
 		},
 	},
 	[81662] = {
@@ -2546,6 +2864,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Faded Forest Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118763,
 		},
 	},
 	[81663] = {
@@ -2554,6 +2873,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Faded Forest Medal",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118764,
 		},
 	},
 	[81664] = {
@@ -2562,6 +2882,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Faded Forest Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118765,
 		},
 	},
 	[81665] = {
@@ -2570,6 +2891,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Faded Forest Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118766,
 		},
 	},
 	[81829] = {
@@ -2578,6 +2900,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lucky Springtail Foot",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118876,
 		},
 	},
 	[81830] = {
@@ -2586,6 +2909,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Maizer Leaf",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118877,
 		},
 	},
 	[81831] = {
@@ -2594,6 +2918,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Shadow Fox Tail",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118878,
 		},
 	},
 	[81832] = {
@@ -2602,6 +2927,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mushan Horn",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118879,
 		},
 	},
 	[81833] = {
@@ -2610,6 +2936,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Longfang Tooth",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118880,
 		},
 	},
 	[81834] = {
@@ -2618,6 +2945,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Silkspawn Wing",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118881,
 		},
 	},
 	[81835] = {
@@ -2626,6 +2954,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Plainshawk Feather",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118882,
 		},
 	},
 	[81836] = {
@@ -2634,6 +2963,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lucky \"Rabbit\'s\" Foot",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118883,
 		},
 	},
 	[81837] = {
@@ -2642,6 +2972,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Viseclaw Carapace",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118884,
 		},
 	},
 	[81838] = {
@@ -2650,6 +2981,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Tawnyhide Antler",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 118885,
 		},
 	},
 	[82574] = {
@@ -2658,6 +2990,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coin of Blessings",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120181,
 		},
 	},
 	[82575] = {
@@ -2666,6 +2999,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coin of Serendipity",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120182,
 		},
 	},
 	[82576] = {
@@ -2674,6 +3008,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coin of Luck",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120183,
 		},
 	},
 	[82577] = {
@@ -2682,6 +3017,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Coin of Good Fortune",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120184,
 		},
 	},
 	[82578] = {
@@ -2690,6 +3026,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Luckydo Coin",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120185,
 		},
 	},
 	[82579] = {
@@ -2698,6 +3035,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lorewalker\'s Mark",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120186,
 		},
 	},
 	[82580] = {
@@ -2706,6 +3044,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lorewalker\'s Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120187,
 		},
 	},
 	[82581] = {
@@ -2714,6 +3053,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lorewalker\'s Sigil",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120188,
 		},
 	},
 	[82582] = {
@@ -2722,6 +3062,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lorewalker\'s Medallion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120189,
 		},
 	},
 	[82583] = {
@@ -2730,6 +3071,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Lorewalker\'s Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120190,
 		},
 	},
 	[82696] = {
@@ -2738,6 +3080,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mountainscaler Mark",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120259,
 		},
 	},
 	[82697] = {
@@ -2746,6 +3089,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mountainscaler Medal",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120260,
 		},
 	},
 	[82698] = {
@@ -2754,6 +3098,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mountainscaler Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120261,
 		},
 	},
 	[82699] = {
@@ -2762,6 +3107,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mountainscaler Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120262,
 		},
 	},
 	[82700] = {
@@ -2770,6 +3116,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mountainscaler Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 120263,
 		},
 	},
 	[83245] = {
@@ -2778,6 +3125,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Wasteland Relic",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122273,
 		},
 	},
 	[83246] = {
@@ -2786,6 +3134,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Wasteland Sigil",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122274,
 		},
 	},
 	[83247] = {
@@ -2794,6 +3143,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Wasteland Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122275,
 		},
 	},
 	[83248] = {
@@ -2802,6 +3152,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Wasteland Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122276,
 		},
 	},
 	[83249] = {
@@ -2810,6 +3161,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Wasteland Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122277,
 		},
 	},
 	[83731] = {
@@ -2818,6 +3170,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mark of the Catacombs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122319,
 		},
 	},
 	[83732] = {
@@ -2826,6 +3179,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of the Catacombs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122320,
 		},
 	},
 	[83733] = {
@@ -2834,6 +3188,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Emblem of the Catacombs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122321,
 		},
 	},
 	[83734] = {
@@ -2842,6 +3197,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Medallion of the Catacombs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122322,
 		},
 	},
 	[83735] = {
@@ -2850,6 +3206,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Symbol of the Catacombs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122323,
 		},
 	},
 	[83736] = {
@@ -2858,6 +3215,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of Compassion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122324,
 		},
 	},
 	[83737] = {
@@ -2866,6 +3224,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of Fidelity",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122325,
 		},
 	},
 	[83738] = {
@@ -2874,6 +3233,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of Grace",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122326,
 		},
 	},
 	[83739] = {
@@ -2882,6 +3242,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of Patience",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122327,
 		},
 	},
 	[83740] = {
@@ -2890,6 +3251,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of Devotion",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122328,
 		},
 	},
 	[84070] = {
@@ -2898,6 +3260,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Fearwurm Relic",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122696,
 		},
 	},
 	[84071] = {
@@ -2906,6 +3269,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Charm of Ten Songs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122697,
 		},
 	},
 	[84072] = {
@@ -2914,6 +3278,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Braid of Ten Songs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122698,
 		},
 	},
 	[84073] = {
@@ -2922,6 +3287,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Knot of Ten Songs",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122699,
 		},
 	},
 	[84074] = {
@@ -2930,6 +3296,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Fearwurm Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122700,
 		},
 	},
 	[84075] = {
@@ -2938,6 +3305,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Relic of Kypari Zar",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122701,
 		},
 	},
 	[84076] = {
@@ -2946,6 +3314,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sigil of Kypari Zar",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122702,
 		},
 	},
 	[84077] = {
@@ -2954,6 +3323,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Emblem of Kypari Zar",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122703,
 		},
 	},
 	[84078] = {
@@ -2962,6 +3332,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Insignia of Kypari Zar",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122704,
 		},
 	},
 	[84079] = {
@@ -2970,6 +3341,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Badge of Kypari Zar",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122705,
 		},
 	},
 	[84286] = {
@@ -2978,6 +3350,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Skittering Relic",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122901,
 		},
 	},
 	[84287] = {
@@ -2986,6 +3359,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Skittering Sigil",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122902,
 		},
 	},
 	[84288] = {
@@ -2994,6 +3368,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Skittering Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122903,
 		},
 	},
 	[84289] = {
@@ -3002,6 +3377,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Skittering Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122904,
 		},
 	},
 	[84290] = {
@@ -3010,6 +3386,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Skittering Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122905,
 		},
 	},
 	[84334] = {
@@ -3018,6 +3395,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Dream Relic",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122922,
 		},
 	},
 	[84335] = {
@@ -3026,6 +3404,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Dream Sigil",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122923,
 		},
 	},
 	[84336] = {
@@ -3034,6 +3413,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Dream Emblem",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122924,
 		},
 	},
 	[84337] = {
@@ -3042,6 +3422,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Dream Insignia",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122925,
 		},
 	},
 	[84338] = {
@@ -3050,6 +3431,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Dream Badge",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 122926,
 		},
 	},
 	[84349] = {
@@ -3058,6 +3440,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[84489] = {
@@ -3066,6 +3449,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[84495] = {
@@ -3074,6 +3458,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[84935] = {
@@ -3082,6 +3467,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[84937] = {
@@ -3090,6 +3476,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[84941] = {
@@ -3098,6 +3485,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[85181] = {
@@ -3106,6 +3494,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[86131] = {
@@ -3114,6 +3503,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126534,
 		},
 	},
 	[86132] = {
@@ -3122,6 +3512,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[86133] = {
@@ -3130,6 +3521,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Periodics Proc Int",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126579,
 		},
 	},
 	[86144] = {
@@ -3138,6 +3530,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[86147] = {
@@ -3146,6 +3539,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126590,
 		},
 	},
 	[86198] = {
@@ -3154,6 +3548,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Hammer of Ten Thunders",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126207,
 		},
 	},
 	[86199] = {
@@ -3162,6 +3557,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Jade Infused Blade",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126208,
 		},
 	},
 	[86323] = {
@@ -3170,6 +3566,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Dodge",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126647,
 		},
 	},
 	[86327] = {
@@ -3178,6 +3575,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Versatility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126641,
 		},
 	},
 	[86332] = {
@@ -3186,6 +3584,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Critical Strike",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126650,
 		},
 	},
 	[86336] = {
@@ -3194,6 +3593,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126658,
 		},
 	},
 	[86388] = {
@@ -3202,6 +3602,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[86518] = {
@@ -3210,6 +3611,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Yaungol Fire",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126212,
 		},
 	},
 	[86529] = {
@@ -3218,6 +3620,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Manipulator\'s Wrath",
 			[E_ICD] = 0,
+			[E_SPELLID] = 128853,
 		},
 	},
 	[86585] = {
@@ -3226,6 +3629,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Fleece Main",
 			[E_ICD] = 600000,
+			[E_SPELLID] = 129737,
 		},
 	},
 	[86790] = {
@@ -3234,6 +3638,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126534,
 		},
 	},
 	[86791] = {
@@ -3242,6 +3647,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[86792] = {
@@ -3250,6 +3656,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Periodics Proc Int",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126579,
 		},
 	},
 	[86802] = {
@@ -3258,6 +3665,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[86805] = {
@@ -3266,6 +3674,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126590,
 		},
 	},
 	[86881] = {
@@ -3274,6 +3683,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Dodge",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126647,
 		},
 	},
 	[86885] = {
@@ -3282,6 +3692,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Versatility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126641,
 		},
 	},
 	[86890] = {
@@ -3290,6 +3701,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Critical Strike",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126650,
 		},
 	},
 	[86894] = {
@@ -3298,6 +3710,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126658,
 		},
 	},
 	[86907] = {
@@ -3306,6 +3719,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[87057] = {
@@ -3314,6 +3728,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[87063] = {
@@ -3322,6 +3737,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126534,
 		},
 	},
 	[87065] = {
@@ -3330,6 +3746,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Periodics Proc Int",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126579,
 		},
 	},
 	[87072] = {
@@ -3338,6 +3755,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[87075] = {
@@ -3346,6 +3764,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126590,
 		},
 	},
 	[87160] = {
@@ -3354,6 +3773,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Dodge",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126647,
 		},
 	},
 	[87163] = {
@@ -3362,6 +3782,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Versatility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126641,
 		},
 	},
 	[87167] = {
@@ -3370,6 +3791,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Critical Strike",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126650,
 		},
 	},
 	[87172] = {
@@ -3378,6 +3800,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126658,
 		},
 	},
 	[87175] = {
@@ -3386,6 +3809,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[87497] = {
@@ -3394,6 +3818,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Healing Proc Spellpower",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 127573,
 		},
 	},
 	[87572] = {
@@ -3402,6 +3827,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Now is the Time!",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 127924,
 		},
 	},
 	[87573] = {
@@ -3410,6 +3836,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Essence of Life",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 127914,
 		},
 	},
 	[87574] = {
@@ -3418,6 +3845,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Reflection of Torment",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 127926,
 		},
 	},
 	[88371] = {
@@ -3426,6 +3854,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Watermelon Bomb",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 128520,
 		},
 	},
 	[88376] = {
@@ -3434,6 +3863,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Painted Turnip",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 128522,
 		},
 	},
 	[88378] = {
@@ -3442,6 +3872,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mothallus\' Spinneret",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 128525,
 		},
 	},
 	[88585] = {
@@ -3450,6 +3881,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mantid Poison",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 128387,
 		},
 	},
 	[88634] = {
@@ -3458,6 +3890,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[88636] = {
@@ -3466,6 +3899,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Avoidance of the Snake",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102778,
 		},
 	},
 	[88639] = {
@@ -3474,6 +3908,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mastery of Nimbleness",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102776,
 		},
 	},
 	[88642] = {
@@ -3482,6 +3917,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Agility of the Tiger",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102743,
 		},
 	},
 	[88644] = {
@@ -3490,6 +3926,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Haste of the Mongoose",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 102777,
 		},
 	},
 	[88647] = {
@@ -3498,6 +3935,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Spirit of Wisdom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 102780,
 		},
 	},
 	[91104] = {
@@ -3506,6 +3944,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[91401] = {
@@ -3514,6 +3953,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[91415] = {
@@ -3522,6 +3962,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[91457] = {
@@ -3530,6 +3971,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[91754] = {
@@ -3538,6 +3980,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[91768] = {
@@ -3546,6 +3989,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[93424] = {
@@ -3554,6 +3998,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[93601] = {
@@ -3562,6 +4007,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[93611] = {
@@ -3570,6 +4016,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[93848] = {
@@ -3578,6 +4025,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Thrash Blade",
 			[E_ICD] = 0,
+			[E_SPELLID] = 182395,
 		},
 	},
 	[94356] = {
@@ -3586,6 +4034,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[94415] = {
@@ -3594,6 +4043,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[94482] = {
@@ -3602,6 +4052,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[94508] = {
@@ -3610,6 +4061,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 138701,
 		},
 	},
 	[94510] = {
@@ -3618,6 +4070,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 138704,
 		},
 	},
 	[94511] = {
@@ -3626,6 +4079,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 138700,
 		},
 	},
 	[94512] = {
@@ -3634,6 +4088,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138757,
 		},
 	},
 	[94513] = {
@@ -3642,6 +4097,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138790,
 		},
 	},
 	[94514] = {
@@ -3650,6 +4106,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mana Per Time",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138849,
 		},
 	},
 	[94515] = {
@@ -3658,6 +4115,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Strength",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138758,
 		},
 	},
 	[94518] = {
@@ -3666,6 +4124,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery On Dodge",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138865,
 		},
 	},
 	[94519] = {
@@ -3674,6 +4133,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138871,
 		},
 	},
 	[94520] = {
@@ -3682,6 +4142,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Absorb",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 138924,
 		},
 	},
 	[94521] = {
@@ -3690,6 +4151,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138896,
 		},
 	},
 	[94522] = {
@@ -3698,6 +4160,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138894,
 		},
 	},
 	[94523] = {
@@ -3706,6 +4169,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Agility and Voodoo Gnomes",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138939,
 		},
 	},
 	[94524] = {
@@ -3714,6 +4178,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Spell Damage Proc 100% Critical Strike",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138964,
 		},
 	},
 	[94525] = {
@@ -3722,6 +4187,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Use Absorb",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138968,
 		},
 	},
 	[94526] = {
@@ -3730,6 +4196,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Strength Transform",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138957,
 		},
 	},
 	[94529] = {
@@ -3738,6 +4205,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Stacking Crit",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139171,
 		},
 	},
 	[94530] = {
@@ -3746,6 +4214,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Smart Heal",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 139190,
 		},
 	},
 	[94531] = {
@@ -3754,6 +4223,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[94532] = {
@@ -3762,6 +4232,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Highest Rating",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139116,
 		},
 	},
 	[95625] = {
@@ -3770,6 +4241,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138757,
 		},
 	},
 	[95641] = {
@@ -3778,6 +4250,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mana Per Time",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138849,
 		},
 	},
 	[95654] = {
@@ -3786,6 +4259,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Strength Transform",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138957,
 		},
 	},
 	[95665] = {
@@ -3794,6 +4268,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Agility and Voodoo Gnomes",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138939,
 		},
 	},
 	[95669] = {
@@ -3802,6 +4277,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138790,
 		},
 	},
 	[95711] = {
@@ -3810,6 +4286,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138896,
 		},
 	},
 	[95712] = {
@@ -3818,6 +4295,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Absorb",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 138924,
 		},
 	},
 	[95726] = {
@@ -3826,6 +4304,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Strength",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138758,
 		},
 	},
 	[95748] = {
@@ -3834,6 +4313,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138894,
 		},
 	},
 	[95757] = {
@@ -3842,6 +4322,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138871,
 		},
 	},
 	[95763] = {
@@ -3850,6 +4331,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Use Absorb",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138968,
 		},
 	},
 	[95772] = {
@@ -3858,6 +4340,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[95779] = {
@@ -3866,6 +4349,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery On Dodge",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138865,
 		},
 	},
 	[95799] = {
@@ -3874,6 +4358,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Stacking Crit",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139171,
 		},
 	},
 	[95802] = {
@@ -3882,6 +4367,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Highest Rating",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139116,
 		},
 	},
 	[95814] = {
@@ -3890,6 +4376,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Spell Damage Proc 100% Critical Strike",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138964,
 		},
 	},
 	[95817] = {
@@ -3898,6 +4385,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Smart Heal",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 139190,
 		},
 	},
 	[95997] = {
@@ -3906,6 +4394,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138757,
 		},
 	},
 	[96013] = {
@@ -3914,6 +4403,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mana Per Time",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138849,
 		},
 	},
 	[96026] = {
@@ -3922,6 +4412,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Strength Transform",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138957,
 		},
 	},
 	[96037] = {
@@ -3930,6 +4421,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Agility and Voodoo Gnomes",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138939,
 		},
 	},
 	[96041] = {
@@ -3938,6 +4430,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138790,
 		},
 	},
 	[96083] = {
@@ -3946,6 +4439,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138896,
 		},
 	},
 	[96084] = {
@@ -3954,6 +4448,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Absorb",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 138924,
 		},
 	},
 	[96098] = {
@@ -3962,6 +4457,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Strength",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138758,
 		},
 	},
 	[96120] = {
@@ -3970,6 +4466,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138894,
 		},
 	},
 	[96129] = {
@@ -3978,6 +4475,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138871,
 		},
 	},
 	[96135] = {
@@ -3986,6 +4484,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Use Absorb",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138968,
 		},
 	},
 	[96144] = {
@@ -3994,6 +4493,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[96151] = {
@@ -4002,6 +4502,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery On Dodge",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138865,
 		},
 	},
 	[96171] = {
@@ -4010,6 +4511,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Stacking Crit",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139171,
 		},
 	},
 	[96174] = {
@@ -4018,6 +4520,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Highest Rating",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139116,
 		},
 	},
 	[96186] = {
@@ -4026,6 +4529,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Spell Damage Proc 100% Critical Strike",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138964,
 		},
 	},
 	[96189] = {
@@ -4034,6 +4538,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Smart Heal",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 139190,
 		},
 	},
 	[96369] = {
@@ -4042,6 +4547,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138757,
 		},
 	},
 	[96385] = {
@@ -4050,6 +4556,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mana Per Time",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138849,
 		},
 	},
 	[96398] = {
@@ -4058,6 +4565,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Strength Transform",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138957,
 		},
 	},
 	[96409] = {
@@ -4066,6 +4574,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Agility and Voodoo Gnomes",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138939,
 		},
 	},
 	[96413] = {
@@ -4074,6 +4583,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138790,
 		},
 	},
 	[96455] = {
@@ -4082,6 +4592,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138896,
 		},
 	},
 	[96456] = {
@@ -4090,6 +4601,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Absorb",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 138924,
 		},
 	},
 	[96470] = {
@@ -4098,6 +4610,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Strength",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138758,
 		},
 	},
 	[96492] = {
@@ -4106,6 +4619,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138894,
 		},
 	},
 	[96501] = {
@@ -4114,6 +4628,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138871,
 		},
 	},
 	[96507] = {
@@ -4122,6 +4637,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Use Absorb",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138968,
 		},
 	},
 	[96516] = {
@@ -4130,6 +4646,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[96523] = {
@@ -4138,6 +4655,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery On Dodge",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138865,
 		},
 	},
 	[96543] = {
@@ -4146,6 +4664,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Stacking Crit",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139171,
 		},
 	},
 	[96546] = {
@@ -4154,6 +4673,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Highest Rating",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139116,
 		},
 	},
 	[96558] = {
@@ -4162,6 +4682,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Spell Damage Proc 100% Critical Strike",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138964,
 		},
 	},
 	[96561] = {
@@ -4170,6 +4691,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Smart Heal",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 139190,
 		},
 	},
 	[96741] = {
@@ -4178,6 +4700,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138757,
 		},
 	},
 	[96757] = {
@@ -4186,6 +4709,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mana Per Time",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138849,
 		},
 	},
 	[96770] = {
@@ -4194,6 +4718,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Strength Transform",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138957,
 		},
 	},
 	[96781] = {
@@ -4202,6 +4727,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Agility and Voodoo Gnomes",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138939,
 		},
 	},
 	[96785] = {
@@ -4210,6 +4736,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138790,
 		},
 	},
 	[96827] = {
@@ -4218,6 +4745,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138896,
 		},
 	},
 	[96828] = {
@@ -4226,6 +4754,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Absorb",
 			[E_ICD] = 17000,
+			[E_SPELLID] = 138924,
 		},
 	},
 	[96842] = {
@@ -4234,6 +4763,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Stacking Strength",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 138758,
 		},
 	},
 	[96864] = {
@@ -4242,6 +4772,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138894,
 		},
 	},
 	[96873] = {
@@ -4250,6 +4781,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 138871,
 		},
 	},
 	[96879] = {
@@ -4258,6 +4790,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Use Absorb",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138968,
 		},
 	},
 	[96888] = {
@@ -4266,6 +4799,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[96895] = {
@@ -4274,6 +4808,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Mastery On Dodge",
 			[E_ICD] = 0,
+			[E_SPELLID] = 138865,
 		},
 	},
 	[96915] = {
@@ -4282,6 +4817,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Stacking Crit",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139171,
 		},
 	},
 	[96918] = {
@@ -4290,6 +4826,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Highest Rating",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139116,
 		},
 	},
 	[96930] = {
@@ -4298,6 +4835,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Spell Damage Proc 100% Critical Strike",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 138964,
 		},
 	},
 	[96933] = {
@@ -4306,6 +4844,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Charges For Smart Heal",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 139190,
 		},
 	},
 	[98760] = {
@@ -4314,6 +4853,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[98911] = {
@@ -4322,6 +4862,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[98917] = {
@@ -4330,6 +4871,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[99777] = {
@@ -4338,6 +4880,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[99938] = {
@@ -4346,6 +4889,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[99948] = {
@@ -4354,6 +4898,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[100026] = {
@@ -4362,6 +4907,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[100085] = {
@@ -4370,6 +4916,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[100152] = {
@@ -4378,6 +4925,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[100200] = {
@@ -4386,6 +4934,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[100491] = {
@@ -4394,6 +4943,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[100505] = {
@@ -4402,6 +4952,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[100586] = {
@@ -4410,6 +4961,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[100645] = {
@@ -4418,6 +4970,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[100712] = {
@@ -4426,6 +4979,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[100990] = {
@@ -4434,6 +4988,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[100991] = {
@@ -4442,6 +4997,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[100999] = {
@@ -4450,6 +5006,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[101002] = {
@@ -4458,6 +5015,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101009] = {
@@ -4466,6 +5024,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[101012] = {
@@ -4474,6 +5033,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101023] = {
@@ -4482,6 +5042,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[101026] = {
@@ -4490,6 +5051,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101038] = {
@@ -4498,6 +5060,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[101041] = {
@@ -4506,6 +5069,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[101054] = {
@@ -4514,6 +5078,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[101057] = {
@@ -4522,6 +5087,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101069] = {
@@ -4530,6 +5096,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[101072] = {
@@ -4538,6 +5105,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101087] = {
@@ -4546,6 +5114,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101089] = {
@@ -4554,6 +5123,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[101102] = {
@@ -4562,6 +5132,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[101107] = {
@@ -4570,6 +5141,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[101113] = {
@@ -4578,6 +5150,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[101117] = {
@@ -4586,6 +5159,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101135] = {
@@ -4594,6 +5168,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[101138] = {
@@ -4602,6 +5177,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[101151] = {
@@ -4610,6 +5186,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101152] = {
@@ -4618,6 +5195,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[101160] = {
@@ -4626,6 +5204,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[101163] = {
@@ -4634,6 +5213,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101168] = {
@@ -4642,6 +5222,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[101171] = {
@@ -4650,6 +5231,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101179] = {
@@ -4658,6 +5240,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[101183] = {
@@ -4666,6 +5249,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[101200] = {
@@ -4674,6 +5258,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[101203] = {
@@ -4682,6 +5267,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101217] = {
@@ -4690,6 +5276,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[101220] = {
@@ -4698,6 +5285,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101222] = {
@@ -4706,6 +5294,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[101225] = {
@@ -4714,6 +5303,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101247] = {
@@ -4722,6 +5312,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[101250] = {
@@ -4730,6 +5321,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[101263] = {
@@ -4738,6 +5330,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[101266] = {
@@ -4746,6 +5339,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101294] = {
@@ -4754,6 +5348,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[101295] = {
@@ -4762,6 +5357,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[101303] = {
@@ -4770,6 +5366,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[101306] = {
@@ -4778,6 +5375,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[102246] = {
@@ -4786,6 +5384,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Essence of Yu\'lon",
 			[E_ICD] = 0,
+			[E_SPELLID] = 146197,
 		},
 	},
 	[102247] = {
@@ -4794,6 +5393,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Spirit of Chi-Ji",
 			[E_ICD] = 0,
+			[E_SPELLID] = 146199,
 		},
 	},
 	[102248] = {
@@ -4802,6 +5402,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flurry of Xuen",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 146195,
 		},
 	},
 	[102249] = {
@@ -4810,6 +5411,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flurry of Xuen",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 146195,
 		},
 	},
 	[102292] = {
@@ -4818,6 +5420,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[102293] = {
@@ -4826,6 +5429,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[102294] = {
@@ -4834,6 +5438,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[102295] = {
@@ -4842,6 +5447,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[102298] = {
@@ -4850,6 +5456,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[102299] = {
@@ -4858,6 +5465,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[102300] = {
@@ -4866,6 +5474,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[102301] = {
@@ -4874,6 +5483,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[102302] = {
@@ -4882,6 +5492,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[102303] = {
@@ -4890,6 +5501,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[102304] = {
@@ -4898,6 +5510,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[102305] = {
@@ -4906,6 +5519,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[102308] = {
@@ -4914,6 +5528,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[102309] = {
@@ -4922,6 +5537,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[102310] = {
@@ -4930,6 +5546,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[102311] = {
@@ -4938,6 +5555,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[102312] = {
@@ -4946,6 +5564,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146313,
 		},
 	},
 	[102313] = {
@@ -4954,6 +5573,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spells Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146219,
 		},
 	},
 	[102315] = {
@@ -4962,6 +5582,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146295,
 		},
 	},
 	[102643] = {
@@ -4970,6 +5591,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[102699] = {
@@ -4978,6 +5600,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[102766] = {
@@ -4986,6 +5609,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[102840] = {
@@ -4994,6 +5618,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[102896] = {
@@ -5002,6 +5627,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[102963] = {
@@ -5010,6 +5636,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[103150] = {
@@ -5018,6 +5645,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[103309] = {
@@ -5026,6 +5654,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[103319] = {
@@ -5034,6 +5663,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[103347] = {
@@ -5042,6 +5672,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126708,
 		},
 	},
 	[103506] = {
@@ -5050,6 +5681,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126706,
 		},
 	},
 	[103516] = {
@@ -5058,6 +5690,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126702,
 		},
 	},
 	[103678] = {
@@ -5066,6 +5699,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Winds of Time",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 148446,
 		},
 	},
 	[103686] = {
@@ -5074,6 +5708,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146313,
 		},
 	},
 	[103687] = {
@@ -5082,6 +5717,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spells Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146219,
 		},
 	},
 	[103689] = {
@@ -5090,6 +5726,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146295,
 		},
 	},
 	[103986] = {
@@ -5098,6 +5735,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146313,
 		},
 	},
 	[103987] = {
@@ -5106,6 +5744,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spells Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146219,
 		},
 	},
 	[103989] = {
@@ -5114,6 +5753,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146295,
 		},
 	},
 	[104313] = {
@@ -5122,6 +5762,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Golden Moss",
 			[E_ICD] = 600000,
+			[E_SPELLID] = 148558,
 		},
 	},
 	[104426] = {
@@ -5130,6 +5771,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[104463] = {
@@ -5138,6 +5780,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[104476] = {
@@ -5146,6 +5789,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[104478] = {
@@ -5154,6 +5798,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[104495] = {
@@ -5162,6 +5807,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[104531] = {
@@ -5170,6 +5816,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[104544] = {
@@ -5178,6 +5825,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[104553] = {
@@ -5186,6 +5834,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[104576] = {
@@ -5194,6 +5843,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[104584] = {
@@ -5202,6 +5852,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[104611] = {
@@ -5210,6 +5861,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[104613] = {
@@ -5218,6 +5870,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[104616] = {
@@ -5226,6 +5879,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[104619] = {
@@ -5234,6 +5888,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[104636] = {
@@ -5242,6 +5897,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[104652] = {
@@ -5250,6 +5906,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[104675] = {
@@ -5258,6 +5915,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[104712] = {
@@ -5266,6 +5924,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[104725] = {
@@ -5274,6 +5933,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[104727] = {
@@ -5282,6 +5942,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[104744] = {
@@ -5290,6 +5951,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[104780] = {
@@ -5298,6 +5960,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[104793] = {
@@ -5306,6 +5969,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[104802] = {
@@ -5314,6 +5978,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[104825] = {
@@ -5322,6 +5987,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[104833] = {
@@ -5330,6 +5996,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[104860] = {
@@ -5338,6 +6005,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[104862] = {
@@ -5346,6 +6014,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[104865] = {
@@ -5354,6 +6023,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[104868] = {
@@ -5362,6 +6032,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[104885] = {
@@ -5370,6 +6041,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[104901] = {
@@ -5378,6 +6050,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[104924] = {
@@ -5386,6 +6059,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[104961] = {
@@ -5394,6 +6068,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[104974] = {
@@ -5402,6 +6077,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[104976] = {
@@ -5410,6 +6086,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[104993] = {
@@ -5418,6 +6095,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[105029] = {
@@ -5426,6 +6104,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[105042] = {
@@ -5434,6 +6113,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[105051] = {
@@ -5442,6 +6122,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[105074] = {
@@ -5450,6 +6131,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[105082] = {
@@ -5458,6 +6140,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[105109] = {
@@ -5466,6 +6149,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[105111] = {
@@ -5474,6 +6158,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[105114] = {
@@ -5482,6 +6167,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[105117] = {
@@ -5490,6 +6176,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[105134] = {
@@ -5498,6 +6185,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[105150] = {
@@ -5506,6 +6194,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[105173] = {
@@ -5514,6 +6203,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[105210] = {
@@ -5522,6 +6212,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[105223] = {
@@ -5530,6 +6221,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[105225] = {
@@ -5538,6 +6230,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[105242] = {
@@ -5546,6 +6239,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[105278] = {
@@ -5554,6 +6248,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[105291] = {
@@ -5562,6 +6257,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[105300] = {
@@ -5570,6 +6266,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[105323] = {
@@ -5578,6 +6275,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[105331] = {
@@ -5586,6 +6284,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[105358] = {
@@ -5594,6 +6293,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[105360] = {
@@ -5602,6 +6302,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[105363] = {
@@ -5610,6 +6311,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[105366] = {
@@ -5618,6 +6320,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[105383] = {
@@ -5626,6 +6329,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[105399] = {
@@ -5634,6 +6338,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[105422] = {
@@ -5642,6 +6347,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[105459] = {
@@ -5650,6 +6356,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[105472] = {
@@ -5658,6 +6365,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[105474] = {
@@ -5666,6 +6374,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[105491] = {
@@ -5674,6 +6383,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[105527] = {
@@ -5682,6 +6392,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[105540] = {
@@ -5690,6 +6401,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[105549] = {
@@ -5698,6 +6410,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[105572] = {
@@ -5706,6 +6419,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[105580] = {
@@ -5714,6 +6428,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[105607] = {
@@ -5722,6 +6437,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[105609] = {
@@ -5730,6 +6446,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[105612] = {
@@ -5738,6 +6455,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[105615] = {
@@ -5746,6 +6464,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[105632] = {
@@ -5754,6 +6473,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[105648] = {
@@ -5762,6 +6482,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[107195] = {
@@ -5770,6 +6491,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Firefury Spirit",
 			[E_ICD] = 60000,
+			[E_SPELLID] = 150806,
 		},
 	},
 	[109262] = {
@@ -5778,6 +6500,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[109999] = {
@@ -5786,6 +6509,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165821,
 		},
 	},
 	[110004] = {
@@ -5794,6 +6518,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165838,
 		},
 	},
 	[110009] = {
@@ -5802,6 +6527,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165840,
 		},
 	},
 	[110014] = {
@@ -5810,6 +6536,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165821,
 		},
 	},
 	[110019] = {
@@ -5818,6 +6545,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165825,
 		},
 	},
 	[111223] = {
@@ -5826,6 +6554,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[111228] = {
@@ -5834,6 +6563,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[111233] = {
@@ -5842,6 +6572,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[111484] = {
@@ -5850,6 +6581,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Cold Bite",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 163759,
 		},
 	},
 	[111490] = {
@@ -5858,6 +6590,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 1H Weapon Proc Instant Damage",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 165678,
 		},
 	},
 	[111530] = {
@@ -5866,6 +6599,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[111533] = {
@@ -5874,6 +6608,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Critical Strike",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 160819,
 		},
 	},
 	[111545] = {
@@ -5882,6 +6617,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Molten Punch",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 163762,
 		},
 	},
 	[111546] = {
@@ -5890,6 +6626,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[111547] = {
@@ -5898,6 +6635,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[111548] = {
@@ -5906,6 +6644,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[111554] = {
@@ -5914,6 +6653,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Rimefrost Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 163764,
 		},
 	},
 	[111948] = {
@@ -5922,6 +6662,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Evil Eye",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 161940,
 		},
 	},
 	[112317] = {
@@ -5930,6 +6671,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Winged Hourglass",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 162914,
 		},
 	},
 	[112318] = {
@@ -5938,6 +6680,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Skull of War",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 162916,
 		},
 	},
 	[112319] = {
@@ -5946,6 +6689,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Knight\'s Badge",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 162918,
 		},
 	},
 	[112320] = {
@@ -5954,6 +6698,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Sandman\'s Pouch",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 162920,
 		},
 	},
 	[112426] = {
@@ -5962,6 +6707,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[112503] = {
@@ -5970,6 +6716,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[112703] = {
@@ -5978,6 +6725,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 146247,
 		},
 	},
 	[112754] = {
@@ -5986,6 +6734,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148904,
 		},
 	},
 	[112768] = {
@@ -5994,6 +6743,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[112778] = {
@@ -6002,6 +6752,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Heals Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148909,
 		},
 	},
 	[112815] = {
@@ -6010,6 +6761,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148898,
 		},
 	},
 	[112825] = {
@@ -6018,6 +6770,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148895,
 		},
 	},
 	[112849] = {
@@ -6026,6 +6779,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 148912,
 		},
 	},
 	[112850] = {
@@ -6034,6 +6788,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[112877] = {
@@ -6042,6 +6797,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146316,
 		},
 	},
 	[112879] = {
@@ -6050,6 +6806,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146311,
 		},
 	},
 	[112884] = {
@@ -6058,6 +6815,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126516,
 		},
 	},
 	[112885] = {
@@ -6066,6 +6824,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[112886] = {
@@ -6074,6 +6833,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attack Crits Proc Agi",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 126490,
 		},
 	},
 	[112887] = {
@@ -6082,6 +6842,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 126482,
 		},
 	},
 	[112888] = {
@@ -6090,6 +6851,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[112889] = {
@@ -6098,6 +6860,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[112913] = {
@@ -6106,6 +6869,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146286,
 		},
 	},
 	[112938] = {
@@ -6114,6 +6878,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 146183,
 		},
 	},
 	[112947] = {
@@ -6122,6 +6887,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[112948] = {
@@ -6130,6 +6896,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Heals Proc Int",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146315,
 		},
 	},
 	[113023] = {
@@ -6138,6 +6905,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[113024] = {
@@ -6146,6 +6914,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146309,
 		},
 	},
 	[113025] = {
@@ -6154,6 +6923,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 148901,
 		},
 	},
 	[113158] = {
@@ -6162,6 +6932,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[113159] = {
@@ -6170,6 +6941,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126516,
 		},
 	},
 	[113160] = {
@@ -6178,6 +6950,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[113161] = {
@@ -6186,6 +6959,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[113162] = {
@@ -6194,6 +6968,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 126482,
 		},
 	},
 	[113163] = {
@@ -6202,6 +6977,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attack Crits Proc Agi",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 126490,
 		},
 	},
 	[113253] = {
@@ -6210,6 +6986,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[113254] = {
@@ -6218,6 +6995,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[113255] = {
@@ -6226,6 +7004,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[113408] = {
@@ -6234,6 +7013,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146251,
 		},
 	},
 	[113527] = {
@@ -6242,6 +7022,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[113553] = {
@@ -6250,6 +7031,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Windfang Bite",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 167329,
 		},
 	},
 	[113612] = {
@@ -6258,6 +7040,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Balanced Fate]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177039,
 		},
 	},
 	[113645] = {
@@ -6266,6 +7049,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike [Tectus\' Beating Heart]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177041,
 		},
 	},
 	[113663] = {
@@ -6274,6 +7058,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165825,
 		},
 	},
 	[113861] = {
@@ -6282,6 +7067,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Versatility [Gazing Eye]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177055,
 		},
 	},
 	[113889] = {
@@ -6290,6 +7076,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike [Elemental Shield]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177064,
 		},
 	},
 	[113893] = {
@@ -6298,6 +7085,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Blast Furnace]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177057,
 		},
 	},
 	[113948] = {
@@ -6306,6 +7094,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Instability]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177052,
 		},
 	},
 	[113983] = {
@@ -6314,6 +7103,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177098,
 		},
 	},
 	[113984] = {
@@ -6322,6 +7112,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177085,
 		},
 	},
 	[113985] = {
@@ -6330,6 +7121,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177071,
 		},
 	},
 	[113986] = {
@@ -6338,6 +7130,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177090,
 		},
 	},
 	[113987] = {
@@ -6346,6 +7139,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Haste",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177104,
 		},
 	},
 	[114427] = {
@@ -6354,6 +7148,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165835,
 		},
 	},
 	[114428] = {
@@ -6362,6 +7157,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165840,
 		},
 	},
 	[114429] = {
@@ -6370,6 +7166,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165825,
 		},
 	},
 	[114430] = {
@@ -6378,6 +7175,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165821,
 		},
 	},
 	[114431] = {
@@ -6386,6 +7184,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Versatility",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165840,
 		},
 	},
 	[114610] = {
@@ -6394,6 +7193,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Formidable Jar of Doom]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176940,
 		},
 	},
 	[114611] = {
@@ -6402,6 +7202,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Formidable Orb of Putrescence]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176942,
 		},
 	},
 	[114612] = {
@@ -6410,6 +7211,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Formidable Censer of Faith]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176944,
 		},
 	},
 	[114613] = {
@@ -6418,6 +7220,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Formidable Fang]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176936,
 		},
 	},
 	[114614] = {
@@ -6426,6 +7229,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Formidable Relic of Blood]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176938,
 		},
 	},
 	[114886] = {
@@ -6434,6 +7238,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[114887] = {
@@ -6442,6 +7247,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[114888] = {
@@ -6450,6 +7256,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[114889] = {
@@ -6458,6 +7265,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[114890] = {
@@ -6466,6 +7274,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[114891] = {
@@ -6474,6 +7283,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[114957] = {
@@ -6482,6 +7292,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[114958] = {
@@ -6490,6 +7301,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Watch Commander Branson\'s Lapel",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 173520,
 		},
 	},
 	[114959] = {
@@ -6498,6 +7310,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[114960] = {
@@ -6506,6 +7319,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[114961] = {
@@ -6514,6 +7328,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[115150] = {
@@ -6522,6 +7337,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[115155] = {
@@ -6530,6 +7346,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[115160] = {
@@ -6538,6 +7355,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[115750] = {
@@ -6546,6 +7364,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[115755] = {
@@ -6554,6 +7373,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[115760] = {
@@ -6562,6 +7382,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[116075] = {
@@ -6570,6 +7391,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[116077] = {
@@ -6578,6 +7400,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[116116] = {
@@ -6586,6 +7409,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Blazegrease",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 170876,
 		},
 	},
 	[116126] = {
@@ -6594,6 +7418,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Talador Venom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 170935,
 		},
 	},
 	[116127] = {
@@ -6602,6 +7427,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126534,
 		},
 	},
 	[116291] = {
@@ -6610,6 +7436,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike [Immaculate Living Mushroom]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176979,
 		},
 	},
 	[116292] = {
@@ -6618,6 +7445,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Versatility [Mote of the Mountain]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176976,
 		},
 	},
 	[116314] = {
@@ -6626,6 +7454,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Blackheart Enforcer\'s Medallion]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176987,
 		},
 	},
 	[116315] = {
@@ -6634,6 +7463,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Heart of the Fury]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176981,
 		},
 	},
 	[116318] = {
@@ -6642,6 +7472,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike [Stoneheart Idol]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176983,
 		},
 	},
 	[116799] = {
@@ -6650,6 +7481,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[116823] = {
@@ -6658,6 +7490,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[116824] = {
@@ -6666,6 +7499,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[116855] = {
@@ -6674,6 +7508,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Stingtail Venom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 172023,
 		},
 	},
 	[116907] = {
@@ -6682,6 +7517,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Boomstick Boom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 172074,
 		},
 	},
 	[117033] = {
@@ -6690,6 +7526,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117034] = {
@@ -6698,6 +7535,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[117042] = {
@@ -6706,6 +7544,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[117045] = {
@@ -6714,6 +7553,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117052] = {
@@ -6722,6 +7562,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[117055] = {
@@ -6730,6 +7571,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117066] = {
@@ -6738,6 +7580,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[117069] = {
@@ -6746,6 +7589,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117081] = {
@@ -6754,6 +7598,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[117084] = {
@@ -6762,6 +7607,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[117097] = {
@@ -6770,6 +7616,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[117100] = {
@@ -6778,6 +7625,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117112] = {
@@ -6786,6 +7634,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[117115] = {
@@ -6794,6 +7643,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117130] = {
@@ -6802,6 +7652,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117132] = {
@@ -6810,6 +7661,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[117145] = {
@@ -6818,6 +7670,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[117150] = {
@@ -6826,6 +7679,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[117156] = {
@@ -6834,6 +7688,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[117160] = {
@@ -6842,6 +7697,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117178] = {
@@ -6850,6 +7706,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[117181] = {
@@ -6858,6 +7715,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[117194] = {
@@ -6866,6 +7724,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117195] = {
@@ -6874,6 +7733,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[117203] = {
@@ -6882,6 +7742,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[117206] = {
@@ -6890,6 +7751,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117211] = {
@@ -6898,6 +7760,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[117214] = {
@@ -6906,6 +7769,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117222] = {
@@ -6914,6 +7778,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[117226] = {
@@ -6922,6 +7787,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[117243] = {
@@ -6930,6 +7796,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[117246] = {
@@ -6938,6 +7805,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117260] = {
@@ -6946,6 +7814,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[117263] = {
@@ -6954,6 +7823,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117265] = {
@@ -6962,6 +7832,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[117268] = {
@@ -6970,6 +7841,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117290] = {
@@ -6978,6 +7850,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[117293] = {
@@ -6986,6 +7859,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[117306] = {
@@ -6994,6 +7868,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[117309] = {
@@ -7002,6 +7877,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117337] = {
@@ -7010,6 +7886,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117338] = {
@@ -7018,6 +7895,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[117346] = {
@@ -7026,6 +7904,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[117349] = {
@@ -7034,6 +7913,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[117358] = {
@@ -7042,6 +7922,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Now is the Time!",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 127924,
 		},
 	},
 	[117359] = {
@@ -7050,6 +7931,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Essence of Life",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 127914,
 		},
 	},
 	[117360] = {
@@ -7058,6 +7940,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Reflection of Torment",
 			[E_ICD] = 50000,
+			[E_SPELLID] = 127926,
 		},
 	},
 	[117537] = {
@@ -7066,6 +7949,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[117540] = {
@@ -7074,6 +7958,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[118016] = {
@@ -7082,6 +7967,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Crit",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126516,
 		},
 	},
 	[118017] = {
@@ -7090,6 +7976,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attack Crits Proc Agi",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 126490,
 		},
 	},
 	[118018] = {
@@ -7098,6 +7985,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[118019] = {
@@ -7106,6 +7994,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[118020] = {
@@ -7114,6 +8003,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 126482,
 		},
 	},
 	[118021] = {
@@ -7122,6 +8012,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 146047,
 		},
 	},
 	[118114] = {
@@ -7130,6 +8021,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Meaty Dragonspine Trophy]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177036,
 		},
 	},
 	[118202] = {
@@ -7138,6 +8030,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Crits Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 139134,
 		},
 	},
 	[118211] = {
@@ -7146,6 +8039,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "ROLKOR SMASH",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 173835,
 		},
 	},
 	[118228] = {
@@ -7154,6 +8048,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Smashalupagus",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 173914,
 		},
 	},
 	[118229] = {
@@ -7162,6 +8057,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Critical Strike",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 160819,
 		},
 	},
 	[118230] = {
@@ -7170,6 +8066,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Intellect",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 148907,
 		},
 	},
 	[118246] = {
@@ -7178,6 +8075,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Call of the Wolfmother",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 173982,
 		},
 	},
 	[118264] = {
@@ -7186,6 +8084,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Void Shard",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 174014,
 		},
 	},
 	[118300] = {
@@ -7194,6 +8093,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177163,
 		},
 	},
 	[118301] = {
@@ -7202,6 +8102,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177163,
 		},
 	},
 	[118302] = {
@@ -7210,6 +8111,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177163,
 		},
 	},
 	[118303] = {
@@ -7218,6 +8120,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177163,
 		},
 	},
 	[118304] = {
@@ -7226,6 +8129,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177163,
 		},
 	},
 	[118305] = {
@@ -7234,6 +8138,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Greater Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177171,
 		},
 	},
 	[118306] = {
@@ -7242,6 +8147,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Greater Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177171,
 		},
 	},
 	[118307] = {
@@ -7250,6 +8156,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Greater Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177171,
 		},
 	},
 	[118308] = {
@@ -7258,6 +8165,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Greater Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177171,
 		},
 	},
 	[118309] = {
@@ -7266,6 +8174,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Archmage\'s Greater Incandescence",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177171,
 		},
 	},
 	[118677] = {
@@ -7274,6 +8183,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 6.0 Reputation - Frostwolf Orcs - Honored - Trinket Proc Summon Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175724,
 		},
 	},
 	[118680] = {
@@ -7282,6 +8192,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 6.0 Reputation - Council of Exarchs - Honored - Trinket Proc Summon Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175732,
 		},
 	},
 	[118682] = {
@@ -7290,6 +8201,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 6.0 Reputation - Outcast Arakkoa - Honored - Trinket Proc Summon Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175734,
 		},
 	},
 	[118683] = {
@@ -7298,6 +8210,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 6.0 Reputation - Steamwheedle Preservation Society - Honored - Trinket Proc Summon Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175736,
 		},
 	},
 	[118684] = {
@@ -7306,6 +8219,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 6.0 Reputation - Laughing Skull Orcs - Honored - Trinket Proc Summon Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175738,
 		},
 	},
 	[118685] = {
@@ -7314,6 +8228,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - 6.0 Reputation - Sha\'tari Defense - Honored - Trinket Proc Summon Guardian",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175740,
 		},
 	},
 	[118690] = {
@@ -7322,6 +8237,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Mr. Pinchy\'s Wild Ride",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175754,
 		},
 	},
 	[118718] = {
@@ -7330,6 +8246,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Bloodthief",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 175877,
 		},
 	},
 	[118719] = {
@@ -7338,6 +8255,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Petrified Willow",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265413,
 		},
 	},
 	[118737] = {
@@ -7346,6 +8264,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Blackhand Doomcutter",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265414,
 		},
 	},
 	[118740] = {
@@ -7354,6 +8273,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Bleakblade of Shahram",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265419,
 		},
 	},
 	[118755] = {
@@ -7362,6 +8282,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Dripping Willow",
 			[E_ICD] = 0,
+			[E_SPELLID] = 265421,
 		},
 	},
 	[118776] = {
@@ -7370,6 +8291,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165825,
 		},
 	},
 	[118777] = {
@@ -7378,6 +8300,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165835,
 		},
 	},
 	[118778] = {
@@ -7386,6 +8309,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165825,
 		},
 	},
 	[118779] = {
@@ -7394,6 +8318,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165821,
 		},
 	},
 	[118780] = {
@@ -7402,6 +8327,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 165825,
 		},
 	},
 	[118875] = {
@@ -7410,6 +8336,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Agility [Pajeet-Nov\'s Perpetual Puzzle]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176918,
 		},
 	},
 	[118877] = {
@@ -7418,6 +8345,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Fizzlebang\'s Folly]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176904,
 		},
 	},
 	[118879] = {
@@ -7426,6 +8354,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Haste [Everblooming Thorny Hibiscus]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176915,
 		},
 	},
 	[118881] = {
@@ -7434,6 +8363,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Strength [Bajheric Bangle]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176913,
 		},
 	},
 	[118883] = {
@@ -7442,6 +8372,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Versatility [Bronzed Elekk Statue]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 176930,
 		},
 	},
 	[119192] = {
@@ -7450,6 +8381,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Spirit [Squeak Squeak]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177062,
 		},
 	},
 	[119193] = {
@@ -7458,6 +8390,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Mastery [Screaming Spirits]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177044,
 		},
 	},
 	[119194] = {
@@ -7466,6 +8399,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Attacks Proc Critical Strike [Howling Soul]",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 177047,
 		},
 	},
 	[119226] = {
@@ -7474,6 +8408,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Boomstick Boom",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 172074,
 		},
 	},
 	[119483] = {
@@ -7482,6 +8417,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119484] = {
@@ -7490,6 +8426,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[119492] = {
@@ -7498,6 +8435,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[119495] = {
@@ -7506,6 +8444,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119502] = {
@@ -7514,6 +8453,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[119505] = {
@@ -7522,6 +8462,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119516] = {
@@ -7530,6 +8471,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[119519] = {
@@ -7538,6 +8480,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119531] = {
@@ -7546,6 +8489,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[119534] = {
@@ -7554,6 +8498,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[119547] = {
@@ -7562,6 +8507,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[119550] = {
@@ -7570,6 +8516,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119562] = {
@@ -7578,6 +8525,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[119565] = {
@@ -7586,6 +8534,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119580] = {
@@ -7594,6 +8543,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119582] = {
@@ -7602,6 +8552,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[119595] = {
@@ -7610,6 +8561,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[119600] = {
@@ -7618,6 +8570,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[119606] = {
@@ -7626,6 +8579,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[119610] = {
@@ -7634,6 +8588,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119628] = {
@@ -7642,6 +8597,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[119631] = {
@@ -7650,6 +8606,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[119644] = {
@@ -7658,6 +8615,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119645] = {
@@ -7666,6 +8624,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[119653] = {
@@ -7674,6 +8633,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[119656] = {
@@ -7682,6 +8642,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119661] = {
@@ -7690,6 +8651,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[119664] = {
@@ -7698,6 +8660,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119672] = {
@@ -7706,6 +8669,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[119676] = {
@@ -7714,6 +8678,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[119693] = {
@@ -7722,6 +8687,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[119696] = {
@@ -7730,6 +8696,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119710] = {
@@ -7738,6 +8705,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[119713] = {
@@ -7746,6 +8714,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119715] = {
@@ -7754,6 +8723,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[119718] = {
@@ -7762,6 +8732,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119740] = {
@@ -7770,6 +8741,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[119743] = {
@@ -7778,6 +8750,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[119756] = {
@@ -7786,6 +8759,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[119759] = {
@@ -7794,6 +8768,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119787] = {
@@ -7802,6 +8777,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119788] = {
@@ -7810,6 +8786,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[119796] = {
@@ -7818,6 +8795,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[119799] = {
@@ -7826,6 +8804,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119805] = {
@@ -7834,6 +8813,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[119808] = {
@@ -7842,6 +8822,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[119927] = {
@@ -7850,6 +8831,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[119932] = {
@@ -7858,6 +8840,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[119937] = {
@@ -7866,6 +8849,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[120337] = {
@@ -7874,6 +8858,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[120341] = {
@@ -7882,6 +8867,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[120978] = {
@@ -7890,6 +8876,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Wake of Ashes",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214083,
 		},
 	},
 	[121490] = {
@@ -7898,6 +8885,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Ooker Dooker",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 202811,
 		},
 	},
 	[121491] = {
@@ -7906,6 +8894,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Velvety Cadavernet",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202838,
 		},
 	},
 	[121492] = {
@@ -7914,6 +8903,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Ooker Dooker",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 202811,
 		},
 	},
 	[121494] = {
@@ -7922,6 +8912,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Ooker Dooker",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 202811,
 		},
 	},
 	[121570] = {
@@ -7930,6 +8921,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cursed Fortitude",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202745,
 		},
 	},
 	[121572] = {
@@ -7938,6 +8930,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Banshee\'s Blight",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202762,
 		},
 	},
 	[121647] = {
@@ -7946,6 +8939,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Wrath of Elune",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202916,
 		},
 	},
 	[121649] = {
@@ -7954,6 +8948,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Wrath of Elune",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202911,
 		},
 	},
 	[121652] = {
@@ -7962,6 +8957,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[121726] = {
@@ -7970,6 +8966,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Navarrogg\'s Guidance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202904,
 		},
 	},
 	[121727] = {
@@ -7978,6 +8975,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Rivermane Purification",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202909,
 		},
 	},
 	[121806] = {
@@ -7986,6 +8984,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Ettin\'s Brawn",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 224164,
 		},
 	},
 	[121808] = {
@@ -7994,6 +8993,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nether Energy",
 			[E_ICD] = 0,
+			[E_SPELLID] = 224153,
 		},
 	},
 	[121810] = {
@@ -8002,6 +9002,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Vortex Bomb",
 			[E_ICD] = 0,
+			[E_SPELLID] = 224158,
 		},
 	},
 	[121848] = {
@@ -8010,6 +9011,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121849] = {
@@ -8018,6 +9020,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[121852] = {
@@ -8026,6 +9029,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[121855] = {
@@ -8034,6 +9038,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121860] = {
@@ -8042,6 +9047,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[121863] = {
@@ -8050,6 +9056,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121866] = {
@@ -8058,6 +9065,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[121869] = {
@@ -8066,6 +9074,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121876] = {
@@ -8074,6 +9083,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[121879] = {
@@ -8082,6 +9092,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121882] = {
@@ -8090,6 +9101,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[121885] = {
@@ -8098,6 +9110,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[121892] = {
@@ -8106,6 +9119,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[121895] = {
@@ -8114,6 +9128,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121909] = {
@@ -8122,6 +9137,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[121912] = {
@@ -8130,6 +9146,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121924] = {
@@ -8138,6 +9155,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121925] = {
@@ -8146,6 +9164,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[121934] = {
@@ -8154,6 +9173,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[121936] = {
@@ -8162,6 +9182,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[121939] = {
@@ -8170,6 +9191,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[121941] = {
@@ -8178,6 +9200,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121949] = {
@@ -8186,6 +9209,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[121952] = {
@@ -8194,6 +9218,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[121960] = {
@@ -8202,6 +9227,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121961] = {
@@ -8210,6 +9236,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[121964] = {
@@ -8218,6 +9245,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[121967] = {
@@ -8226,6 +9254,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121975] = {
@@ -8234,6 +9263,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[121978] = {
@@ -8242,6 +9272,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[121981] = {
@@ -8250,6 +9281,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[121984] = {
@@ -8258,6 +9290,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[121992] = {
@@ -8266,6 +9299,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[121995] = {
@@ -8274,6 +9308,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[122006] = {
@@ -8282,6 +9317,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[122009] = {
@@ -8290,6 +9326,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[122017] = {
@@ -8298,6 +9335,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[122020] = {
@@ -8306,6 +9344,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[122023] = {
@@ -8314,6 +9353,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress - Item - Proc Mana Energize",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126468,
 		},
 	},
 	[122026] = {
@@ -8322,6 +9362,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Intellect",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 126268,
 		},
 	},
 	[122037] = {
@@ -8330,6 +9371,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Spell Hits Proc Haste",
 			[E_ICD] = 115000,
+			[E_SPELLID] = 126660,
 		},
 	},
 	[122040] = {
@@ -8338,6 +9380,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[122056] = {
@@ -8346,6 +9389,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[122057] = {
@@ -8354,6 +9398,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Strength",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126583,
 		},
 	},
 	[122060] = {
@@ -8362,6 +9407,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Armor",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126237,
 		},
 	},
 	[122063] = {
@@ -8370,6 +9416,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[122369] = {
@@ -8378,6 +9425,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Thrash Blade",
 			[E_ICD] = 0,
+			[E_SPELLID] = 182395,
 		},
 	},
 	[122601] = {
@@ -8386,6 +9434,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[122602] = {
@@ -8394,6 +9443,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[122603] = {
@@ -8402,6 +9452,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[122604] = {
@@ -8410,6 +9461,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[124225] = {
@@ -8418,6 +9470,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Soul Capacitor",
 			[E_ICD] = 11000,
+			[E_SPELLID] = 184291,
 		},
 	},
 	[124226] = {
@@ -8426,6 +9479,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Malicious Censer",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 183927,
 		},
 	},
 	[124228] = {
@@ -8434,6 +9488,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Desecrated Shadowmoon Insignia",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 183775,
 		},
 	},
 	[124229] = {
@@ -8442,6 +9497,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Sethe\'s Harsh Gaze",
 			[E_ICD] = 1000,
+			[E_SPELLID] = 183951,
 		},
 	},
 	[124230] = {
@@ -8450,6 +9506,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Prophecy of Fear",
 			[E_ICD] = 1000,
+			[E_SPELLID] = 184066,
 		},
 	},
 	[124236] = {
@@ -8458,6 +9515,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Unending Hunger",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 183942,
 		},
 	},
 	[124237] = {
@@ -8466,6 +9524,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Howling Madness",
 			[E_ICD] = 1000,
+			[E_SPELLID] = 184249,
 		},
 	},
 	[124241] = {
@@ -8474,6 +9533,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Anzu\'s Cursed Plume",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 183932,
 		},
 	},
 	[124857] = {
@@ -8482,6 +9542,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[124862] = {
@@ -8490,6 +9551,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[124868] = {
@@ -8498,6 +9560,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[125031] = {
@@ -8506,6 +9569,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[125036] = {
@@ -8514,6 +9578,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[125042] = {
@@ -8522,6 +9587,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[125336] = {
@@ -8530,6 +9596,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[125341] = {
@@ -8538,6 +9605,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[125345] = {
@@ -8546,6 +9614,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[125508] = {
@@ -8554,6 +9623,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[125513] = {
@@ -8562,6 +9632,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[125519] = {
@@ -8570,6 +9641,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[125971] = {
@@ -8578,6 +9650,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[125976] = {
@@ -8586,6 +9659,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[125982] = {
@@ -8594,6 +9668,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[126145] = {
@@ -8602,6 +9677,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[126150] = {
@@ -8610,6 +9686,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[126156] = {
@@ -8618,6 +9695,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[126450] = {
@@ -8626,6 +9704,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[126455] = {
@@ -8634,6 +9713,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[126459] = {
@@ -8642,6 +9722,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[126622] = {
@@ -8650,6 +9731,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
 		},
 	},
 	[126627] = {
@@ -8658,6 +9740,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
 		},
 	},
 	[126633] = {
@@ -8666,6 +9749,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
 		},
 	},
 	[127474] = {
@@ -8674,6 +9758,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Vestige of Haldor",
 			[E_ICD] = 0,
+			[E_SPELLID] = 60306,
 		},
 	},
 	[127493] = {
@@ -8682,6 +9767,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Meteorite Whetstone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 60301,
 		},
 	},
 	[127842] = {
@@ -8690,6 +9776,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Infernal Alchemist Stone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
 		},
 	},
 	[128023] = {
@@ -8698,6 +9785,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[128024] = {
@@ -8706,6 +9794,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draenic Philosopher\'s Stone",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 157136,
 		},
 	},
 	[128403] = {
@@ -8714,6 +9803,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Apocalypse",
 			[E_ICD] = 600000,
+			[E_SPELLID] = 214839,
 		},
 	},
 	[128823] = {
@@ -8722,6 +9812,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Tyr\'s Deliverance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214855,
 		},
 	},
 	[128868] = {
@@ -8730,6 +9821,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Light\'s Wrath",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214858,
 		},
 	},
 	[128943] = {
@@ -8738,6 +9830,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Thal\'kiel Main Area Talk Buff",
 			[E_ICD] = 0,
+			[E_SPELLID] = 222649,
 		},
 	},
 	[128958] = {
@@ -8746,6 +9839,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 0,
+			[E_SPELLID] = 226990,
 		},
 	},
 	[129044] = {
@@ -8754,6 +9848,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Fenri\'s Bite",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 193339,
 		},
 	},
 	[129101] = {
@@ -8762,6 +9857,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "7.0 Item - Vignette - Stormheim - Wolf Pack Proc",
 			[E_ICD] = 85000,
+			[E_SPELLID] = 193179,
 		},
 	},
 	[129258] = {
@@ -8770,6 +9866,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Banshee\'s Blight",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202762,
 		},
 	},
 	[129260] = {
@@ -8778,6 +9875,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cursed Fortitude",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202745,
 		},
 	},
 	[129317] = {
@@ -8786,6 +9884,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Lightning Charged",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202887,
 		},
 	},
 	[129893] = {
@@ -8794,6 +9893,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Now is the Time!",
 			[E_ICD] = 0,
+			[E_SPELLID] = 194626,
 		},
 	},
 	[129896] = {
@@ -8802,6 +9902,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Reflection of Torment",
 			[E_ICD] = 0,
+			[E_SPELLID] = 194607,
 		},
 	},
 	[129897] = {
@@ -8810,6 +9911,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Essence of Life",
 			[E_ICD] = 0,
+			[E_SPELLID] = 195008,
 		},
 	},
 	[130242] = {
@@ -8818,6 +9920,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Dawnlight Righteousness",
 			[E_ICD] = 120000,
+			[E_SPELLID] = 222268,
 		},
 	},
 	[131735] = {
@@ -8826,6 +9929,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Imp Generator",
 			[E_ICD] = 0,
+			[E_SPELLID] = 196777,
 		},
 	},
 	[131799] = {
@@ -8834,6 +9938,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Attacks Proc Mastery",
 			[E_ICD] = 65000,
+			[E_SPELLID] = 133631,
 		},
 	},
 	[131803] = {
@@ -8842,6 +9947,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Item - Proc Agility",
 			[E_ICD] = 55000,
+			[E_SPELLID] = 126552,
 		},
 	},
 	[132091] = {
@@ -8850,6 +9956,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Uriah\'s Blessing",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202898,
 		},
 	},
 	[132366] = {
@@ -8858,6 +9965,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Koltira\'s Newfound Will",
 			[E_ICD] = 0,
+			[E_SPELLID] = 208782,
 		},
 	},
 	[132407] = {
@@ -8866,6 +9974,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Varo\'then\'s Restraint",
 			[E_ICD] = 0,
+			[E_SPELLID] = 213014,
 		},
 	},
 	[132413] = {
@@ -8874,6 +9983,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Rhonin\'s Assaulting Armwraps",
 			[E_ICD] = 0,
+			[E_SPELLID] = 208080,
 		},
 	},
 	[132441] = {
@@ -8882,6 +9992,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Draugr, Girdle of the Everlasting King",
 			[E_ICD] = 0,
+			[E_SPELLID] = 208161,
 		},
 	},
 	[132456] = {
@@ -8890,6 +10001,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Feretory of Souls",
 			[E_ICD] = 0,
+			[E_SPELLID] = 205702,
 		},
 	},
 	[132895] = {
@@ -8898,6 +10010,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Inspiration",
 			[E_ICD] = 0,
+			[E_SPELLID] = 227098,
 		},
 	},
 	[132964] = {
@@ -8906,6 +10019,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Stellagosa\'s Breath",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202840,
 		},
 	},
 	[132970] = {
@@ -8914,6 +10028,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Ley Surge",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202874,
 		},
 	},
 	[132971] = {
@@ -8922,6 +10037,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Desperation",
 			[E_ICD] = 0,
+			[E_SPELLID] = 202863,
 		},
 	},
 	[133192] = {
@@ -8930,6 +10046,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Hardened Shell",
 			[E_ICD] = 0,
+			[E_SPELLID] = 92175,
 		},
 	},
 	[133206] = {
@@ -8938,6 +10055,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Final Key",
 			[E_ICD] = 0,
+			[E_SPELLID] = 92093,
 		},
 	},
 	[133216] = {
@@ -8946,6 +10064,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Tendrils of Darkness",
 			[E_ICD] = 0,
+			[E_SPELLID] = 90899,
 		},
 	},
 	[133227] = {
@@ -8954,6 +10073,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cleansing Tears",
 			[E_ICD] = 0,
+			[E_SPELLID] = 91140,
 		},
 	},
 	[133252] = {
@@ -8962,6 +10082,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Anthem",
 			[E_ICD] = 0,
+			[E_SPELLID] = 91144,
 		},
 	},
 	[133268] = {
@@ -8970,6 +10091,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Heartened",
 			[E_ICD] = 0,
+			[E_SPELLID] = 91365,
 		},
 	},
 	[133420] = {
@@ -8978,6 +10100,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arrow of Time",
 			[E_ICD] = 0,
+			[E_SPELLID] = 102658,
 		},
 	},
 	[133595] = {
@@ -8986,6 +10109,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Demonbane",
 			[E_ICD] = 0,
+			[E_SPELLID] = 201404,
 		},
 	},
 	[133596] = {
@@ -8994,6 +10118,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Voidsight",
 			[E_ICD] = 0,
+			[E_SPELLID] = 201409,
 		},
 	},
 	[133597] = {
@@ -9002,6 +10127,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Demonbane",
 			[E_ICD] = 0,
+			[E_SPELLID] = 201407,
 		},
 	},
 	[133641] = {
@@ -9010,6 +10136,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fel Meteor",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214054,
 		},
 	},
 	[133644] = {
@@ -9018,6 +10145,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Screams of the Dead",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214798,
 		},
 	},
 	[133645] = {
@@ -9026,6 +10154,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Shroud of the Naglfar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215247,
 		},
 	},
 	[133766] = {
@@ -9034,6 +10163,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nether Anti-Toxin",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214140,
 		},
 	},
 	[133800] = {
@@ -9042,6 +10172,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Cord of Maiev, Priestess of the Moon",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214484,
 		},
 	},
 	[134562] = {
@@ -9050,6 +10181,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Rage of the Valarjar",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 200845,
 		},
 	},
 	[135693] = {
@@ -9058,6 +10190,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[135699] = {
@@ -9066,6 +10199,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[135702] = {
@@ -9074,6 +10208,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[135806] = {
@@ -9082,6 +10217,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[135812] = {
@@ -9090,6 +10226,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[135815] = {
@@ -9098,6 +10235,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[135919] = {
@@ -9106,6 +10244,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[135925] = {
@@ -9114,6 +10253,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[135928] = {
@@ -9122,6 +10262,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[136032] = {
@@ -9130,6 +10271,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[136038] = {
@@ -9138,6 +10280,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[136041] = {
@@ -9146,6 +10289,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[136145] = {
@@ -9154,6 +10298,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[136151] = {
@@ -9162,6 +10307,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[136154] = {
@@ -9170,6 +10316,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[136258] = {
@@ -9178,6 +10325,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[136264] = {
@@ -9186,6 +10334,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[136267] = {
@@ -9194,6 +10343,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[136715] = {
@@ -9202,6 +10352,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Brutal Haymaker",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 214168,
 		},
 	},
 	[136716] = {
@@ -9210,6 +10361,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Dark Blast",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215444,
 		},
 	},
 	[136978] = {
@@ -9218,6 +10370,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Choking Flames",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 214449,
 		},
 	},
 	[137035] = {
@@ -9226,6 +10379,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "The Deceiver\'s Blood Pact",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214131,
 		},
 	},
 	[137042] = {
@@ -9234,6 +10388,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Tearstone of Elune",
 			[E_ICD] = 0,
+			[E_SPELLID] = 207932,
 		},
 	},
 	[137052] = {
@@ -9242,6 +10397,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Ayala\'s Stone Heart",
 			[E_ICD] = 0,
+			[E_SPELLID] = 207767,
 		},
 	},
 	[137092] = {
@@ -9250,6 +10406,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Oneth\'s Intuition",
 			[E_ICD] = 0,
+			[E_SPELLID] = 209405,
 		},
 	},
 	[137094] = {
@@ -9258,6 +10415,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "The Wildshaper\'s Clutch",
 			[E_ICD] = 0,
+			[E_SPELLID] = 208319,
 		},
 	},
 	[137301] = {
@@ -9266,6 +10424,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nightfall",
 			[E_ICD] = 0,
+			[E_SPELLID] = 213782,
 		},
 	},
 	[137306] = {
@@ -9274,6 +10433,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nightmare Essence",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214349,
 		},
 	},
 	[137312] = {
@@ -9282,6 +10442,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Down Draft",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 214340,
 		},
 	},
 	[137349] = {
@@ -9290,6 +10451,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Rancid Maw",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215404,
 		},
 	},
 	[137357] = {
@@ -9298,6 +10460,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Landslide",
 			[E_ICD] = 2000,
+			[E_SPELLID] = 214396,
 		},
 	},
 	[137367] = {
@@ -9306,6 +10469,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Focused Lightning",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 215630,
 		},
 	},
 	[137373] = {
@@ -9314,6 +10478,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Spawn of Serpentrix",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215745,
 		},
 	},
 	[137378] = {
@@ -9322,6 +10487,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Raging Storm",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215293,
 		},
 	},
 	[137398] = {
@@ -9330,6 +10496,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Volatile Magic",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215857,
 		},
 	},
 	[137400] = {
@@ -9338,6 +10505,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nightwell Energy",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214571,
 		},
 	},
 	[137406] = {
@@ -9346,6 +10514,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Shadow Wave",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 215089,
 		},
 	},
 	[137419] = {
@@ -9354,6 +10523,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Acceleration",
 			[E_ICD] = 0,
+			[E_SPELLID] = 214120,
 		},
 	},
 	[137430] = {
@@ -9362,6 +10532,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nerubian Chitin",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 214492,
 		},
 	},
 	[137439] = {
@@ -9370,6 +10541,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Congealing Goo",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215120,
 		},
 	},
 	[137446] = {
@@ -9378,6 +10550,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mechanical Bomb Squirrel",
 			[E_ICD] = 0,
+			[E_SPELLID] = 216085,
 		},
 	},
 	[137452] = {
@@ -9386,6 +10559,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Phased Webbing",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 215196,
 		},
 	},
 	[137484] = {
@@ -9394,6 +10568,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flask of the Solemn Night",
 			[E_ICD] = 10000,
+			[E_SPELLID] = 215224,
 		},
 	},
 	[137485] = {
@@ -9402,6 +10577,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Burning Intensity",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 215813,
 		},
 	},
 	[137540] = {
@@ -9410,6 +10586,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Pulse",
 			[E_ICD] = 0,
+			[E_SPELLID] = 215264,
 		},
 	},
 	[138084] = {
@@ -9418,6 +10595,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[138090] = {
@@ -9426,6 +10604,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[138093] = {
@@ -9434,6 +10613,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[138222] = {
@@ -9442,6 +10622,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Spirit Fragment",
 			[E_ICD] = 0,
+			[E_SPELLID] = 221873,
 		},
 	},
 	[138224] = {
@@ -9450,6 +10631,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Volatile Ichor",
 			[E_ICD] = 0,
+			[E_SPELLID] = 222187,
 		},
 	},
 	[138823] = {
@@ -9458,6 +10640,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Starlance Vigil",
 			[E_ICD] = 0,
+			[E_SPELLID] = 218844,
 		},
 	},
 	[138837] = {
@@ -9466,6 +10649,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Starlance Vigil",
 			[E_ICD] = 0,
+			[E_SPELLID] = 218844,
 		},
 	},
 	[138879] = {
@@ -9474,6 +10658,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Ovyd\'s Winter Wrap",
 			[E_ICD] = 0,
+			[E_SPELLID] = 217634,
 		},
 	},
 	[139321] = {
@@ -9482,6 +10667,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Plague Swarm",
 			[E_ICD] = 0,
+			[E_SPELLID] = 221811,
 		},
 	},
 	[139323] = {
@@ -9490,6 +10676,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Tormenting Cyclone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 221845,
 		},
 	},
 	[139324] = {
@@ -9498,6 +10685,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nightmarish Ichor",
 			[E_ICD] = 0,
+			[E_SPELLID] = 222015,
 		},
 	},
 	[139325] = {
@@ -9506,6 +10694,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Horrific Appendages",
 			[E_ICD] = 0,
+			[E_SPELLID] = 222167,
 		},
 	},
 	[139328] = {
@@ -9514,6 +10703,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fleshrending",
 			[E_ICD] = 0,
+			[E_SPELLID] = 221767,
 		},
 	},
 	[139329] = {
@@ -9522,6 +10712,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Bloodthirsty Instinct",
 			[E_ICD] = 0,
+			[E_SPELLID] = 221786,
 		},
 	},
 	[139330] = {
@@ -9530,6 +10721,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Heightened Senses",
 			[E_ICD] = 0,
+			[E_SPELLID] = 221748,
 		},
 	},
 	[139334] = {
@@ -9538,6 +10730,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Allies of Nature",
 			[E_ICD] = 0,
+			[E_SPELLID] = 222512,
 		},
 	},
 	[139335] = {
@@ -9546,6 +10739,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Darkening Soul",
 			[E_ICD] = 0,
+			[E_SPELLID] = 222207,
 		},
 	},
 	[139336] = {
@@ -9554,6 +10748,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Poisoned Dreams",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 222705,
 		},
 	},
 	[139905] = {
@@ -9562,6 +10757,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arcane Blast",
 			[E_ICD] = 0,
+			[E_SPELLID] = 227171,
 		},
 	},
 	[139934] = {
@@ -9570,6 +10766,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arcane Blast",
 			[E_ICD] = 0,
+			[E_SPELLID] = 227171,
 		},
 	},
 	[139965] = {
@@ -9578,6 +10775,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arcane Blast",
 			[E_ICD] = 0,
+			[E_SPELLID] = 227171,
 		},
 	},
 	[139997] = {
@@ -9586,6 +10784,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arcane Blast",
 			[E_ICD] = 0,
+			[E_SPELLID] = 227171,
 		},
 	},
 	[140026] = {
@@ -9594,6 +10793,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Devilsaur\'s Bite",
 			[E_ICD] = 0,
+			[E_SPELLID] = 224073,
 		},
 	},
 	[140027] = {
@@ -9602,6 +10802,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Ley Spark",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 231941,
 		},
 	},
 	[140030] = {
@@ -9610,6 +10811,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Devilsaur Shock Leash",
 			[E_ICD] = 0,
+			[E_SPELLID] = 224076,
 		},
 	},
 	[140031] = {
@@ -9618,6 +10820,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mana Spark",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 231939,
 		},
 	},
 	[140034] = {
@@ -9626,6 +10829,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Devilsaur\'s Stampede",
 			[E_ICD] = 0,
+			[E_SPELLID] = 224059,
 		},
 	},
 	[140035] = {
@@ -9634,6 +10838,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fluctuating Arc Capacitor",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 231943,
 		},
 	},
 	[140533] = {
@@ -9642,6 +10847,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Huntmaster\'s Infusion",
 			[E_ICD] = 0,
+			[E_SPELLID] = 224169,
 		},
 	},
 	[140790] = {
@@ -9650,6 +10856,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Crystalline Shockwave",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225123,
 		},
 	},
 	[140792] = {
@@ -9658,6 +10865,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Accelerando",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225125,
 		},
 	},
 	[140794] = {
@@ -9666,6 +10874,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Arcane Swipe",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225127,
 		},
 	},
 	[140795] = {
@@ -9674,12 +10883,14 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nightwell Tranquility",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225128,
 		},
 		[2] = {
 			[E_CHANCE] = 10,
 			[E_RPPM] = 0,
 			[E_NAME] = "Nightwell Tranquility",
 			[E_ICD] = 6000,
+			[E_SPELLID] = 229670,
 		},
 	},
 	[140796] = {
@@ -9688,6 +10899,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Triumvirate",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225129,
 		},
 	},
 	[140798] = {
@@ -9696,6 +10908,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Carrion Swarm",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225131,
 		},
 	},
 	[140801] = {
@@ -9704,6 +10917,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Solar Collapse",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 225134,
 		},
 	},
 	[140802] = {
@@ -9712,6 +10926,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Recursive Strikes",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225135,
 		},
 	},
 	[140803] = {
@@ -9720,6 +10935,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Constellations",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225136,
 		},
 	},
 	[140804] = {
@@ -9728,6 +10944,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Star Gate",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225137,
 		},
 	},
 	[140805] = {
@@ -9736,6 +10953,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Temporal Shift",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225138,
 		},
 	},
 	[140806] = {
@@ -9744,6 +10962,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Prescience",
 			[E_ICD] = 0,
+			[E_SPELLID] = 225139,
 		},
 	},
 	[140809] = {
@@ -9752,6 +10971,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Nefarious Pact",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 225142,
 		},
 	},
 	[141585] = {
@@ -9760,6 +10980,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Six-Feather Fan",
 			[E_ICD] = 0,
+			[E_SPELLID] = 227868,
 		},
 	},
 	[141586] = {
@@ -9768,6 +10989,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Marfisi\'s Giant Censer",
 			[E_ICD] = 0,
+			[E_SPELLID] = 228141,
 		},
 	},
 	[142157] = {
@@ -9776,6 +10998,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flame Wreath",
 			[E_ICD] = 0,
+			[E_SPELLID] = 230257,
 		},
 	},
 	[142161] = {
@@ -9784,6 +11007,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Intangible Presence",
 			[E_ICD] = 0,
+			[E_SPELLID] = 230080,
 		},
 	},
 	[142162] = {
@@ -9792,6 +11016,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Loose Mana",
 			[E_ICD] = 0,
+			[E_SPELLID] = 230140,
 		},
 	},
 	[142165] = {
@@ -9800,6 +11025,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Volatile Energy",
 			[E_ICD] = 0,
+			[E_SPELLID] = 230236,
 		},
 	},
 	[142174] = {
@@ -9808,6 +11034,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Barbed Rebuke",
 			[E_ICD] = 1000,
+			[E_SPELLID] = 234106,
 		},
 	},
 	[142662] = {
@@ -9816,6 +11043,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[142668] = {
@@ -9824,6 +11052,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[142671] = {
@@ -9832,6 +11061,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[142775] = {
@@ -9840,6 +11070,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[142781] = {
@@ -9848,6 +11079,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[142784] = {
@@ -9856,6 +11088,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[142888] = {
@@ -9864,6 +11097,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[142894] = {
@@ -9872,6 +11106,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[142897] = {
@@ -9880,6 +11115,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[143001] = {
@@ -9888,6 +11124,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[143007] = {
@@ -9896,6 +11133,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[143010] = {
@@ -9904,6 +11142,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[143114] = {
@@ -9912,6 +11151,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[143120] = {
@@ -9920,6 +11160,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[143123] = {
@@ -9928,6 +11169,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[143227] = {
@@ -9936,6 +11178,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[143233] = {
@@ -9944,6 +11187,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[143236] = {
@@ -9952,6 +11196,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[144113] = {
@@ -9960,6 +11205,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Windswept",
 			[E_ICD] = 0,
+			[E_SPELLID] = 235019,
 		},
 	},
 	[144119] = {
@@ -9968,6 +11214,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Melon-choly",
 			[E_ICD] = 0,
+			[E_SPELLID] = 235015,
 		},
 	},
 	[144122] = {
@@ -9976,6 +11223,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fermenting Furuncle",
 			[E_ICD] = 0,
+			[E_SPELLID] = 235017,
 		},
 	},
 	[144136] = {
@@ -9984,6 +11232,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Predation",
 			[E_ICD] = 0,
+			[E_SPELLID] = 126473,
 		},
 	},
 	[144146] = {
@@ -9992,6 +11241,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Iron Protection",
 			[E_ICD] = 0,
+			[E_SPELLID] = 235003,
 		},
 	},
 	[144159] = {
@@ -10000,6 +11250,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Price of Progress",
 			[E_ICD] = 0,
+			[E_SPELLID] = 235011,
 		},
 	},
 	[144160] = {
@@ -10008,6 +11259,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Searing Words",
 			[E_ICD] = 0,
+			[E_SPELLID] = 235007,
 		},
 	},
 	[144438] = {
@@ -10016,6 +11268,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Zeks Exterminatus",
 			[E_ICD] = 0,
+			[E_SPELLID] = 236545,
 		},
 	},
 	[144477] = {
@@ -10024,6 +11277,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fel Barbs",
 			[E_ICD] = 0,
+			[E_SPELLID] = 238524,
 		},
 	},
 	[144480] = {
@@ -10032,6 +11286,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Dreadstone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 238498,
 		},
 	},
 	[144734] = {
@@ -10040,6 +11295,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[144735] = {
@@ -10048,6 +11304,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[144740] = {
@@ -10056,6 +11313,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[144741] = {
@@ -10064,6 +11322,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[144746] = {
@@ -10072,6 +11331,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[144747] = {
@@ -10080,6 +11340,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[144980] = {
@@ -10088,6 +11349,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[144981] = {
@@ -10096,6 +11358,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[144986] = {
@@ -10104,6 +11367,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[144987] = {
@@ -10112,6 +11376,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[144992] = {
@@ -10120,6 +11385,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[144993] = {
@@ -10128,6 +11394,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[145226] = {
@@ -10136,6 +11403,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[145227] = {
@@ -10144,6 +11412,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[145232] = {
@@ -10152,6 +11421,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[145233] = {
@@ -10160,6 +11430,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[145238] = {
@@ -10168,6 +11439,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[145239] = {
@@ -10176,6 +11448,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[145576] = {
@@ -10184,6 +11457,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[145577] = {
@@ -10192,6 +11466,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[145582] = {
@@ -10200,6 +11475,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[145583] = {
@@ -10208,6 +11484,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[145588] = {
@@ -10216,6 +11493,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[145589] = {
@@ -10224,6 +11502,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[145822] = {
@@ -10232,6 +11511,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[145823] = {
@@ -10240,6 +11520,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[145828] = {
@@ -10248,6 +11529,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[145829] = {
@@ -10256,6 +11538,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[145834] = {
@@ -10264,6 +11547,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[145835] = {
@@ -10272,6 +11556,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[146068] = {
@@ -10280,6 +11565,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[146069] = {
@@ -10288,6 +11574,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[146074] = {
@@ -10296,6 +11583,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[146075] = {
@@ -10304,6 +11592,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[146080] = {
@@ -10312,6 +11601,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[146081] = {
@@ -10320,6 +11610,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[147003] = {
@@ -10328,6 +11619,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Guilty Conscience",
 			[E_ICD] = 0,
+			[E_SPELLID] = 242325,
 		},
 	},
 	[147005] = {
@@ -10336,6 +11628,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Chalice of Moonlight",
 			[E_ICD] = 0,
+			[E_SPELLID] = 242541,
 		},
 	},
 	[147009] = {
@@ -10344,6 +11637,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Infernal Cinders",
 			[E_ICD] = 0,
+			[E_SPELLID] = 242215,
 		},
 	},
 	[147015] = {
@@ -10352,6 +11646,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Demonic Vigor",
 			[E_ICD] = 12000,
+			[E_SPELLID] = 242611,
 		},
 	},
 	[147016] = {
@@ -10360,6 +11655,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Terror From Below",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 242524,
 		},
 	},
 	[147018] = {
@@ -10368,6 +11664,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Spear of Anguish",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 242605,
 		},
 	},
 	[147022] = {
@@ -10376,6 +11673,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Infernal Skin",
 			[E_ICD] = 0,
+			[E_SPELLID] = 242207,
 		},
 	},
 	[147025] = {
@@ -10384,6 +11682,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Grace of the Creators",
 			[E_ICD] = 7000,
+			[E_SPELLID] = 242616,
 		},
 	},
 	[147026] = {
@@ -10392,6 +11691,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cunning of the Deceiver",
 			[E_ICD] = 0,
+			[E_SPELLID] = 242628,
 		},
 	},
 	[148109] = {
@@ -10400,6 +11700,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148110] = {
@@ -10408,6 +11709,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148115] = {
@@ -10416,6 +11718,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148116] = {
@@ -10424,6 +11727,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148121] = {
@@ -10432,6 +11736,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148122] = {
@@ -10440,6 +11745,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148355] = {
@@ -10448,6 +11754,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148356] = {
@@ -10456,6 +11763,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148361] = {
@@ -10464,6 +11772,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148362] = {
@@ -10472,6 +11781,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148367] = {
@@ -10480,6 +11790,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148368] = {
@@ -10488,6 +11799,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148602] = {
@@ -10496,6 +11808,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148603] = {
@@ -10504,6 +11817,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148608] = {
@@ -10512,6 +11826,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148609] = {
@@ -10520,6 +11835,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148614] = {
@@ -10528,6 +11844,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148615] = {
@@ -10536,6 +11853,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148848] = {
@@ -10544,6 +11862,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148849] = {
@@ -10552,6 +11871,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[148854] = {
@@ -10560,6 +11880,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148855] = {
@@ -10568,6 +11889,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[148860] = {
@@ -10576,6 +11898,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[148861] = {
@@ -10584,6 +11907,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149094] = {
@@ -10592,6 +11916,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149095] = {
@@ -10600,6 +11925,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149100] = {
@@ -10608,6 +11934,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149101] = {
@@ -10616,6 +11943,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149106] = {
@@ -10624,6 +11952,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149107] = {
@@ -10632,6 +11961,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149340] = {
@@ -10640,6 +11970,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149341] = {
@@ -10648,6 +11979,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149346] = {
@@ -10656,6 +11988,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149347] = {
@@ -10664,6 +11997,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149352] = {
@@ -10672,6 +12006,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149353] = {
@@ -10680,6 +12015,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149706] = {
@@ -10688,6 +12024,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149707] = {
@@ -10696,6 +12033,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149712] = {
@@ -10704,6 +12042,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149713] = {
@@ -10712,6 +12051,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149718] = {
@@ -10720,6 +12060,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149719] = {
@@ -10728,6 +12069,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149956] = {
@@ -10736,6 +12078,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149957] = {
@@ -10744,6 +12087,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[149962] = {
@@ -10752,6 +12096,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149963] = {
@@ -10760,6 +12105,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[149968] = {
@@ -10768,6 +12114,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[149969] = {
@@ -10776,6 +12123,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[150202] = {
@@ -10784,6 +12132,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[150203] = {
@@ -10792,6 +12141,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Conquest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190028,
 		},
 	},
 	[150208] = {
@@ -10800,6 +12150,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[150209] = {
@@ -10808,6 +12159,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Dominance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190030,
 		},
 	},
 	[150214] = {
@@ -10816,6 +12168,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[150215] = {
@@ -10824,6 +12177,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Surge of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 190029,
 		},
 	},
 	[151310] = {
@@ -10832,6 +12186,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Void Tendril",
 			[E_ICD] = 0,
+			[E_SPELLID] = 250846,
 		},
 	},
 	[151313] = {
@@ -10840,6 +12195,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Void\'s Embrace",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 253807,
 		},
 	},
 	[151332] = {
@@ -10848,6 +12204,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Voidclaw",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253793,
 		},
 	},
 	[151607] = {
@@ -10856,6 +12213,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Infernal Alchemist Stone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
 		},
 	},
 	[151955] = {
@@ -10864,6 +12222,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cycle of the Legion",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253259,
 		},
 	},
 	[151956] = {
@@ -10872,6 +12231,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Feedback Loop",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253268,
 		},
 	},
 	[151962] = {
@@ -10880,6 +12240,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Prototype Personnel Decimator",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253242,
 		},
 	},
 	[151963] = {
@@ -10888,6 +12249,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fire Mines",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253310,
 		},
 	},
 	[151964] = {
@@ -10896,6 +12258,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Shadow Strike",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253323,
 		},
 	},
 	[151968] = {
@@ -10904,12 +12267,14 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flames of F\'harg",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253305,
 		},
 		[2] = {
 			[E_CHANCE] = 3,
 			[E_RPPM] = 1,
 			[E_NAME] = "Corruption of Shatug",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253304,
 		},
 	},
 	[151971] = {
@@ -10918,6 +12283,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Shadow Blades",
 			[E_ICD] = 6000,
+			[E_SPELLID] = 253263,
 		},
 	},
 	[151976] = {
@@ -10926,6 +12292,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Unstable Portals",
 			[E_ICD] = 4000,
+			[E_SPELLID] = 251925,
 		},
 	},
 	[152093] = {
@@ -10934,6 +12301,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Echo of Gorshalach",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253326,
 		},
 	},
 	[152289] = {
@@ -10942,6 +12310,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Highfather\'s Timekeeping",
 			[E_ICD] = 0,
+			[E_SPELLID] = 253285,
 		},
 	},
 	[152632] = {
@@ -10950,6 +12319,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Infernal Alchemist Stone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
 		},
 	},
 	[152637] = {
@@ -10958,6 +12328,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Infernal Alchemist Stone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
 		},
 	},
 	[154172] = {
@@ -10966,6 +12337,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mark of Aman\'thul",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256817,
 		},
 	},
 	[154173] = {
@@ -10974,6 +12346,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mark of Aggramar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256815,
 		},
 	},
 	[154174] = {
@@ -10982,6 +12355,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mark of Golganneth",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256819,
 		},
 	},
 	[154175] = {
@@ -10990,6 +12364,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mark of Eonar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256822,
 		},
 	},
 	[154176] = {
@@ -10998,6 +12373,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mark of Khaz\'goroth",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256825,
 		},
 	},
 	[154177] = {
@@ -11006,6 +12382,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mark of Norgannon",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256827,
 		},
 	},
 	[155568] = {
@@ -11014,6 +12391,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Galewind Chimes",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268506,
 		},
 	},
 	[155881] = {
@@ -11022,6 +12400,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Sweete\'s Sweet Dice",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274835,
 		},
 	},
 	[156016] = {
@@ -11030,6 +12409,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Pyrite Infusion",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65013,
 		},
 	},
 	[156207] = {
@@ -11038,6 +12418,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Pandora\'s Plea",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64742,
 		},
 	},
 	[156221] = {
@@ -11046,6 +12427,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "The General\'s Heart",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64764,
 		},
 	},
 	[156230] = {
@@ -11054,6 +12436,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Flame of the Heavens",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64714,
 		},
 	},
 	[156234] = {
@@ -11062,6 +12445,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Blood of the Old God",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64792,
 		},
 	},
 	[156245] = {
@@ -11070,6 +12454,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Show of Faith",
 			[E_ICD] = 0,
+			[E_SPELLID] = 64738,
 		},
 	},
 	[156288] = {
@@ -11078,6 +12463,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Alacrity of the Elements",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65005,
 		},
 	},
 	[156308] = {
@@ -11086,6 +12472,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Sif\'s Remembrance",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65002,
 		},
 	},
 	[156310] = {
@@ -11094,6 +12481,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Mjolnir Runestone",
 			[E_ICD] = 0,
+			[E_SPELLID] = 65020,
 		},
 	},
 	[157763] = {
@@ -11102,6 +12490,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Demonic Vigor",
 			[E_ICD] = 12000,
+			[E_SPELLID] = 262505,
 		},
 	},
 	[157764] = {
@@ -11110,6 +12499,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Crystalline Shockwave",
 			[E_ICD] = 0,
+			[E_SPELLID] = 262507,
 		},
 	},
 	[158153] = {
@@ -11118,6 +12508,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Will of the Loa",
 			[E_ICD] = 0,
+			[E_SPELLID] = 273975,
 		},
 	},
 	[158154] = {
@@ -11126,6 +12517,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Speed of the Spirits",
 			[E_ICD] = 0,
+			[E_SPELLID] = 273991,
 		},
 	},
 	[158155] = {
@@ -11134,6 +12526,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Primal Instinct",
 			[E_ICD] = 0,
+			[E_SPELLID] = 273987,
 		},
 	},
 	[158218] = {
@@ -11142,6 +12535,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Sound Barrier",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268531,
 		},
 	},
 	[158219] = {
@@ -11150,6 +12544,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Want For Nothing",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268533,
 		},
 	},
 	[158220] = {
@@ -11158,6 +12553,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Best In Show",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268535,
 		},
 	},
 	[158225] = {
@@ -11166,6 +12562,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Exposure",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268546,
 		},
 	},
 	[158371] = {
@@ -11174,6 +12571,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Seabreeze",
 			[E_ICD] = 30000,
+			[E_SPELLID] = 281723,
 		},
 	},
 	[158374] = {
@@ -11182,6 +12580,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Tiny Elemental in a Jar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 267177,
 		},
 	},
 	[158555] = {
@@ -11190,6 +12589,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Dread Spore",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268516,
 		},
 	},
 	[158556] = {
@@ -11198,6 +12598,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Siren\'s Melody",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268512,
 		},
 	},
 	[158557] = {
@@ -11206,6 +12607,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Bargain For Power",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268507,
 		},
 	},
 	[158558] = {
@@ -11214,6 +12616,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Luminous Honey Jar",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268557,
 		},
 	},
 	[158679] = {
@@ -11222,6 +12625,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Maokka\'s Carving",
 			[E_ICD] = 0,
+			[E_SPELLID] = 273799,
 		},
 	},
 	[158680] = {
@@ -11230,6 +12634,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Rikal\'s Ritual Beads",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268566,
 		},
 	},
 	[158681] = {
@@ -11238,6 +12643,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Lightning Jolt",
 			[E_ICD] = 0,
+			[E_SPELLID] = 256067,
 		},
 	},
 	[158712] = {
@@ -11246,6 +12652,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Rezan\'s Gleaming Eye",
 			[E_ICD] = 0,
+			[E_SPELLID] = 271102,
 		},
 	},
 	[159074] = {
@@ -11254,6 +12661,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Master\'s Sight",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268603,
 		},
 	},
 	[159075] = {
@@ -11262,6 +12670,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Blood Crazed",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268605,
 		},
 	},
 	[159077] = {
@@ -11270,6 +12679,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "PH Crit Buff - Nazmir",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268608,
 		},
 	},
 	[159078] = {
@@ -11278,6 +12688,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Potency Manipulator",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268610,
 		},
 	},
 	[159125] = {
@@ -11286,6 +12697,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Fathoms Deck",
 			[E_ICD] = 0,
+			[E_SPELLID] = 276176,
 		},
 	},
 	[159126] = {
@@ -11294,6 +12706,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Squalls Deck",
 			[E_ICD] = 0,
+			[E_SPELLID] = 276123,
 		},
 	},
 	[159127] = {
@@ -11302,6 +12715,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Tides Deck",
 			[E_ICD] = 0,
+			[E_SPELLID] = 276135,
 		},
 	},
 	[159610] = {
@@ -11310,6 +12724,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Webweaver\'s Soul Gem",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 270809,
 		},
 	},
 	[159612] = {
@@ -11318,6 +12733,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Resonating Elemental Heart",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268441,
 		},
 	},
 	[159616] = {
@@ -11326,6 +12742,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Butcher\'s Eye",
 			[E_ICD] = 0,
+			[E_SPELLID] = 271104,
 		},
 	},
 	[159619] = {
@@ -11334,6 +12751,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Briny Barnacle",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268191,
 		},
 	},
 	[159620] = {
@@ -11342,6 +12760,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Conch of Dark Whispers",
 			[E_ICD] = 0,
+			[E_SPELLID] = 271072,
 		},
 	},
 	[159622] = {
@@ -11350,6 +12769,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Hadal\'s Nautilus",
 			[E_ICD] = 3000,
+			[E_SPELLID] = 270921,
 		},
 	},
 	[159623] = {
@@ -11358,6 +12778,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Dread Captain\'s Spyglass",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268771,
 		},
 	},
 	[159626] = {
@@ -11366,6 +12787,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Lingering Spore Pods",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268035,
 		},
 	},
 	[159628] = {
@@ -11374,6 +12796,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Kul Tiran Cannonball Runner",
 			[E_ICD] = 5000,
+			[E_SPELLID] = 271190,
 		},
 	},
 	[159631] = {
@@ -11382,12 +12805,14 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Lady Waycrest\'s Music Box",
 			[E_ICD] = 0,
+			[E_SPELLID] = 271683,
 		},
 		[2] = {
 			[E_CHANCE] = 3,
 			[E_RPPM] = 1,
 			[E_NAME] = "Lady Waycrest\'s Music Box",
 			[E_ICD] = 0,
+			[E_SPELLID] = 271631,
 		},
 	},
 	[159644] = {
@@ -11396,6 +12821,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cut of Death",
 			[E_ICD] = 0,
+			[E_SPELLID] = 281712,
 		},
 	},
 	[159653] = {
@@ -11404,6 +12830,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Vile Bile",
 			[E_ICD] = 0,
+			[E_SPELLID] = 281720,
 		},
 	},
 	[159660] = {
@@ -11412,6 +12839,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Butcher Cut",
 			[E_ICD] = 0,
+			[E_SPELLID] = 279426,
 		},
 	},
 	[159763] = {
@@ -11420,6 +12848,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Swell of Voodoo",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268617,
 		},
 	},
 	[159764] = {
@@ -11428,6 +12857,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Diemetradon Frenzy",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268620,
 		},
 	},
 	[159765] = {
@@ -11436,6 +12866,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Shark\'s Bite",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268624,
 		},
 	},
 	[159976] = {
@@ -11444,6 +12875,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Unbound Power of Zem\'lan",
 			[E_ICD] = 0,
+			[E_SPELLID] = 269884,
 		},
 	},
 	[159977] = {
@@ -11452,6 +12884,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Residual Viciousness",
 			[E_ICD] = 0,
+			[E_SPELLID] = 269886,
 		},
 	},
 	[159978] = {
@@ -11460,6 +12893,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Boiling Time",
 			[E_ICD] = 0,
+			[E_SPELLID] = 269888,
 		},
 	},
 	[159979] = {
@@ -11468,6 +12902,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Searing Zap",
 			[E_ICD] = 0,
+			[E_SPELLID] = 269891,
 		},
 	},
 	[160262] = {
@@ -11476,6 +12911,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Relic of the Makers",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268508,
 		},
 	},
 	[160263] = {
@@ -11484,6 +12920,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Sharpened Claws",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268517,
 		},
 	},
 	[160648] = {
@@ -11492,6 +12929,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Frenetic Corpuscle",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278140,
 		},
 	},
 	[160650] = {
@@ -11500,6 +12938,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Systematic Regression",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278152,
 		},
 	},
 	[160651] = {
@@ -11508,6 +12947,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Bloodshaping",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278053,
 		},
 	},
 	[160652] = {
@@ -11516,6 +12956,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Titanic Momentum",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278067,
 		},
 	},
 	[160654] = {
@@ -11524,6 +12965,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Vanquished Tendril of G\'huun",
 			[E_ICD] = 20000,
+			[E_SPELLID] = 278161,
 		},
 	},
 	[160655] = {
@@ -11532,6 +12974,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Syringe of Bloodborne Infirmity",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278112,
 		},
 	},
 	[160656] = {
@@ -11540,6 +12983,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Lingering Power",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278154,
 		},
 	},
 	[160984] = {
@@ -11548,6 +12992,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Adapt",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274072,
 		},
 	},
 	[160987] = {
@@ -11556,6 +13001,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 0,
 			[E_NAME] = "Consume Whole",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 274106,
 		},
 	},
 	[160990] = {
@@ -11564,6 +13010,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Summon Swainbeak",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 274145,
 		},
 	},
 	[161007] = {
@@ -11572,6 +13019,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Direhorn Studded Belt",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274155,
 		},
 	},
 	[161113] = {
@@ -11580,6 +13028,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Incessantly Ticking Clock",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274429,
 		},
 	},
 	[161115] = {
@@ -11588,6 +13037,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Soulguard",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 274458,
 		},
 	},
 	[161119] = {
@@ -11596,6 +13046,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Summon Skeletal Raptor",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 274477,
 		},
 	},
 	[161125] = {
@@ -11604,6 +13055,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Kaja-fied Banana",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274484,
 		},
 	},
 	[161182] = {
@@ -11612,6 +13064,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Summon Crawg",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274790,
 		},
 	},
 	[161218] = {
@@ -11620,6 +13073,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Direhorn Studded Belt",
 			[E_ICD] = 0,
+			[E_SPELLID] = 274155,
 		},
 	},
 	[161222] = {
@@ -11628,6 +13082,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Potency Manipulator",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268610,
 		},
 	},
 	[161223] = {
@@ -11636,6 +13091,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Potency Manipulator",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268610,
 		},
 	},
 	[161289] = {
@@ -11644,6 +13100,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Rikal\'s Ritual Beads",
 			[E_ICD] = 0,
+			[E_SPELLID] = 268566,
 		},
 	},
 	[161376] = {
@@ -11652,6 +13109,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Dark Intensity",
 			[E_ICD] = 18000,
+			[E_SPELLID] = 278378,
 		},
 	},
 	[161378] = {
@@ -11660,6 +13118,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Seaborne Tempest",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278382,
 		},
 	},
 	[161380] = {
@@ -11668,6 +13127,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Chill of the Runes",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278859,
 		},
 	},
 	[161381] = {
@@ -11676,6 +13136,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Cold-Hearted Instincts",
 			[E_ICD] = 15000,
+			[E_SPELLID] = 278389,
 		},
 	},
 	[161412] = {
@@ -11684,6 +13145,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Coalesced Essence",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278224,
 		},
 	},
 	[161419] = {
@@ -11692,6 +13154,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Kraulok\'s Strength",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278287,
 		},
 	},
 	[161461] = {
@@ -11700,6 +13163,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Blood Hatred",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278356,
 		},
 	},
 	[161472] = {
@@ -11708,6 +13172,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Lion\'s Grace",
 			[E_ICD] = 0,
+			[E_SPELLID] = 278815,
 		},
 	},
 	[161676] = {
@@ -11716,6 +13181,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Taste of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 277182,
 		},
 	},
 	[162899] = {
@@ -11724,6 +13190,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Taste of Victory",
 			[E_ICD] = 0,
+			[E_SPELLID] = 277182,
 		},
 	},
 	[163703] = {
@@ -11732,6 +13199,7 @@ AdvancedTooltips.Items = {
 			[E_RPPM] = 1,
 			[E_NAME] = "Bone Throw",
 			[E_ICD] = 0,
+			[E_SPELLID] = 279786,
 		},
 	},
 }

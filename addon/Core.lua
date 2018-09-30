@@ -164,16 +164,13 @@ local function ProcessItem(itemLink, tooltip)
 				-- Check for RPPM
 				if item[i][E_RPPM] == 1 then
 					strRight = strRight..string.format("RPPM: %.2f (%.2f)", item[i][E_CHANCE], item[i][E_CHANCE] * (1 + UnitSpellHaste("player")/100))
-					if item[i][E_ICD] ~= 0 then
-						strRight = strRight..string.format(" (%.1f second ICD)", item[i][E_ICD] / 1000)
-					end
 				else
 					strRight = strRight..string.format("%.2f%%", item[i][E_CHANCE])
-					if item[i][E_ICD] ~= 0 then
-						strRight = strRight..string.format(" (%.1f second ICD)", item[i][E_ICD]/ 1000)
-					end
 				end
-				tooltip:AddDoubleLine(strLeft, strRight, 0, .7, .7, 0, .7, .7)
+                tooltip:AddDoubleLine(strLeft, strRight, 0, .7, .7, 0, .7, .7)
+                if item[i][E_ICD] ~= 0 then
+                    tooltip:AddDoubleLine(" ", string.format(" %.1f second ICD", item[i][E_ICD] / 1000), 0, .7, .7, 0, .7, .7)
+                end
 			end
 		end
 	end
@@ -245,10 +242,10 @@ function AddReoriginationInfo(tooltip)
 	local stat_values = {}
 	for i, v in pairs(stats) do
 		stat_values[i] = GetCombatRating(i)
-	end
-
+    end
+    
 	-- find the largest
-	local largest = 9
+	largest = 9
 	for i,v in pairs(stat_values) do
 		if stat_values[largest] < stat_values[i] then
 			largest = i
@@ -261,22 +258,19 @@ function AddReoriginationInfo(tooltip)
     UldirVantus = false
     for i=1, 40, 1 do
         local name = UnitBuff("player", i)
+        -- @ todo - localization
         if name ~= nil and string.find(name, "Vantus Rune") then 
             UldirVantus = true
         end
     end
 
     if UldirVantus == true then
+        stat_values[29] = stat_values[29] + 277
         -- Rerun the stat weight calculations with the +277 vers
-        local largest = 9
+        largest = 9
         for i,v in pairs(stat_values) do
             if stat_values[largest] < stat_values[i] then
                 largest = i
-            end
-            if i == 29 then
-                if stat_values[largest] < (stat_values[i] + 277) then
-                    largest = i
-                end
             end
         end
 
@@ -296,34 +290,32 @@ function GetSpellChanceInfo(rank)
     data = AdvancedTooltips.SpellData[rank]
 
 	if data[E_CHANCE] ~= nil and data[E_CHANCE] < 100.0 then
-			
+		str = select(1, GetSpellInfo(rank))
 		if data[E_RPPM] == 1 then
-			str = "RPPM: "..string.format("%.2f", data[E_CHANCE])
+			str2 = "RPPM: "..string.format("%.2f", data[E_CHANCE])
 
 			-- Get haste % to calc "actual" rppm
 			local actualRPPM = data[E_CHANCE] * (1 + UnitSpellHaste("player")/100)
 			local actualRPPMString = string.format("%.2f", actualRPPM)
-			str = str.." ("..actualRPPMString..")"
-			if data[E_ICD] ~= nil then
-				str2 = str2..string.format("%.1f seconds ICD", data[E_ICD]/1000)
-			end
+			str2 = str2.." ("..actualRPPMString..")"
 		else
-			str = string.format("%.2f%%", data[E_CHANCE])
+			str2 = string.format("%.2f%%", data[E_CHANCE])
 		end
-	elseif data[E_ICD] ~= nil then
-		str = string.format("ICD: %.1f seconds", data[E_ICD]/1000)
 	end
 
 	itemData = {}
-	itemData["str"] = str
-	itemData["str2"] = str2
-	itemData["name"] = select(1, GetSpellInfo(rank))
+	itemData["proc_name"] = str
+    itemData["proc_info"] = str2
+    if data[E_ICD] ~= nil and data[E_ICD] ~= 0 then
+        itemData["proc_icd"] = string.format("%.1f second ICD", data[E_ICD]/1000)
+    else
+        itemData["proc_icd"] = ""
+    end
 
 	-- 274441 - Barbed Shot has a chance equal to your critical strike chance to grant you 298 Agility for 8 sec.
-	if rank == 274441 then
-		itemData["str2"] = "Critical Strike chance"
-		str = string.format("%.2f%%", GetCritChance())
-		itemData["str"] = str
+    if rank == 274441 then
+        itemData["proc_name"] = select(1, GetSpellInfo(rank)) 
+        itemData["proc_info"] = string.format("%.2f%%", GetCritChance())
 	end
 
 	return itemData
@@ -334,23 +326,26 @@ function ItemTooltip(rank, tooltip)
 	str = ""
 	str2 = ""
 	if AdvancedTooltips.SpellData[rank] ~= nil then
-		str = GetSpellChanceInfo(rank)["str"]
-		str2 = GetSpellChanceInfo(rank)["str2"]
+		local str = GetSpellChanceInfo(rank)["proc_name"]
+        local str2 = GetSpellChanceInfo(rank)["proc_info"]
+        local str3 = GetSpellChanceInfo(rank)["proc_icd"]
 		
 		-- work around the talent bug (calls OnSetTooltipSpell twice)
-		if str ~= "" and alreadyAdded(str, tooltip) then
+        if str2 ~= "" and alreadyAdded(str2, tooltip) then
 			return
 		end
 
 		-- Seperator line, only if we're adding information
 		-- don't return here so we can bring in reorigination array below (archive has no proc)
-		if str~= "" then tooltip:AddLine(" ") end
+		if str2~= "" then tooltip:AddLine(" ") end
 
 		if str2 ~= "" then
 			tooltip:AddDoubleLine(str, str2, 0, .7, .7, 0, .7, .7)
-		else
-			tooltip:AddLine(str, 0, .7, .7)
-		end
+        end
+        
+        if str3 ~= "" then
+            tooltip:AddDoubleLine(" ", str3, 0, .7, .7, 0, .7, .7)
+        end
 	end
 	
 	-- Archive and Laser Matrix
@@ -400,7 +395,10 @@ function AddEnchantInfo(tooltip, itemHeaderAdded, spellID)
 			tooltip:AddLine(" ")
         end
         -- Remove (DND) from some enchant strings.
-		tooltip:AddDoubleLine(gsub(spellData["name"], "%(DND%)", ""), spellData["str"], 0, .7, .7, 0, .7, .7)
+        tooltip:AddDoubleLine(gsub(spellData["proc_name"], "%(DND%)", ""), spellData["proc_info"], 0, .7, .7, 0, .7, .7)
+        if spellData["proc_icd"] ~= "" then
+            tooltip:AddDoubleLine(" ", spellData["proc_icd"], 0, .7, .7, 0, .7, .7)
+        end
 	end
 end
 
@@ -423,21 +421,21 @@ function OnTooltip_Item(self, tooltip)
 	ProcessItem(link, tooltip)
 
 	-- Azerite check
-	if C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(link) then
-        local tierInfo = C_AzeriteEmpoweredItem.GetAllTierInfoByItemID(linkToID(link))
-		for i=1,3,1 do
-			if tierInfo[i] ~= nil then
-				for k,v in pairs(tierInfo[i]["azeritePowerIDs"]) do
+	if C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(linkToID(link)) then
+        local tierInfo = C_AzeriteEmpoweredItem.GetAllTierInfoByItemID(link, select(3, UnitClass("player")))
+        for i=1,4,1 do
+            if tierInfo[i] ~= nil then
+                for k,v in pairs(tierInfo[i]["azeritePowerIDs"]) do
                     if ScanForTrait(self, select(1, GetSpellInfo(GetAzeriteSpellID(v)))) then
 						local spellInfo = GetSpellChanceInfo(GetAzeriteSpellID(v))
 						if spellInfo ~= nil then
 							-- If we have strings
-							if spellInfo["str"] ~= nil and string.len(spellInfo["str"]) > 0 then
+							if spellInfo["proc_name"] ~= nil and string.len(spellInfo["proc_name"]) > 0 then
 								if itemHeaderAdded == false then
 									tooltip:AddLine(" ")
 									itemHeaderAdded = true
 								end
-								tooltip:AddDoubleLine(spellInfo["name"], spellInfo["str"], 0, .7, .7, 0, .7, .7)
+                                tooltip:AddDoubleLine(spellInfo["proc_name"], spellInfo["proc_info"], 0, .7, .7, 0, .7, .7)
 							end
 						end
 					end
