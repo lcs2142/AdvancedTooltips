@@ -6,7 +6,7 @@ Advanced Tooltips is an addon for World of Warcraft dedicated to adding more inf
     
 ![Azerite Trait](https://i.imgur.com/F85hrn9.png)
    
-   -Trinkets
+   - Trinkets
     
 ![Trinket](https://i.imgur.com/gDFD8O0.png)
     
