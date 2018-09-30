@@ -40,6 +40,7 @@ E_RPPM = 2
 E_NAME = 3
 E_ICD = 4
 E_AZERITE_POWER = 5
+E_SPELLID = 6
 
 -----------------
 -- Addon Setup --
@@ -130,10 +131,6 @@ function itemEnchant(itemLink)
 	return tonumber(Enchant)
 end
 
-enter = false
-
-
-
 local function ProcessItem(itemLink, tooltip)
 
 	if itemLink == nil then return end
@@ -141,7 +138,6 @@ local function ProcessItem(itemLink, tooltip)
     local id = linkToID(itemLink)
 
     bonusLine = false
-    
 
     if AdvancedTooltips.Items[id] ~= nil then
         item = AdvancedTooltips.Items[id]
@@ -153,9 +149,16 @@ local function ProcessItem(itemLink, tooltip)
 				if bonusLine == false then
 					tooltip:AddLine(" ")
 					bonusLine = true
-				end
+                end
+                local strLeft = ""
 
-				local strLeft = item[i][E_NAME]
+                -- If we have a spell ID, get the info from the api
+                -- otherwise fall back to whatever simc described.
+                if item[i][E_SPELLID] ~= nil then
+                    strLeft = select(1, GetSpellInfo(item[i][E_SPELLID]))
+                else
+                    strLeft = item[i][E_NAME]
+                end
 				local strRight = ""
 
 				-- Check for RPPM
@@ -252,8 +255,34 @@ function AddReoriginationInfo(tooltip)
 		end
 	end
 
-	tooltip:AddDoubleLine("Bonus: ", 75 * ReoriginationLevel.." "..stats[largest], 0, .7, .7, 0, .7, .7)
+    tooltip:AddDoubleLine("Bonus: ", 75 * ReoriginationLevel.." "..stats[largest], 0, .7, .7, 0, .7, .7)
+    
+    -- Check for Vantus:
+    UldirVantus = false
+    for i=1, 40, 1 do
+        local name = UnitBuff("player", i)
+        if name ~= nil and string.find(name, "Vantus Rune") then 
+            UldirVantus = true
+        end
+    end
 
+    if UldirVantus == true then
+        -- Rerun the stat weight calculations with the +277 vers
+        local largest = 9
+        for i,v in pairs(stat_values) do
+            if stat_values[largest] < stat_values[i] then
+                largest = i
+            end
+            if i == 29 then
+                if stat_values[largest] < (stat_values[i] + 277) then
+                    largest = i
+                end
+            end
+        end
+
+        tooltip:AddDoubleLine("Bonus (Vantus): ", 75 * ReoriginationLevel.." "..stats[largest], 0, .7, .7, 0, .7, .7)
+        
+    end
 end
 
 
@@ -369,19 +398,15 @@ function AddEnchantInfo(tooltip, itemHeaderAdded, spellID)
 	if spellData ~= nil then
 		if itemHeaderAdded == false then
 			tooltip:AddLine(" ")
-		end
-		tooltip:AddDoubleLine(spellData["name"], spellData["str"], 0, .7, .7, 0, .7, .7)
+        end
+        -- Remove (DND) from some enchant strings.
+		tooltip:AddDoubleLine(gsub(spellData["name"], "%(DND%)", ""), spellData["str"], 0, .7, .7, 0, .7, .7)
 	end
 end
 
 
 
 function OnTooltip_Item(self, tooltip)
-	if enter == true then
-		return
-	end
-	enter = true
-
 	local isUldirItem = false
 	local itemHeaderAdded = false
 
@@ -437,15 +462,14 @@ function OnTooltip_Item(self, tooltip)
 		if AdvancedTooltips.EnchantData[itemEnchant(link)] ~= nil then
 			AddEnchantInfo(tooltip, itemHeaderAdded, AdvancedTooltips.EnchantData[itemEnchant(link)])
 		end
-	end
+    end
 
 	-- Logic for looking at weapon enchants items
-	if AdvancedTooltips.EnchantData[linkToID(link)] ~= nil then
-		AddEnchantInfo(tooltip, itemHeaderAdded, AdvancedTooltips.EnchantData[linkToID(link)])
+	if AdvancedTooltips.BackupData[linkToID(link)] ~= nil then
+		AddEnchantInfo(tooltip, itemHeaderAdded, AdvancedTooltips.EnchantData[AdvancedTooltips.BackupData[linkToID(link)]])
 	end
 
 	tooltip:Show()
-	enter = false
 end
 
 function OnTooltipSpell(self, tooltip)
