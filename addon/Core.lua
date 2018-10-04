@@ -180,13 +180,13 @@ local function ProcessItem(itemLink, tooltip)
 		tooltip:AddLine(" ")
     
         local azeriteItemLocation = C_AzeriteItem.FindActiveAzeriteItem()
-        local xp, totalLevelXP = C_AzeriteItem.GetAzeriteItemXPInfo(azeriteItemLocation)
-        
-        tooltip:AddDoubleLine("Rank",C_AzeriteItem.GetPowerLevel(azeriteItemLocation), 0,.7,.7,0,.7,.7)
-        tooltip:AddDoubleLine("Progress",string.format("%d/%d (%.2f%%)", xp, totalLevelXP, xp/totalLevelXP*100), 0,.7,.7,0,.7,.7)
-
+        if azeriteItemLocation ~= nil then
+            local xp, totalLevelXP = C_AzeriteItem.GetAzeriteItemXPInfo(azeriteItemLocation)
+            
+            tooltip:AddDoubleLine("Rank",C_AzeriteItem.GetPowerLevel(azeriteItemLocation), 0,.7,.7,0,.7,.7)
+            tooltip:AddDoubleLine("Progress",string.format("%d/%d (%.2f%%)", xp, totalLevelXP, xp/totalLevelXP*100), 0,.7,.7,0,.7,.7)
+        end
 	end
-
 end
 
 function alreadyAdded(str1, tooltip)
