@@ -5,23 +5,23 @@ Advanced Tooltips is an addon for World of Warcraft dedicated to adding more inf
 #### RPPM information
    Azerite Traits
     
-![Azerite Trait](https://i.imgur.com/F85hrn9.png)
+![Azerite Trait](https://i.imgur.com/bU0coZI.png)
 
    Trinkets
    
-![Trinket](https://i.imgur.com/gDFD8O0.png)
+![Trinket](https://i.imgur.com/LMaDwUu.png)
     
    Enchants
     
-![Enchant](https://i.imgur.com/TDJ4zYn.png)
+![Enchant](https://i.imgur.com/eBpswiN.png)
 
 #### Reorigination Array support for Uldir items / traits
 
-![Reorigination Array](https://i.imgur.com/HPWMGl0.png)
+![Reorigination Array](https://i.imgur.com/NdiHUXO.png)
 
 #### Heart of Azeroth level and progress
 
-![HeartOfAzeroth](https://i.imgur.com/oLG21mu.png)
+![HeartOfAzeroth](https://i.imgur.com/6j9ODFa.png)
 
 ## Todo
 - Dynamic information by class / spec for different proc rates
