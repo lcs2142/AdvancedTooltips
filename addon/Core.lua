@@ -196,9 +196,13 @@ function alreadyAdded(str1, tooltip)
 
 	for i = 1,15 do
 		local frame = _G[tooltip:GetName() .. "TextLeft" .. i]
+		local textRight = _G[tooltip:GetName().."TextRight"..i]
 		local text
+		local right
 		if frame then text = frame:GetText() end
 		if text and string.find(text, str1, 1, true) then return true end
+		if textRight then right = textRight:GetText() end
+		if right and string.find(right, str1, 1, true) then return true end
 	  end
 end
 
