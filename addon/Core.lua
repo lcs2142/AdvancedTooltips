@@ -337,11 +337,13 @@ function ItemTooltip(rank, tooltip)
 		-- work around the talent bug (calls OnSetTooltipSpell twice)
         if str2 ~= "" and alreadyAdded(str2, tooltip) then
 			return
+		elseif str3 ~= "" and alreadyAdded(str3, tooltip) then
+			return
 		end
 
 		-- Seperator line, only if we're adding information
 		-- don't return here so we can bring in reorigination array below (archive has no proc)
-		if str2~= "" then tooltip:AddLine(" ") end
+		if (str2~= "" or str3~="") then tooltip:AddLine(" ") end
 
 		if str2 ~= "" then
 			tooltip:AddDoubleLine(str, str2, 0, .7, .7, 0, .7, .7)
