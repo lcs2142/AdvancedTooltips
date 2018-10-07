@@ -34,6 +34,15 @@ tertiary_stats[21] = "Avoidance"
 tertiary_stats[17] = "Leech"
 tertiary_stats[14] = "Speed"
 
+all_stats = {}
+all_stats[9] = "Critical Strike"
+all_stats[18] = "Haste"
+all_stats[26] = "Mastery"
+all_stats[29] = "Versatility"
+all_stats[21] = "Avoidance"
+all_stats[17] = "Leech"
+all_stats[14] = "Speed"
+
 
 ReoriginationArray_Descriptions = {}
 ReoriginationArray_Descriptions[0] = "Reorigination Array Hidden Quest completed for this week."
@@ -366,6 +375,67 @@ function AppendStatInfo(frame, frame_text, stat_value, stat_type, stat_name)
 
 end
 
+function IsComboStats(frame, text)
+	-- This function covers the following cases:
+	-- Increases your Haste, Mastery or Critical Strike by X for 5 seconds
+	-- We want to show Haste (%), Mastery (%), or Critical Strike (%)
+
+	-- Check first for all 4.
+
+	local stat_array = {
+		[9] = AdvancedTooltips.crit_scaling,
+		[14] = AdvancedTooltips.speed_scaling,
+		[17] = AdvancedTooltips.leech_scaling,
+		[18] = AdvancedTooltips.haste_scaling,
+		[21] = AdvancedTooltips.avoidance_scaling,
+		[26] = AdvancedTooltips.mastery_scaling,
+		[29] = AdvancedTooltips.vers_damage_scaling
+	}
+
+	numberStatsInString = 0
+	for k,v in pairs(all_stats) do
+		if string.find(text, v) then
+			numberStatsInString = numberStatsInString + 1
+		end
+	end
+
+	if numberStatsInString < 2 then
+		return false -- Only 1 stat.
+	end
+
+	stat_value = nil
+	for k,v in pairs(all_stats) do
+		if stat_value == nil then
+			stat_value = string.match(text, "and "..v.." by (%d+)")
+			if stat_value == nil then
+				stat_value = string.match(text, "or "..v.." by (%d+)")
+			end
+		end
+	end
+
+	if stat_value == nil then return false end
+
+	-- Ok, we have a value for each stat, replace the name with the name + stat %
+	for k,v in pairs(all_stats) do
+
+		rating_coef = stat_array[k][UnitLevel("player")]
+
+		if k == 26 then
+			-- Mastery, special
+			mastery = stat_value / rating_coef
+			mastery = mastery * select(2, GetMasteryEffect())
+			text = string.gsub(text, v, string.format("%s |cff00b3b3(%.2f%%%%)|r", v, tonumber(mastery)))
+		else
+			text = string.gsub(text, v, string.format("%s |cff00b3b3(%.2f%%%%)|r", v, tonumber(stat_value) / rating_coef))
+		end
+
+		
+	end
+
+	frame:SetText(text)
+
+end
+
 function scanStats(tooltip)
 
 	for i = 1,15 do
@@ -374,33 +444,47 @@ function scanStats(tooltip)
 		local right
 		if frame then text = frame:GetText() end
 		if text then
-			-- Check Primary Stats, then tertiary
-			for k,v in pairs(stats) do
-				sdata = string.match(text, "(%d+) "..v)
-				if sdata ~= nil then
-					AppendStatInfo(frame, text, tonumber(sdata), k, v)
+			if IsComboStats(frame, text) == false then
+				-- Check Primary Stats, then tertiary
+				for k,v in pairs(stats) do
+					sdata = string.match(text, "(%d+) "..v)
+					if sdata ~= nil then
+						AppendStatInfo(frame, text, tonumber(sdata), k, v)
+						text = frame:GetText() -- refresh the text string
+					end
+
+					sdata = string.match(text, v.." by ".."(%d+)")
+					if sdata ~= nil then
+						AppendStatInfo(frame, text, tonumber(sdata), k, v)
+						text = frame:GetText() -- refresh the text string
+					end
+
 				end
 
-				sdata = string.match(text, v.." by ".."(%d+)")
+				for k,v in pairs(tertiary_stats) do
+					sdata = string.match(text, "(%d+) "..v)
+					if sdata ~= nil then
+						AppendStatInfo(frame, text, tonumber(sdata), k, v)
+						text = frame:GetText() -- refresh the text string
+					end
+
+					sdata = string.match(text, v.." by ".."(%d+)")
+					if sdata ~= nil then
+						AppendStatInfo(frame, text, tonumber(sdata), k, v)
+						text = frame:GetText() -- refresh the text string
+					end
+				end
+				
+			-- %d critical strike rating (some do this)
+				sdata = string.match(text, "(%d+) critical strike rating")
 				if sdata ~= nil then
-					AppendStatInfo(frame, text, tonumber(sdata), k, v)
+					AppendStatInfo(frame, text, tonumber(sdata), 9, "critical strike rating")
+					text = frame:GetText() -- refresh the text string
 				end
 
-			end
-
-			for k,v in pairs(tertiary_stats) do
-				sdata = string.match(text, "(%d+) "..v)
-				if sdata ~= nil then
-					AppendStatInfo(frame, text, tonumber(sdata), k, v)
-				end
-
-				sdata = string.match(text, v.." by ".."(%d+)")
-				if sdata ~= nil then
-					AppendStatInfo(frame, text, tonumber(sdata), k, v)
-				end
 			end
 		end
-	  end
+	end
 end
 
 function SpellTooltip(rank, tooltip)
