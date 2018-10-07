@@ -341,7 +341,7 @@ function GetSpellChanceInfo(rank)
 
 end
 
-function AppendStatInfo(frame, frame_text, stat_value, stat_type, stat_name)
+function AppendStatInfo(frame, frame_text, stat_value, stat_type, stat_name, stat_string)
 	
 	-- Note, GetItemStats is NOT used here. This function is useful,
 	--but it would be nice to add stat info for Gems and Enchants!
@@ -364,12 +364,12 @@ function AppendStatInfo(frame, frame_text, stat_value, stat_type, stat_name)
 		-- Mastery, special
 		mastery = stat_value / rating_coef
 		mastery = mastery * select(2, GetMasteryEffect())
-		s = string.gsub(frame_text, stat_value.." "..stat_name, string.format("%d %s |cff00b3b3(%.2f%%%%)|r", stat_value, stat_name, mastery))
-		s2 = string.gsub(s, stat_name.." by "..stat_value, string.format("%s by %d |cff00b3b3(%.2f%%%%)|r", stat_name, stat_value, mastery))
+		s = string.gsub(frame_text, stat_string.." "..stat_name, string.format("%s %s |cff00b3b3(%.2f%%%%)|r", stat_string, stat_name, mastery))
+		s2 = string.gsub(s, stat_name.." by "..stat_string, string.format("%s by %s |cff00b3b3(%.2f%%%%)|r", stat_name, stat_string, mastery))
 		frame:SetText(s2)
 	else
-		s = string.gsub(frame_text, stat_value.." "..stat_name, string.format("%d %s |cff00b3b3(%.2f%%%%)|r", stat_value, stat_name, stat_value / rating_coef))
-		s2 = string.gsub(s, stat_name.." by "..stat_value, string.format("%s by %d |cff00b3b3(%.2f%%%%)|r", stat_name, stat_value, stat_value / rating_coef))
+		s = string.gsub(frame_text, stat_string.." "..stat_name, string.format("%s %s |cff00b3b3(%.2f%%%%)|r", stat_string, stat_name, stat_value / rating_coef))
+		s2 = string.gsub(s, stat_name.." by "..stat_string, string.format("%s by %s |cff00b3b3(%.2f%%%%)|r", stat_name, stat_string, stat_value / rating_coef))
 		frame:SetText(s2)
 	end
 
@@ -406,14 +406,16 @@ function IsComboStats(frame, text)
 	stat_value = nil
 	for k,v in pairs(all_stats) do
 		if stat_value == nil then
-			stat_value = string.match(text, "and "..v.." by (%d+)")
+			stat_value = string.match(text, "and "..v.." by ([,%d]+)")
 			if stat_value == nil then
-				stat_value = string.match(text, "or "..v.." by (%d+)")
+				stat_value = string.match(text, "or "..v.." by ([,%d]+)")
 			end
 		end
 	end
 
 	if stat_value == nil then return false end
+
+	stat_value = string.gsub(stat_value, ",", "")
 
 	-- Ok, we have a value for each stat, replace the name with the name + stat %
 	for k,v in pairs(all_stats) do
@@ -436,6 +438,29 @@ function IsComboStats(frame, text)
 
 end
 
+function updateStats(frame, text, arr)
+	for k,v in pairs(arr) do
+		for sdata in string.gmatch(text, "([,%d]+) "..v) do
+			if sdata ~= nil then
+				sdata_raw = sdata
+				sdata = string.gsub(sdata, ",", "")
+				AppendStatInfo(frame, text, tonumber(sdata), k, v, sdata_raw)
+				text = frame:GetText() -- refresh the text string
+			end
+		end
+
+
+		for sdata in string.gmatch(text, v.." by ".."([,%d]+)") do
+			if sdata ~= nil then
+				sdata_raw = sdata
+				sdata = string.gsub(sdata, ",", "")
+				AppendStatInfo(frame, text, tonumber(sdata), k, v, sdata_raw)
+				text = frame:GetText() -- refresh the text string
+			end
+		end
+	end
+end
+
 function scanStats(tooltip)
 
 	for i = 1,15 do
@@ -445,40 +470,17 @@ function scanStats(tooltip)
 		if frame then text = frame:GetText() end
 		if text then
 			if IsComboStats(frame, text) == false then
-				-- Check Primary Stats, then tertiary
-				for k,v in pairs(stats) do
-					sdata = string.match(text, "(%d+) "..v)
-					if sdata ~= nil then
-						AppendStatInfo(frame, text, tonumber(sdata), k, v)
-						text = frame:GetText() -- refresh the text string
-					end
+				updateStats(frame, text, stats)
+				text = frame:GetText() -- get the updated text prior to updating tertiary
+				updateStats(frame, text, tertiary_stats)
 
-					sdata = string.match(text, v.." by ".."(%d+)")
-					if sdata ~= nil then
-						AppendStatInfo(frame, text, tonumber(sdata), k, v)
-						text = frame:GetText() -- refresh the text string
-					end
-
-				end
-
-				for k,v in pairs(tertiary_stats) do
-					sdata = string.match(text, "(%d+) "..v)
-					if sdata ~= nil then
-						AppendStatInfo(frame, text, tonumber(sdata), k, v)
-						text = frame:GetText() -- refresh the text string
-					end
-
-					sdata = string.match(text, v.." by ".."(%d+)")
-					if sdata ~= nil then
-						AppendStatInfo(frame, text, tonumber(sdata), k, v)
-						text = frame:GetText() -- refresh the text string
-					end
-				end
 				
 			-- %d critical strike rating (some do this)
-				sdata = string.match(text, "(%d+) critical strike rating")
+				sdata = string.match(text, "([,%d]+) critical strike rating")
 				if sdata ~= nil then
-					AppendStatInfo(frame, text, tonumber(sdata), 9, "critical strike rating")
+					sdata_raw = sdata
+					sdata = string.gsub(sdata, ",", "")
+					AppendStatInfo(frame, text, tonumber(sdata), 9, "critical strike rating", sdata_raw)
 					text = frame:GetText() -- refresh the text string
 				end
 
