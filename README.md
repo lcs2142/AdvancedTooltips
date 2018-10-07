@@ -5,7 +5,7 @@ Advanced Tooltips is an addon for World of Warcraft dedicated to adding more inf
 #### RPPM information
    Azerite Traits
     
-![Azerite Trait](https://i.imgur.com/bU0coZI.png)
+![Azerite Trait](https://i.imgur.com/CsZdaWN.png)
 
    Trinkets
    
