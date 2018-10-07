@@ -29,6 +29,12 @@ stats[18] = "Haste"
 stats[26] = "Mastery"
 stats[29] = "Versatility"
 
+tertiary_stats = {}
+tertiary_stats[21] = "Avoidance"
+tertiary_stats[17] = "Leech"
+tertiary_stats[14] = "Speed"
+
+
 ReoriginationArray_Descriptions = {}
 ReoriginationArray_Descriptions[0] = "Reorigination Array Hidden Quest completed for this week."
 ReoriginationArray_Descriptions[1] = "Defeat 1 more boss in Uldir this week."
@@ -326,7 +332,78 @@ function GetSpellChanceInfo(rank)
 
 end
 
-function ItemTooltip(rank, tooltip)
+function AppendStatInfo(frame, frame_text, stat_value, stat_type, stat_name)
+	
+	-- Note, GetItemStats is NOT used here. This function is useful,
+	--but it would be nice to add stat info for Gems and Enchants!
+
+	local stat_array = {
+		[9] = AdvancedTooltips.crit_scaling,
+		[14] = AdvancedTooltips.speed_scaling,
+		[17] = AdvancedTooltips.leech_scaling,
+		[18] = AdvancedTooltips.haste_scaling,
+		[21] = AdvancedTooltips.avoidance_scaling,
+		[26] = AdvancedTooltips.mastery_scaling,
+		[29] = AdvancedTooltips.vers_damage_scaling
+	}
+
+	rating_coef = stat_array[stat_type][UnitLevel("player")]
+
+	if stat_value == nil then return end
+
+	if stat_type == 26 then
+		-- Mastery, special
+		mastery = stat_value / rating_coef
+		mastery = mastery * select(2, GetMasteryEffect())
+		s = string.gsub(frame_text, stat_value.." "..stat_name, string.format("%d %s |cff00b3b3(%.2f%%%%)|r", stat_value, stat_name, mastery))
+		s2 = string.gsub(s, stat_name.." by "..stat_value, string.format("%s by %d |cff00b3b3(%.2f%%%%)|r", stat_name, stat_value, mastery))
+		frame:SetText(s2)
+	else
+		s = string.gsub(frame_text, stat_value.." "..stat_name, string.format("%d %s |cff00b3b3(%.2f%%%%)|r", stat_value, stat_name, stat_value / rating_coef))
+		s2 = string.gsub(s, stat_name.." by "..stat_value, string.format("%s by %d |cff00b3b3(%.2f%%%%)|r", stat_name, stat_value, stat_value / rating_coef))
+		frame:SetText(s2)
+	end
+
+end
+
+function scanStats(tooltip)
+
+	for i = 1,15 do
+		local frame = _G[tooltip:GetName() .. "TextLeft" .. i]
+		local text
+		local right
+		if frame then text = frame:GetText() end
+		if text then
+			-- Check Primary Stats, then tertiary
+			for k,v in pairs(stats) do
+				sdata = string.match(text, "(%d+) "..v)
+				if sdata ~= nil then
+					AppendStatInfo(frame, text, tonumber(sdata), k, v)
+				end
+
+				sdata = string.match(text, v.." by ".."(%d+)")
+				if sdata ~= nil then
+					AppendStatInfo(frame, text, tonumber(sdata), k, v)
+				end
+
+			end
+
+			for k,v in pairs(tertiary_stats) do
+				sdata = string.match(text, "(%d+) "..v)
+				if sdata ~= nil then
+					AppendStatInfo(frame, text, tonumber(sdata), k, v)
+				end
+
+				sdata = string.match(text, v.." by ".."(%d+)")
+				if sdata ~= nil then
+					AppendStatInfo(frame, text, tonumber(sdata), k, v)
+				end
+			end
+		end
+	  end
+end
+
+function SpellTooltip(rank, tooltip)
 	str = ""
 	str2 = ""
 	if AdvancedTooltips.SpellData[rank] ~= nil then
@@ -358,6 +435,9 @@ function ItemTooltip(rank, tooltip)
 	if rank == 280555 or rank == 280559 then
 		AddReoriginationInfo(tooltip)
 	end
+
+	-- Try collecting stats
+	scanStats(tooltip)
 end
 
 
@@ -473,6 +553,9 @@ function OnTooltip_Item(self, tooltip)
 		AddEnchantInfo(tooltip, itemHeaderAdded, AdvancedTooltips.EnchantData[AdvancedTooltips.BackupData[linkToID(link)]])
 	end
 
+	-- collect stat data
+	scanStats(tooltip)
+
 	tooltip:Show()
 end
 
@@ -480,7 +563,7 @@ function OnTooltipSpell(self, tooltip)
 	-- Case for linked spell
 	local name,rank,id = self:GetSpell()
 	if rank ~= nil then
-		ItemTooltip(rank, tooltip)
+		SpellTooltip(rank, tooltip)
 	end
 	tooltip:Show()
 end
