@@ -463,7 +463,7 @@ end
 
 function scanStats(tooltip)
 
-	for i = 1,15 do
+	for i = 1,30 do
 		local frame = _G[tooltip:GetName() .. "TextLeft" .. i]
 		local text
 		local right
