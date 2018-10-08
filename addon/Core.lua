@@ -6,6 +6,12 @@ local lwin = LibStub("LibWindow-1.1")
 local libCE = libC:GetAddonEncodeTable()
 local LSM = LibStub("LibSharedMedia-3.0")
 
+AdvancedTooltips_Config = {}
+AdvancedTooltips_Config.stats = true
+AdvancedTooltips_Config.R = 0
+AdvancedTooltips_Config.G = .7
+AdvancedTooltips_Config.B = .7
+
 ReoriginationArray_Weekly = {}
 ReoriginationArray_Weekly[1] = 53568
 ReoriginationArray_Weekly[2] = 53569
@@ -90,7 +96,78 @@ function AdvancedTooltips:RestoreDefaults()
 	LibStub("AceConfigRegistry-3.0"):NotifyChange("AdvancedTooltips")
 end
 
-local blizOptionsPanel
+function GetCurrentColorAsHexDigits()
+	return 255 * AdvancedTooltips_Config.R, 255 * AdvancedTooltips_Config.G, 255 * AdvancedTooltips_Config.B
+end
+
+function formatWithCurrentColor(string)
+	return string.format("|cff%02x%02x%02x"..string.gsub(string, "%%", "%%%%").."|r", GetCurrentColorAsHexDigits())
+end
+
+function colorPickerChanged(restore)
+	if restore then
+		AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B = unpack(ColorPickerFrame.previousValues)
+		return
+	end
+
+	AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B = ColorPickerFrame:GetColorRGB()
+
+	_G["AdvancedTooltips_Config.R"] = AdvancedTooltips_Config.R
+	_G["AdvancedTooltips_Config.G"] = AdvancedTooltips_Config.G
+	_G["AdvancedTooltips_Config.B"] = AdvancedTooltips_Config.B
+end
+
+
+SLASH_ADVANCEDTOOLTIPS1 = "/advancedtooltips"
+function SlashCmdList.AdvancedTooltips(msg)
+	if msg == "" then 
+		print("Advanced Tooltips")
+		statsString = ""
+		if AdvancedTooltips_Config.stats == true then
+			statsString = "|cff00ff00Enabled|r"
+		else
+			statsString = "|cffff0000Disabled|r"
+		end
+
+		print("        Stats - "..statsString.." - Enable or disable the showing of stat -> percentage in tooltips. (on|off)")
+		print("        Color - Change the color of the text displayed in the tooltips. - "..formatWithCurrentColor(string.format("Current Color", GetCurrentColorAsHexDigits())))
+	end
+
+	strings = {}
+	stringCount = 1
+	for str in string.gmatch(msg, "%S+") do
+		strings[stringCount] = str
+		stringCount = stringCount + 1
+	end
+
+	if strings[1] == "stats" or strings[1] == "Stats" then
+		if strings[2] == "off" or strings[2] == "disable" then
+			AdvancedTooltips_Config.stats = false
+			print("Advanced Tooltips - Stat information |cffff0000disabled.|r")
+		elseif strings[2] == "on" or strings[2] == "enable" then
+			AdvancedTooltips_Config.stats = true
+			print("Advanced Tooltips - Stat information |cff00ff00enabled.|r")			
+		else
+			print("Usage: /att stats (on|off)")
+		end
+
+		_G["AdvancedTooltips_Config.stats"] = AdvancedTooltips_Config.stats
+	end
+
+	if strings[1] == "color" or strings[1] == "Color" then
+		ColorPickerFrame:SetColorRGB(AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		ColorPickerFrame.hasOpacity = false
+		ColorPickerFrame.previousValues = {AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B}
+		ColorPickerFrame.func, ColorPickerFrame.cancelFunc = colorPickerChanged, colorPickerChanged
+	   	ColorPickerFrame:Hide(); -- Need to run the OnShow handler.
+	   	ColorPickerFrame:Show();
+
+	end
+
+end
+
+SlashCmdList["ADVANCEDTOOLTIPS"] = SlashCmdList.AdvancedTooltips
+
 function AdvancedTooltips:OnInitialize()
 	if AdvancedTooltips_State == nil then
 		AdvancedTooltips_State = {  }
@@ -99,36 +176,6 @@ function AdvancedTooltips:OnInitialize()
 
 	local ver = AdvancedTooltips_Version
 	if ver:sub(1,1) == "@" then ver = "dev" end
-	
-	local options = {
-		name = "Advanced Tooltips "..ver,
-		handler = AdvancedTooltips,
-		type = "group",
-		args = {
-			RandomType = {
-				type = "toggle",
-				order = 1,
-				name = "RandomType",
-				desc = "Enables / Disables the showing of the type of a random effect.",
-				set = function(info,val) AdvancedTooltips_Config.randomType = val end,
-				get = function(inf0) return AdvancedTooltips_Config.randomType end
-			},
-			help = {
-				type = "execute",
-				order = 99,
-				name = "Help",
-				hidden = true,
-				func = function()
-					LibStub("AceConfigCmd-3.0").HandleCommand(self, "att", "AdvancedTooltips", "")
-				end
-			},
-		}
-	}
-
-	self:RegisterChatCommand("att", "ChatCommand")
-	LibStub("AceConfig-3.0"):RegisterOptionsTable("AdvancedTooltips", options)
-
-	-- Fill in reorigination array quest text
 end
 
 function AdvancedTooltips:ChatCommand(input)
@@ -182,9 +229,9 @@ local function ProcessItem(itemLink, tooltip)
 				else
 					strRight = strRight..string.format("%.2f%%", item[i][E_CHANCE])
 				end
-                tooltip:AddDoubleLine(strLeft, strRight, 0, .7, .7, 0, .7, .7)
+                tooltip:AddDoubleLine(strLeft, strRight, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
                 if item[i][E_ICD] ~= 0 then
-                    tooltip:AddDoubleLine(" ", string.format(" %.1f second ICD", item[i][E_ICD] / 1000), 0, .7, .7, 0, .7, .7)
+                    tooltip:AddDoubleLine(" ", string.format(" %.1f second ICD", item[i][E_ICD] / 1000), AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
                 end
 			end
 		end
@@ -198,8 +245,8 @@ local function ProcessItem(itemLink, tooltip)
         if azeriteItemLocation ~= nil then
             local xp, totalLevelXP = C_AzeriteItem.GetAzeriteItemXPInfo(azeriteItemLocation)
             
-            tooltip:AddDoubleLine("Rank",C_AzeriteItem.GetPowerLevel(azeriteItemLocation), 0,.7,.7,0,.7,.7)
-            tooltip:AddDoubleLine("Progress",string.format("%d/%d (%.2f%%)", xp, totalLevelXP, xp/totalLevelXP*100), 0,.7,.7,0,.7,.7)
+            tooltip:AddDoubleLine("Rank",C_AzeriteItem.GetPowerLevel(azeriteItemLocation), AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+            tooltip:AddDoubleLine("Progress",string.format("%d/%d (%.2f%%)", xp, totalLevelXP, xp/totalLevelXP*100), AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
         end
 	end
 end
@@ -231,7 +278,7 @@ function AddReoriginationInfo(tooltip)
 		ReoriginationLevel = ReoriginationLevel - 1
 	end
 
-	tooltip:AddDoubleLine("Reorigination Stacks: ", ReoriginationLevel.."/10", 0, .7, .7, 0, .7, .7)
+	tooltip:AddDoubleLine("Reorigination Stacks: ", ReoriginationLevel.."/10", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
 
 	if ReoriginationLevel ~= 10 then
 		local WeeklyKills = 3
@@ -252,9 +299,9 @@ function AddReoriginationInfo(tooltip)
 			colorString = "|cff00ff00"
 		end
 
-		tooltip:AddDoubleLine("Weekly: ", colorString..WeeklyKills.."/3", 0, .7, .7, 0, .7, .7)
+		tooltip:AddDoubleLine("Weekly: ", colorString..WeeklyKills.."/3", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
 	else
-		tooltip:AddDoubleLine("Weekly", "|cff00ff00Max", 0, .7, .7, 0, .7, .7)
+		tooltip:AddDoubleLine("Weekly", "|cff00ff00Max", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
 	end
 
 	-- Grab the secondary stats to give the benefit
@@ -271,7 +318,7 @@ function AddReoriginationInfo(tooltip)
 		end
 	end
 
-    tooltip:AddDoubleLine("Bonus: ", 75 * ReoriginationLevel.." "..stats[largest], 0, .7, .7, 0, .7, .7)
+    tooltip:AddDoubleLine("Bonus: ", 75 * ReoriginationLevel.." "..stats[largest], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
     
     -- Check for Vantus:
     UldirVantus = false
@@ -293,7 +340,7 @@ function AddReoriginationInfo(tooltip)
             end
         end
 
-        tooltip:AddDoubleLine("Bonus (Vantus): ", 75 * ReoriginationLevel.." "..stats[largest], 0, .7, .7, 0, .7, .7)
+        tooltip:AddDoubleLine("Bonus (Vantus): ", 75 * ReoriginationLevel.." "..stats[largest], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
         
     end
 end
@@ -364,12 +411,12 @@ function AppendStatInfo(frame, frame_text, stat_value, stat_type, stat_name, sta
 		-- Mastery, special
 		mastery = stat_value / rating_coef
 		mastery = mastery * select(2, GetMasteryEffect())
-		s = string.gsub(frame_text, stat_string.." "..stat_name, string.format("%s %s |cff00b3b3(%.2f%%%%)|r", stat_string, stat_name, mastery))
-		s2 = string.gsub(s, stat_name.." by "..stat_string, string.format("%s by %s |cff00b3b3(%.2f%%%%)|r", stat_name, stat_string, mastery))
+		s = string.gsub(frame_text, stat_string.." "..stat_name, string.format("%s %s "..formatWithCurrentColor(string.format("(%.2f%%%%%%%%)", mastery)), stat_string, stat_name))
+		s2 = string.gsub(s, stat_name.." by "..stat_string, string.format("%s by %s "..formatWithCurrentColor(string.format("(%.2f%%%%%%%%)", mastery)), stat_name, stat_string, mastery))
 		frame:SetText(s2)
 	else
-		s = string.gsub(frame_text, stat_string.." "..stat_name, string.format("%s %s |cff00b3b3(%.2f%%%%)|r", stat_string, stat_name, stat_value / rating_coef))
-		s2 = string.gsub(s, stat_name.." by "..stat_string, string.format("%s by %s |cff00b3b3(%.2f%%%%)|r", stat_name, stat_string, stat_value / rating_coef))
+		s = string.gsub(frame_text, stat_string.." "..stat_name, string.format("%s %s "..formatWithCurrentColor(string.format("(%.2f%%%%%%%%)", stat_value / rating_coef)), stat_string, stat_name))
+		s2 = string.gsub(s, stat_name.." by "..stat_string, string.format("%s by %s "..formatWithCurrentColor(string.format("(%.2f%%%%%%%%)", stat_value / rating_coef)), stat_name, stat_string, stat_value / rating_coef))
 		frame:SetText(s2)
 	end
 
@@ -426,9 +473,9 @@ function IsComboStats(frame, text)
 			-- Mastery, special
 			mastery = stat_value / rating_coef
 			mastery = mastery * select(2, GetMasteryEffect())
-			text = string.gsub(text, v, string.format("%s |cff00b3b3(%.2f%%%%)|r", v, tonumber(mastery)))
+			text = string.gsub(text, v, string.format("%s "..formatWithCurrentColor(string.format("(%.2f%%%%%%%%)", tonumber(mastery))), v))
 		else
-			text = string.gsub(text, v, string.format("%s |cff00b3b3(%.2f%%%%)|r", v, tonumber(stat_value) / rating_coef))
+			text = string.gsub(text, v, string.format("%s "..formatWithCurrentColor(string.format("(%.2f%%%%%%%%)", tonumber(stat_value) / rating_coef)), v))
 		end
 
 		
@@ -462,6 +509,9 @@ function updateStats(frame, text, arr)
 end
 
 function scanStats(tooltip)
+
+	-- Don't display stat conversion if the user disabled it.
+	if AdvancedTooltips_Config.stats == false then return end
 
 	for i = 1,30 do
 		local frame = _G[tooltip:GetName() .. "TextLeft" .. i]
@@ -509,11 +559,11 @@ function SpellTooltip(rank, tooltip)
 		if (str2~= "" or str3~="") then tooltip:AddLine(" ") end
 
 		if str2 ~= "" then
-			tooltip:AddDoubleLine(str, str2, 0, .7, .7, 0, .7, .7)
+			tooltip:AddDoubleLine(str, str2, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
         end
         
         if str3 ~= "" then
-            tooltip:AddDoubleLine(" ", str3, 0, .7, .7, 0, .7, .7)
+            tooltip:AddDoubleLine(" ", str3, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
         end
 	end
 	
@@ -567,9 +617,9 @@ function AddEnchantInfo(tooltip, itemHeaderAdded, spellID)
 			tooltip:AddLine(" ")
         end
         -- Remove (DND) from some enchant strings.
-        tooltip:AddDoubleLine(gsub(spellData["proc_name"], "%(DND%)", ""), spellData["proc_info"], 0, .7, .7, 0, .7, .7)
+        tooltip:AddDoubleLine(gsub(spellData["proc_name"], "%(DND%)", ""), spellData["proc_info"], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
         if spellData["proc_icd"] ~= "" then
-            tooltip:AddDoubleLine(" ", spellData["proc_icd"], 0, .7, .7, 0, .7, .7)
+            tooltip:AddDoubleLine(" ", spellData["proc_icd"], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
         end
 	end
 end
@@ -607,7 +657,7 @@ function OnTooltip_Item(self, tooltip)
 									tooltip:AddLine(" ")
 									itemHeaderAdded = true
 								end
-                                tooltip:AddDoubleLine(spellInfo["proc_name"], spellInfo["proc_info"], 0, .7, .7, 0, .7, .7)
+                                tooltip:AddDoubleLine(spellInfo["proc_name"], spellInfo["proc_info"], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
 							end
 						end
 					end
@@ -656,6 +706,12 @@ end
 
 
 function AdvancedTooltips:OnEnable()
+	
+	--if _G["AdvancedTooltips_Config.stats"] == nil then AdvancedTooltips_Config.stats = true else AdvancedTooltips_Config.stats = _G["AdvancedTooltips_Config.stats"] end
+	--if _G["AdvancedTooltips_Config.R"] == nil then AdvancedTooltips_Config.R = 0.0 else AdvancedTooltips_Config.R = _G["AdvancedTooltips_Config.R"] end
+	--if _G["AdvancedTooltips_Config.G"] == nil then AdvancedTooltips_Config.G = .7 else AdvancedTooltips_Config.G = _G["AdvancedTooltips_Config.G"] end
+	--if _G["AdvancedTooltips_Config.B"] == nil then AdvancedTooltips_Config.B = .7 else AdvancedTooltips_Config.B = _G["AdvancedTooltips_Config.B"] end
+
 	GameTooltip:HookScript("OnTooltipSetItem", function(...) OnTooltip_Item(..., GameTooltip) end)
 	ItemRefTooltip:HookScript("OnTooltipSetItem", function(...) OnTooltip_Item(..., ItemRefTooltip) end)
 	ShoppingTooltip1:HookScript("OnTooltipSetItem", function(...) OnTooltip_Item(..., ShoppingTooltip1) end)
