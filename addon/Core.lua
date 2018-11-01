@@ -38,7 +38,7 @@ stats[29] = "Versatility"
 tertiary_stats = {}
 tertiary_stats[21] = "Avoidance"
 tertiary_stats[17] = "Leech"
-tertiary_stats[14] = "Speed"
+--tertiary_stats[14] = "Speed"
 
 all_stats = {}
 all_stats[9] = "Critical Strike"
@@ -47,7 +47,7 @@ all_stats[26] = "Mastery"
 all_stats[29] = "Versatility"
 all_stats[21] = "Avoidance"
 all_stats[17] = "Leech"
-all_stats[14] = "Speed"
+--all_stats[14] = "Speed"
 
 
 ReoriginationArray_Descriptions = {}
@@ -62,6 +62,8 @@ E_NAME = 3
 E_ICD = 4
 E_AZERITE_POWER = 5
 E_SPELLID = 6
+E_DESC = 7
+E_REFID = 8
 
 -----------------
 -- Addon Setup --
@@ -453,9 +455,9 @@ function IsComboStats(frame, text)
 	stat_value = nil
 	for k,v in pairs(all_stats) do
 		if stat_value == nil then
-			stat_value = string.match(text, "and "..v.." by ([,%d]+)")
+			stat_value = string.match(text, "and "..v.." by ([,%d]+)[^%%]")
 			if stat_value == nil then
-				stat_value = string.match(text, "or "..v.." by ([,%d]+)")
+				stat_value = string.match(text, "or "..v.." by ([,%d]+)[^%%]")
 			end
 		end
 	end
@@ -497,7 +499,7 @@ function updateStats(frame, text, arr)
 		end
 
 
-		for sdata in string.gmatch(text, v.." by ".."([,%d]+)") do
+		for sdata in string.gmatch(text, v.." by ".."([,%d]+[^%%]) ") do
 			if sdata ~= nil then
 				sdata_raw = sdata
 				sdata = string.gsub(sdata, ",", "")
@@ -539,9 +541,26 @@ function scanStats(tooltip)
 	end
 end
 
+function ProcessOneOffs(rank, tooltip)
+	if rank == 280580 then
+		 tooltip:AddLine(" ")
+		 tooltip:AddLine([[When this triggers, it will spawn a banner that will 
+grant additional stats to yourself and up to 4 nearby 
+allies. The buff will depend on the banner that spawns, 
+which is random:]], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		 tooltip:AddLine(" ")
+		 tooltip:AddDoubleLine("Might of the Forsaken",  "Critical Strike", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		 tooltip:AddDoubleLine("Might of the Orcs",  "Attack/Spell Power", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		 tooltip:AddDoubleLine("Might of the Sin'dorei",  "Mastery", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		 tooltip:AddDoubleLine("Might of the Tauren",  "Versatility", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		 tooltip:AddDoubleLine("Might of the Trolls",  "Haste", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	end
+end
+
 function SpellTooltip(rank, tooltip)
 	str = ""
 	str2 = ""
+	Header = false
 	if AdvancedTooltips.SpellData[rank] ~= nil then
 		local str = GetSpellChanceInfo(rank)["proc_name"]
         local str2 = GetSpellChanceInfo(rank)["proc_info"]
@@ -556,7 +575,10 @@ function SpellTooltip(rank, tooltip)
 
 		-- Seperator line, only if we're adding information
 		-- don't return here so we can bring in reorigination array below (archive has no proc)
-		if (str2~= "" or str3~="") then tooltip:AddLine(" ") end
+		if (str2~= "" or str3~="") then 
+			tooltip:AddLine(" ")
+			header = true
+		end
 
 		if str2 ~= "" then
 			tooltip:AddDoubleLine(str, str2, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
@@ -574,6 +596,10 @@ function SpellTooltip(rank, tooltip)
 
 	-- Try collecting stats
 	scanStats(tooltip)
+
+	-- Add any hand driven information.
+	ProcessOneOffs(rank, tooltip)
+
 end
 
 
