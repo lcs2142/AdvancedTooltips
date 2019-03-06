@@ -350,6 +350,13 @@ end
 
 
 function GetSpellChanceInfo(rank)
+
+	-- Bonded Souls hack.
+	-- Bonded Souls IDs report 288802, but the data is held in 288804.
+	if rank == 288802 then
+		rank = 288804
+	end
+
 	if AdvancedTooltips.SpellData[rank] == nil then return nil end
 
 	str = ""
@@ -554,6 +561,26 @@ which is random:]], AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, Advanc
 		 tooltip:AddDoubleLine("Might of the Sin'dorei",  "Mastery", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
 		 tooltip:AddDoubleLine("Might of the Tauren",  "Versatility", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
 		 tooltip:AddDoubleLine("Might of the Trolls",  "Haste", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	elseif rank == 288749 then
+		-- Get specalization stats
+		primStatStr = "Primary Stat"
+		local curSpec = GetSpecialization()
+		if curSpec ~= nil then
+			local specStatType = select(6, GetSpecializationInfo(curSpec))
+			if specStatType == 1 then
+				primStatStr = "Strength"
+			elseif specStatType == 2 then
+				primStatStr = "Agility"
+			elseif specStatType == 4 then
+				primStatStr = "Intellect"
+			end
+		else
+			print("curspec = nil")
+		end
+		tooltip:AddLine(" ")
+		tooltip:AddDoubleLine("All Stats", string.format("%s", primStatStr), AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		tooltip:AddDoubleLine(" ", "Stamina", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)		
+		tooltip:AddLine(" ")
 	end
 end
 
@@ -650,6 +677,33 @@ function AddEnchantInfo(tooltip, itemHeaderAdded, spellID)
 	end
 end
 
+function ProcessItemOneOffs(id, header, tooltip)
+
+	-- Ward of Envelopment
+	-- Increased by 7.5% per ally, up to 30%
+	if id == 165569 then
+
+		if header == false then
+			tooltip:AddLine(" ")
+        end
+
+		tooltip:AddLine("Absorption increased by 7.5% per ally, up to 30%.", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	elseif id == 165928 or id == 165928 or id == 165926 or id == 152632 then
+		tooltip:AddLine(" ")
+		tooltip:AddDoubleLine("Potion of Replenishment", "35,084", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		tooltip:AddDoubleLine("Coastal Mana Potion", "15,557", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		tooltip:AddDoubleLine("Coastal Rejuvenation Potion", "11,668", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	elseif id == 165567 or id == 165512 then
+		tooltip:AddLine(" ")
+		tooltip:AddDoubleLine("Zuldazar", "Outdoors", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		tooltip:AddDoubleLine(" ", "Battle for Dazar'alor", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		tooltip:AddDoubleLine(" ", "King's Rest", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		tooltip:AddDoubleLine(" ", "Atal'Dazar", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		
+	end
+
+
+end
 
 
 function OnTooltip_Item(self, tooltip)
@@ -717,6 +771,9 @@ function OnTooltip_Item(self, tooltip)
 
 	-- collect stat data
 	scanStats(tooltip)
+
+	-- Add any custom tooltip data
+	ProcessItemOneOffs(linkToID(link), itemHeaderAdded, tooltip)
 
 	tooltip:Show()
 end

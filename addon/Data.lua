@@ -7,6 +7,159 @@ E_SPELLID = 6
 E_DESC = 7
 E_REFID = 8
 AdvancedTooltips.Items = {
+	[870] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Fiery War Axe",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265000,
+		},
+	},
+	[871] = {
+		[1] = {
+			[E_CHANCE] = 2,
+			[E_RPPM] = 1,
+			[E_NAME] = "Thrash Blade",
+			[E_ICD] = 0,
+			[E_SPELLID] = 182395,
+		},
+	},
+	[942] = {
+		[2] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 0,
+			[E_NAME] = "Freeze",
+			[E_ICD] = 0,
+			[E_SPELLID] = 18799,
+		},
+	},
+	[2243] = {
+		[1] = {
+			[E_CHANCE] = 20,
+			[E_RPPM] = 0,
+			[E_NAME] = "Odd Feeling",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 193841,
+		},
+	},
+	[9372] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Sul\'thraze",
+			[E_ICD] = 0,
+			[E_SPELLID] = 258933,
+		},
+	},
+	[10847] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Dragon\'s Call",
+			[E_ICD] = 0,
+			[E_SPELLID] = 250093,
+		},
+	},
+	[11684] = {
+		[1] = {
+			[E_CHANCE] = 2,
+			[E_RPPM] = 1,
+			[E_NAME] = "Thrash Blade",
+			[E_ICD] = 0,
+			[E_SPELLID] = 182395,
+		},
+	},
+	[12590] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Felstriker",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265083,
+		},
+	},
+	[13262] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Ashbringer",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265170,
+		},
+	},
+	[14557] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 0,
+			[E_NAME] = "The Lion Horn of Stormwind",
+			[E_ICD] = 0,
+			[E_SPELLID] = 20847,
+		},
+	},
+	[17193] = {
+		[1] = {
+			[E_CHANCE] = 0.25,
+			[E_RPPM] = 1,
+			[E_NAME] = "Sulfuron Hammer",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265240,
+		},
+	},
+	[17780] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Blade of Eternal Darkness",
+			[E_ICD] = 0,
+			[E_SPELLID] = 259005,
+		},
+	},
+	[18348] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Quel\'Serrar",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265255,
+		},
+	},
+	[19170] = {
+		[1] = {
+			[E_CHANCE] = 0.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Ebon Hand",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265270,
+		},
+	},
+	[19288] = {
+		[1] = {
+			[E_CHANCE] = 2,
+			[E_RPPM] = 0,
+			[E_NAME] = "Aura of the Blue Dragon",
+			[E_ICD] = 0,
+			[E_SPELLID] = 23688,
+		},
+	},
+	[21128] = {
+		[2] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Mystical Disjunction",
+			[E_ICD] = 0,
+			[E_SPELLID] = 25767,
+		},
+	},
+	[21190] = {
+		[1] = {
+			[E_CHANCE] = 5,
+			[E_RPPM] = 0,
+			[E_NAME] = "Spell Blasting",
+			[E_ICD] = 0,
+			[E_SPELLID] = 25906,
+		},
+	},
 	[28370] = {
 		[1] = {
 			[E_CHANCE] = 10,
@@ -14,6 +167,312 @@ AdvancedTooltips.Items = {
 			[E_NAME] = "Proc Mana Regen",
 			[E_ICD] = 50000,
 			[E_SPELLID] = 38334,
+		},
+	},
+	[28437] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Drakefist Hammer",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265274,
+		},
+	},
+	[28438] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Dragonmaw",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265276,
+		},
+	},
+	[28441] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Deep Thunder",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265278,
+		},
+	},
+	[28442] = {
+		[1] = {
+			[E_CHANCE] = 0.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Stormherald",
+			[E_ICD] = 0,
+			[E_SPELLID] = 265282,
+		},
+	},
+	[28823] = {
+		[2] = {
+			[E_CHANCE] = 2,
+			[E_RPPM] = 0,
+			[E_NAME] = "Healing Discount",
+			[E_ICD] = 0,
+			[E_SPELLID] = 37705,
+		},
+	},
+	[29297] = {
+		[2] = {
+			[E_CHANCE] = 3,
+			[E_RPPM] = 0,
+			[E_NAME] = "Band of the Eternal Defender",
+			[E_ICD] = 60000,
+			[E_SPELLID] = 35077,
+		},
+	},
+	[29305] = {
+		[2] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Band of the Eternal Sage",
+			[E_ICD] = 60000,
+			[E_SPELLID] = 35083,
+		},
+	},
+	[29309] = {
+		[3] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Band of the Eternal Restorer",
+			[E_ICD] = 60000,
+			[E_SPELLID] = 35086,
+		},
+	},
+	[30447] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Spell Damage",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 37197,
+		},
+	},
+	[30450] = {
+		[1] = {
+			[E_CHANCE] = 25,
+			[E_RPPM] = 0,
+			[E_NAME] = "Armor Penetration",
+			[E_ICD] = 30000,
+			[E_SPELLID] = 37173,
+		},
+	},
+	[30619] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "HoTs on Heals",
+			[E_ICD] = 15000,
+			[E_SPELLID] = 38299,
+		},
+	},
+	[30626] = {
+		[1] = {
+			[E_CHANCE] = 20,
+			[E_RPPM] = 0,
+			[E_NAME] = "Crit Proc Spell Damage",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 38347,
+		},
+	},
+	[30627] = {
+		[1] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Fury of the Crashing Waves",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 42083,
+		},
+	},
+	[30663] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Regain Mana",
+			[E_ICD] = 40000,
+			[E_SPELLID] = 37247,
+		},
+	},
+	[30664] = {
+		[1] = {
+			[E_CHANCE] = 3,
+			[E_RPPM] = 0,
+			[E_NAME] = "Druid Forms Trinket",
+			[E_ICD] = 0,
+			[E_SPELLID] = 37336,
+		},
+	},
+	[31332] = {
+		[1] = {
+			[E_CHANCE] = 2,
+			[E_RPPM] = 1,
+			[E_NAME] = "Thrash Blade",
+			[E_ICD] = 0,
+			[E_SPELLID] = 182395,
+		},
+	},
+	[31336] = {
+		[2] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Forgotten Knowledge",
+			[E_ICD] = 50000,
+			[E_SPELLID] = 38319,
+		},
+	},
+	[31858] = {
+		[1] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Aura of Vengeance",
+			[E_ICD] = 0,
+			[E_SPELLID] = 39444,
+		},
+	},
+	[32485] = {
+		[1] = {
+			[E_CHANCE] = 25,
+			[E_RPPM] = 0,
+			[E_NAME] = "Warrior Tier 6 Trinket",
+			[E_ICD] = 0,
+			[E_SPELLID] = 40458,
+		},
+	},
+	[32487] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Hunter Tier 6 Trinket",
+			[E_ICD] = 0,
+			[E_SPELLID] = 40485,
+		},
+	},
+	[32488] = {
+		[1] = {
+			[E_CHANCE] = 50,
+			[E_RPPM] = 0,
+			[E_NAME] = "Mage Tier 6 Trinket",
+			[E_ICD] = 0,
+			[E_SPELLID] = 40482,
+		},
+	},
+	[32490] = {
+		[1] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Priest Tier 6 Trinket",
+			[E_ICD] = 0,
+			[E_SPELLID] = 40438,
+		},
+	},
+	[32493] = {
+		[1] = {
+			[E_CHANCE] = 20,
+			[E_RPPM] = 0,
+			[E_NAME] = "Warlock Tier 6 Trinket",
+			[E_ICD] = 0,
+			[E_SPELLID] = 40478,
+		},
+	},
+	[32496] = {
+		[2] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Bonus Mana Regen",
+			[E_ICD] = 50000,
+			[E_SPELLID] = 37655,
+		},
+	},
+	[32770] = {
+		[1] = {
+			[E_CHANCE] = 50,
+			[E_RPPM] = 0,
+			[E_NAME] = "Aviana\'s Purpose",
+			[E_ICD] = 10000,
+			[E_SPELLID] = 41260,
+		},
+	},
+	[32771] = {
+		[1] = {
+			[E_CHANCE] = 50,
+			[E_RPPM] = 0,
+			[E_NAME] = "Aviana\'s Will",
+			[E_ICD] = 10000,
+			[E_SPELLID] = 41262,
+		},
+	},
+	[34227] = {
+		[1] = {
+			[E_CHANCE] = 5,
+			[E_RPPM] = 0,
+			[E_NAME] = "Freeze",
+			[E_ICD] = 0,
+			[E_SPELLID] = 27867,
+		},
+	},
+	[34427] = {
+		[1] = {
+			[E_CHANCE] = 10,
+			[E_RPPM] = 0,
+			[E_NAME] = "Item - T7 Melee Trinket Base",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 45355,
+		},
+	},
+	[34470] = {
+		[1] = {
+			[E_CHANCE] = 4,
+			[E_RPPM] = 1,
+			[E_NAME] = "Augment Pain",
+			[E_ICD] = 0,
+			[E_SPELLID] = 45054,
+		},
+	},
+	[34472] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Disdain",
+			[E_ICD] = 0,
+			[E_SPELLID] = 45354,
+		},
+	},
+	[34677] = {
+		[3] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Sunwell Exalted Healer Neck",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 45484,
+		},
+	},
+	[34678] = {
+		[2] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Sunwell Exalted Caster Neck",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 45481,
+		},
+	},
+	[34679] = {
+		[2] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Sunwell Exalted Melee Neck",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 45482,
+		},
+	},
+	[34680] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Sunwell Exalted Tank Neck",
+			[E_ICD] = 45000,
+			[E_SPELLID] = 45483,
 		},
 	},
 	[37064] = {
@@ -7963,6 +8422,60 @@ AdvancedTooltips.Items = {
 			[E_SPELLID] = 133631,
 		},
 	},
+	[117730] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Surge of Conquest",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
+		},
+	},
+	[117735] = {
+		[1] = {
+			[E_CHANCE] = 25,
+			[E_RPPM] = 0,
+			[E_NAME] = "Surge of Dominance",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
+		},
+	},
+	[117740] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Surge of Victory",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
+		},
+	},
+	[117931] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Surge of Conquest",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 182060,
+		},
+	},
+	[117936] = {
+		[1] = {
+			[E_CHANCE] = 25,
+			[E_RPPM] = 0,
+			[E_NAME] = "Surge of Dominance",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 182058,
+		},
+	},
+	[117941] = {
+		[1] = {
+			[E_CHANCE] = 15,
+			[E_RPPM] = 0,
+			[E_NAME] = "Surge of Victory",
+			[E_ICD] = 55000,
+			[E_SPELLID] = 182063,
+		},
+	},
 	[118016] = {
 		[1] = {
 			[E_CHANCE] = 15,
@@ -12182,6 +12695,78 @@ AdvancedTooltips.Items = {
 			[E_SPELLID] = 190029,
 		},
 	},
+	[150427] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Empyrean Demolisher",
+			[E_ICD] = 0,
+			[E_SPELLID] = 243994,
+		},
+	},
+	[150428] = {
+		[1] = {
+			[E_CHANCE] = 1.1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Eskhandar\'s Rake",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244041,
+		},
+	},
+	[150429] = {
+		[1] = {
+			[E_CHANCE] = 1.69,
+			[E_RPPM] = 1,
+			[E_NAME] = "Emerald Shadowfang",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244034,
+		},
+	},
+	[150460] = {
+		[2] = {
+			[E_CHANCE] = 3,
+			[E_RPPM] = 1,
+			[E_NAME] = "Siphon Essence",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244330,
+		},
+	},
+	[150521] = {
+		[2] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Embers of Azzinoth",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244193,
+		},
+	},
+	[150523] = {
+		[2] = {
+			[E_CHANCE] = 2.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Memento of Tyrande",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244134,
+		},
+	},
+	[150525] = {
+		[3] = {
+			[E_CHANCE] = 8,
+			[E_RPPM] = 1,
+			[E_NAME] = "Blessing of Karabor",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244381,
+		},
+	},
+	[150527] = {
+		[2] = {
+			[E_CHANCE] = 3,
+			[E_RPPM] = 1,
+			[E_NAME] = "Madness of the Betrayer",
+			[E_ICD] = 0,
+			[E_SPELLID] = 244066,
+		},
+	},
 	[151310] = {
 		[1] = {
 			[E_CHANCE] = 4,
@@ -13150,6 +13735,15 @@ AdvancedTooltips.Items = {
 			[E_SPELLID] = 278224,
 		},
 	},
+	[161415] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Razorleaf Tempest",
+			[E_ICD] = 0,
+			[E_SPELLID] = 278248,
+		},
+	},
 	[161419] = {
 		[1] = {
 			[E_CHANCE] = 1.75,
@@ -13181,7 +13775,7 @@ AdvancedTooltips.Items = {
 		[1] = {
 			[E_CHANCE] = 1.5,
 			[E_RPPM] = 1,
-			[E_NAME] = "Taste of Victory",
+			[E_NAME] = "Gladiator\'s Insignia",
 			[E_ICD] = 0,
 			[E_SPELLID] = 277182,
 		},
@@ -13190,7 +13784,7 @@ AdvancedTooltips.Items = {
 		[1] = {
 			[E_CHANCE] = 1.5,
 			[E_RPPM] = 1,
-			[E_NAME] = "Taste of Victory",
+			[E_NAME] = "Gladiator\'s Insignia",
 			[E_ICD] = 0,
 			[E_SPELLID] = 277182,
 		},
@@ -13202,6 +13796,159 @@ AdvancedTooltips.Items = {
 			[E_NAME] = "Bone Throw",
 			[E_ICD] = 0,
 			[E_SPELLID] = 279786,
+		},
+	},
+	[165057] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Gladiator\'s Insignia",
+			[E_ICD] = 0,
+			[E_SPELLID] = 277182,
+		},
+	},
+	[165222] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Gladiator\'s Insignia",
+			[E_ICD] = 0,
+			[E_SPELLID] = 277182,
+		},
+	},
+	[165579] = {
+		[1] = {
+			[E_CHANCE] = 4,
+			[E_RPPM] = 1,
+			[E_NAME] = "Kimbul\'s Razor Claw",
+			[E_ICD] = 6000,
+			[E_SPELLID] = 288328,
+		},
+	},
+	[165581] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Gift of Wind",
+			[E_ICD] = 0,
+			[E_SPELLID] = 288304,
+		},
+	},
+	[165600] = {
+		[1] = {
+			[E_CHANCE] = 3,
+			[E_RPPM] = 1,
+			[E_NAME] = "Buster Shot",
+			[E_ICD] = 0,
+			[E_SPELLID] = 289391,
+		},
+	},
+	[165660] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Thunder Jolt",
+			[E_ICD] = 0,
+			[E_SPELLID] = 285469,
+		},
+	},
+	[165661] = {
+		[1] = {
+			[E_CHANCE] = 4,
+			[E_RPPM] = 1,
+			[E_NAME] = "Frozen Flow",
+			[E_ICD] = 0,
+			[E_SPELLID] = 285471,
+		},
+	},
+	[165666] = {
+		[1] = {
+			[E_CHANCE] = 2.25,
+			[E_RPPM] = 1,
+			[E_NAME] = "Moon Touched",
+			[E_ICD] = 0,
+			[E_SPELLID] = 285495,
+		},
+	},
+	[165667] = {
+		[1] = {
+			[E_CHANCE] = 3.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Gurubashi Pride",
+			[E_ICD] = 0,
+			[E_SPELLID] = 285499,
+		},
+	},
+	[165926] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Infernal Alchemist Stone",
+			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
+		},
+	},
+	[165927] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Infernal Alchemist Stone",
+			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
+		},
+	},
+	[165928] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Infernal Alchemist Stone",
+			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
+		},
+	},
+	[166418] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Gift of Wind",
+			[E_ICD] = 0,
+			[E_SPELLID] = 288304,
+		},
+	},
+	[166794] = {
+		[1] = {
+			[E_CHANCE] = 1.5,
+			[E_RPPM] = 1,
+			[E_NAME] = "Razorleaf Tempest",
+			[E_ICD] = 0,
+			[E_SPELLID] = 278248,
+		},
+	},
+	[166974] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Infernal Alchemist Stone",
+			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
+		},
+	},
+	[166975] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Infernal Alchemist Stone",
+			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
+		},
+	},
+	[166976] = {
+		[1] = {
+			[E_CHANCE] = 1,
+			[E_RPPM] = 1,
+			[E_NAME] = "Infernal Alchemist Stone",
+			[E_ICD] = 0,
+			[E_SPELLID] = 188026,
 		},
 	},
 }
@@ -13672,8 +14419,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[6297] = {
 			},
-			[6307] = {
-			},
 			[6343] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
@@ -13699,6 +14444,8 @@ AdvancedTooltips.SpellData = {
 			[6770] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
+			},
+			[6788] = {
 			},
 			[6789] = {
 				[E_RPPM] = 0,
@@ -13736,10 +14483,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[7428] = {
 			},
-			[7433] = {
-			},
-			[7438] = {
-			},
 			[7443] = {
 			},
 			[7445] = {
@@ -13751,8 +14494,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 5,
 			},
 			[7447] = {
-			},
-			[7452] = {
 			},
 			[7457] = {
 			},
@@ -13986,6 +14727,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[12472] = {
 			},
+			[12486] = {
+			},
 			[12654] = {
 			},
 			[12685] = {
@@ -14181,8 +14924,6 @@ AdvancedTooltips.SpellData = {
 			[13752] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
-			},
-			[13796] = {
 			},
 			[13809] = {
 			},
@@ -14734,8 +15475,6 @@ AdvancedTooltips.SpellData = {
 			[19574] = {
 			},
 			[19577] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[19581] = {
 			},
@@ -14782,8 +15521,6 @@ AdvancedTooltips.SpellData = {
 			[19937] = {
 			},
 			[19990] = {
-			},
-			[19992] = {
 			},
 			[20004] = {
 			},
@@ -15539,8 +16276,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[27961] = {
 			},
-			[27963] = {
-			},
 			[27967] = {
 			},
 			[27968] = {
@@ -15893,8 +16628,6 @@ AdvancedTooltips.SpellData = {
 			[31798] = {
 			},
 			[31821] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[31850] = {
 			},
@@ -16907,8 +17640,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[44489] = {
 			},
-			[44491] = {
-			},
 			[44492] = {
 			},
 			[44500] = {
@@ -17275,6 +18006,8 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
+			[49088] = {
+			},
 			[49143] = {
 			},
 			[49184] = {
@@ -17398,8 +18131,6 @@ AdvancedTooltips.SpellData = {
 			[51388] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
-			},
-			[51399] = {
 			},
 			[51460] = {
 				[E_RPPM] = 0,
@@ -18516,8 +19247,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[63268] = {
 			},
-			[63279] = {
-			},
 			[63312] = {
 			},
 			[63560] = {
@@ -18535,8 +19264,6 @@ AdvancedTooltips.SpellData = {
 			[63746] = {
 			},
 			[63899] = {
-			},
-			[63925] = {
 			},
 			[63943] = {
 			},
@@ -19524,7 +20251,7 @@ AdvancedTooltips.SpellData = {
 			},
 			[77756] = {
 				[E_RPPM] = 0,
-				[E_CHANCE] = 15,
+				[E_CHANCE] = 100,
 			},
 			[77758] = {
 			},
@@ -22610,8 +23337,6 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[116783] = {
-			},
 			[116812] = {
 			},
 			[116841] = {
@@ -23025,6 +23750,8 @@ AdvancedTooltips.SpellData = {
 			[120679] = {
 			},
 			[120692] = {
+			},
+			[120694] = {
 			},
 			[120696] = {
 			},
@@ -23700,10 +24427,6 @@ AdvancedTooltips.SpellData = {
 			[125561] = {
 			},
 			[125732] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[125735] = {
 			},
 			[125739] = {
 			},
@@ -25096,27 +25819,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[144845] = {
 			},
-			[144907] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[144909] = {
-},			[144934] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[144948] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[144950] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[144953] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
 			[145002] = {
 			},
 			[145108] = {
@@ -25442,10 +26144,6 @@ AdvancedTooltips.SpellData = {
 			[147597] = {
 			},
 			[147598] = {
-			},
-			[147620] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[147709] = {
 			},
@@ -25922,6 +26620,10 @@ AdvancedTooltips.SpellData = {
 			[157153] = {
 			},
 			[157154] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[157228] = {
 			},
 			[157299] = {
 				[E_RPPM] = 0,
@@ -26399,6 +27101,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[161797] = {
 			},
+			[161798] = {
+			},
 			[161800] = {
 			},
 			[161862] = {
@@ -26592,8 +27296,7 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[165350] = {
-			},
-			[165351] = {
+},			[165351] = {
 			},
 			[165352] = {
 			},
@@ -26972,6 +27675,10 @@ AdvancedTooltips.SpellData = {
 			},
 			[166587] = {
 			},
+			[166588] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
 			[166589] = {
 			},
 			[166592] = {
@@ -26999,6 +27706,8 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[166646] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
 			},
 			[166677] = {
 				[E_RPPM] = 0,
@@ -27446,8 +28155,6 @@ AdvancedTooltips.SpellData = {
 },			[170202] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
-			},
-			[170205] = {
 			},
 			[170221] = {
 				[E_RPPM] = 0,
@@ -28825,8 +29532,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[178741] = {
 			},
-			[178808] = {
-			},
 			[178819] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
@@ -29453,6 +30158,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[184671] = {
 			},
+			[184689] = {
+			},
 			[184707] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
@@ -29553,8 +30260,6 @@ AdvancedTooltips.SpellData = {
 },			[184927] = {
 			},
 			[184968] = {
-			},
-			[184982] = {
 			},
 			[184983] = {
 				[E_RPPM] = 0,
@@ -29897,6 +30602,10 @@ AdvancedTooltips.SpellData = {
 			[186257] = {
 			},
 			[186258] = {
+			},
+			[186260] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
 			},
 			[186263] = {
 			},
@@ -30348,10 +31057,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[187935] = {
 			},
-			[187970] = {
-			},
-			[187981] = {
-			},
 			[188016] = {
 			},
 			[188017] = {
@@ -30666,10 +31371,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[189112] = {
 			},
-			[189186] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 45,
-			},
 			[189209] = {
 			},
 			[189269] = {
@@ -30866,8 +31567,7 @@ AdvancedTooltips.SpellData = {
 			[190909] = {
 			},
 			[190925] = {
-			},
-			[190927] = {
+},			[190927] = {
 			},
 			[190949] = {
 				[E_RPPM] = 0,
@@ -31094,22 +31794,6 @@ AdvancedTooltips.SpellData = {
 			[191685] = {
 			},
 			[191726] = {
-			},
-			[191727] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[191728] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[191729] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[191730] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[191732] = {
 			},
@@ -31428,8 +32112,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[193170] = {
 			},
-			[193173] = {
-			},
 			[193179] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 15,
@@ -31481,8 +32163,6 @@ AdvancedTooltips.SpellData = {
 			[193468] = {
 			},
 			[193473] = {
-			},
-			[193526] = {
 			},
 			[193530] = {
 			},
@@ -31585,7 +32265,7 @@ AdvancedTooltips.SpellData = {
 			[194251] = {
 },			[194310] = {
 				[E_RPPM] = 0,
-				[E_CHANCE] = 20,
+				[E_CHANCE] = 100,
 			},
 			[194311] = {
 				[E_RPPM] = 0,
@@ -31974,6 +32654,8 @@ AdvancedTooltips.SpellData = {
 			[195692] = {
 			},
 			[195696] = {
+			},
+			[195707] = {
 			},
 			[195708] = {
 			},
@@ -32544,8 +33226,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[198670] = {
 			},
-			[198715] = {
-			},
 			[198735] = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 1.25,
@@ -32706,6 +33386,8 @@ AdvancedTooltips.SpellData = {
 			[199552] = {
 			},
 			[199558] = {
+			},
+			[199579] = {
 			},
 			[199600] = {
 			},
@@ -33224,13 +33906,9 @@ AdvancedTooltips.SpellData = {
 			},
 			[202021] = {
 			},
-			[202022] = {
-			},
 			[202028] = {
 			},
 			[202031] = {
-			},
-			[202032] = {
 			},
 			[202040] = {
 			},
@@ -33319,6 +33997,8 @@ AdvancedTooltips.SpellData = {
 			[202446] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
+			},
+			[202461] = {
 			},
 			[202497] = {
 			},
@@ -33752,10 +34432,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[205154] = {
 			},
-			[205164] = {
-			},
-			[205165] = {
-			},
 			[205178] = {
 			},
 			[205179] = {
@@ -33973,10 +34649,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[206974] = {
 			},
-			[206977] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
 			[207061] = {
 			},
 			[207062] = {
@@ -34024,8 +34696,6 @@ AdvancedTooltips.SpellData = {
 			[207256] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
-			},
-			[207260] = {
 			},
 			[207264] = {
 			},
@@ -34767,7 +35437,7 @@ AdvancedTooltips.SpellData = {
 			},
 			[210706] = {
 				[E_RPPM] = 0,
-				[E_CHANCE] = 15,
+				[E_CHANCE] = 100,
 			},
 			[210714] = {
 				[E_RPPM] = 0,
@@ -35194,18 +35864,6 @@ AdvancedTooltips.SpellData = {
 			[212283] = {
 			},
 			[212329] = {
-			},
-			[212332] = {
-			},
-			[212333] = {
-			},
-			[212335] = {
-			},
-			[212336] = {
-			},
-			[212337] = {
-			},
-			[212338] = {
 			},
 			[212400] = {
 			},
@@ -36418,8 +37076,6 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 1.5,
 			},
-			[221847] = {
-			},
 			[221857] = {
 			},
 			[221865] = {
@@ -36677,6 +37333,10 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[223819] = {
+			},
+			[223829] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
 			},
 			[223937] = {
 			},
@@ -37777,8 +38437,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[231055] = {
 			},
-			[231056] = {
-			},
 			[231057] = {
 			},
 			[231063] = {
@@ -37788,8 +38446,6 @@ AdvancedTooltips.SpellData = {
 			[231065] = {
 			},
 			[231070] = {
-			},
-			[231214] = {
 			},
 			[231283] = {
 			},
@@ -38387,10 +39043,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[236716] = {
-			},
-			[236748] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[236757] = {
 				[E_RPPM] = 0,
@@ -39627,6 +40279,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[244670] = {
 			},
+			[244813] = {
+			},
 			[244846] = {
 			},
 			[245011] = {
@@ -39646,12 +40300,6 @@ AdvancedTooltips.SpellData = {
 			[245591] = {
 			},
 			[245623] = {
-			},
-			[245639] = {
-			},
-			[245640] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[245687] = {
 			},
@@ -41280,8 +41928,6 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 3,
 			},
-			[255149] = {
-			},
 			[255150] = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 1,
@@ -41319,8 +41965,6 @@ AdvancedTooltips.SpellData = {
 			[255459] = {
 			},
 			[255473] = {
-			},
-			[255491] = {
 			},
 			[255529] = {
 			},
@@ -42003,6 +42647,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[259277] = {
 			},
+			[259358] = {
+			},
 			[259381] = {
 			},
 			[259384] = {
@@ -42105,7 +42751,7 @@ AdvancedTooltips.SpellData = {
 			},
 			[260243] = {
 				[E_RPPM] = 0,
-				[E_CHANCE] = 10,
+				[E_CHANCE] = 25,
 			},
 			[260247] = {
 			},
@@ -42139,7 +42785,10 @@ AdvancedTooltips.SpellData = {
 			[260385] = {
 			},
 			[260393] = {
-},			[260395] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 20,
+			},
+			[260395] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
@@ -42150,10 +42799,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[260643] = {
-			},
-			[260694] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[260708] = {
 			},
@@ -42168,11 +42813,11 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[260882] = {
-},			[260890] = {
-			},
-			[260895] = {
+},			[260895] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
+			},
+			[260897] = {
 			},
 			[261479] = {
 			},
@@ -42187,10 +42832,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[261682] = {
-			},
-			[261715] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[261767] = {
 				[E_RPPM] = 0,
@@ -42234,7 +42875,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[262232] = {
 			},
-			[262304] = {
+			[262303] = {
+},			[262304] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
@@ -42471,6 +43113,12 @@ AdvancedTooltips.SpellData = {
 			[264332] = {
 			},
 			[264348] = {
+			},
+			[264351] = {
+			},
+			[264352] = {
+			},
+			[264353] = {
 			},
 			[264354] = {
 			},
@@ -43679,11 +44327,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[269613] = {
 			},
-			[269621] = {
-				[E_AZERITE_POWER] = 76,
-			},
-			[269622] = {
-			},
 			[269644] = {
 			},
 			[269650] = {
@@ -43721,10 +44364,6 @@ AdvancedTooltips.SpellData = {
 			[269751] = {
 			},
 			[269752] = {
-			},
-			[269808] = {
-			},
-			[269850] = {
 			},
 			[269853] = {
 				[E_RPPM] = 1,
@@ -43871,8 +44510,6 @@ AdvancedTooltips.SpellData = {
 			[270481] = {
 			},
 			[270501] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[270545] = {
 			},
@@ -43897,10 +44534,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[270627] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[270639] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
@@ -44038,7 +44671,13 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
+			[271259] = {
+			},
 			[271260] = {
+			},
+			[271261] = {
+			},
+			[271262] = {
 			},
 			[271263] = {
 			},
@@ -44055,6 +44694,8 @@ AdvancedTooltips.SpellData = {
 			[271374] = {
 			},
 			[271376] = {
+			},
+			[271379] = {
 			},
 			[271431] = {
 			},
@@ -44169,8 +44810,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 5,
 			},
 			[271843] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[271877] = {
 			},
@@ -44245,9 +44884,8 @@ AdvancedTooltips.SpellData = {
 			[272439] = {
 			},
 			[272570] = {
-},			[272572] = {
 				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
+				[E_CHANCE] = 100,
 			},
 			[272651] = {
 			},
@@ -44279,17 +44917,6 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
-			[272738] = {
-				[E_AZERITE_POWER] = 109,
-			},
-			[272739] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[272741] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[272742] = {
 				[E_AZERITE_POWER] = 110,
 			},
@@ -44303,8 +44930,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[272775] = {
 				[E_AZERITE_POWER] = 113,
-			},
-			[272776] = {
 			},
 			[272780] = {
 				[E_AZERITE_POWER] = 114,
@@ -44331,20 +44956,6 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 2.5,
 			},
-			[272802] = {
-				[E_AZERITE_POWER] = 120,
-			},
-			[272804] = {
-				[E_AZERITE_POWER] = 117,
-			},
-			[272805] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[272806] = {
-			},
-			[272807] = {
-			},
 			[272816] = {
 			},
 			[272817] = {
@@ -44359,26 +44970,6 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 118,
 			},
 			[272825] = {
-			},
-			[272836] = {
-				[E_AZERITE_POWER] = 119,
-			},
-			[272837] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[272838] = {
-			},
-			[272866] = {
-				[E_AZERITE_POWER] = 121,
-			},
-			[272867] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[272870] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[272871] = {
 				[E_AZERITE_POWER] = 122,
@@ -44407,15 +44998,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[272906] = {
 			},
-			[272911] = {
-},			[272913] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[272916] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[272932] = {
 				[E_AZERITE_POWER] = 128,
 			},
@@ -44439,15 +45021,6 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 130,
 			},
 			[272945] = {
-			},
-			[272955] = {
-				[E_AZERITE_POWER] = 131,
-			},
-			[272956] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[272957] = {
 			},
 			[272968] = {
 				[E_AZERITE_POWER] = 132,
@@ -44497,12 +45070,9 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 137,
 			},
 			[273005] = {
+},			[273006] = {
 				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[273006] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
+				[E_CHANCE] = 101,
 			},
 			[273007] = {
 				[E_AZERITE_POWER] = 136,
@@ -44512,7 +45082,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[273027] = {
-				[E_AZERITE_POWER] = 139,
 			},
 			[273032] = {
 				[E_RPPM] = 0,
@@ -44531,7 +45100,6 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 141,
 			},
 			[273095] = {
-				[E_AZERITE_POWER] = 142,
 			},
 			[273096] = {
 			},
@@ -44544,9 +45112,6 @@ AdvancedTooltips.SpellData = {
 			[273134] = {
 				[E_AZERITE_POWER] = 145,
 			},
-			[273136] = {
-				[E_AZERITE_POWER] = 146,
-			},
 			[273140] = {
 				[E_ICD] = 1000,
 				[E_AZERITE_POWER] = 148,
@@ -44555,8 +45120,7 @@ AdvancedTooltips.SpellData = {
 				[E_ICD] = 1000,
 				[E_AZERITE_POWER] = 149,
 			},
-			[273147] = {
-},			[273150] = {
+			[273150] = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 1,
 				[E_AZERITE_POWER] = 156,
@@ -44604,14 +45168,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[273264] = {
 			},
-			[273265] = {
-				[E_AZERITE_POWER] = 162,
-			},
-			[273266] = {
-},			[273267] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
 			[273277] = {
 			},
 			[273283] = {
@@ -44650,17 +45206,6 @@ AdvancedTooltips.SpellData = {
 			[273313] = {
 				[E_AZERITE_POWER] = 165,
 			},
-			[273319] = {
-				[E_AZERITE_POWER] = 166,
-			},
-			[273320] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[273321] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[273323] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
@@ -44683,7 +45228,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[273331] = {
-				[E_AZERITE_POWER] = 168,
 			},
 			[273332] = {
 				[E_RPPM] = 0,
@@ -44697,6 +45241,7 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[273338] = {
+				[E_ICD] = 500,
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 				[E_AZERITE_POWER] = 169,
@@ -44705,17 +45250,8 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[273340] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[273344] = {
 				[E_AZERITE_POWER] = 171,
-			},
-			[273346] = {
-				[E_AZERITE_POWER] = 170,
-			},
-			[273347] = {
 			},
 			[273348] = {
 				[E_RPPM] = 0,
@@ -44724,13 +45260,13 @@ AdvancedTooltips.SpellData = {
 			[273349] = {
 			},
 			[273367] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 5,
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2.5,
 				[E_AZERITE_POWER] = 173,
 			},
 			[273389] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 5,
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2.5,
 			},
 			[273409] = {
 				[E_ICD] = 10000,
@@ -44752,16 +45288,7 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[273420] = {
-				[E_AZERITE_POWER] = 176,
-			},
-			[273423] = {
-			},
 			[273424] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[273428] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
@@ -44772,18 +45299,7 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[273452] = {
-				[E_AZERITE_POWER] = 180,
-			},
 			[273453] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[273454] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[273455] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
@@ -44848,15 +45364,7 @@ AdvancedTooltips.SpellData = {
 			},
 			[273526] = {
 			},
-			[273553] = {
-				[E_AZERITE_POWER] = 189,
-			},
-			[273555] = {
-			},
 			[273559] = {
-			},
-			[273597] = {
-				[E_AZERITE_POWER] = 191,
 			},
 			[273682] = {
 				[E_RPPM] = 1,
@@ -44976,7 +45484,6 @@ AdvancedTooltips.SpellData = {
 			[274070] = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 2,
-				[E_AZERITE_POWER] = 198,
 			},
 			[274071] = {
 				[E_RPPM] = 1,
@@ -45056,17 +45563,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[274395] = {
 			},
-			[274397] = {
-				[E_AZERITE_POWER] = 200,
-			},
-			[274398] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[274399] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[274412] = {
 },			[274416] = {
 			},
@@ -45085,8 +45581,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[274426] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[274429] = {
 				[E_RPPM] = 1,
@@ -45245,7 +45739,6 @@ AdvancedTooltips.SpellData = {
 			[275089] = {
 			},
 			[275144] = {
-				[E_AZERITE_POWER] = 220,
 			},
 			[275148] = {
 			},
@@ -45408,15 +45901,7 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 239,
 			},
 			[275858] = {
-},			[275860] = {
-				[E_AZERITE_POWER] = 237,
-			},
-			[275863] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
-			},
-			[275864] = {
-},			[275867] = {
+},			[275863] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
@@ -45447,11 +45932,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[275918] = {
 			},
-			[275924] = {
-				[E_AZERITE_POWER] = 243,
-			},
-			[275926] = {
-			},
 			[275929] = {
 				[E_AZERITE_POWER] = 244,
 			},
@@ -45469,26 +45949,10 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
-			[275968] = {
-				[E_ICD] = 500,
-				[E_AZERITE_POWER] = 246,
-			},
-			[275969] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[275972] = {
-			},
-			[275974] = {
-				[E_AZERITE_POWER] = 442,
-			},
 			[275975] = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 2,
 				[E_AZERITE_POWER] = 248,
-			},
-			[276007] = {
-				[E_AZERITE_POWER] = 443,
 			},
 			[276012] = {
 			},
@@ -45501,6 +45965,10 @@ AdvancedTooltips.SpellData = {
 			},
 			[276025] = {
 			},
+			[276026] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
 			[276029] = {
 			},
 			[276030] = {
@@ -45511,21 +45979,9 @@ AdvancedTooltips.SpellData = {
 			},
 			[276059] = {
 			},
-			[276072] = {
-				[E_AZERITE_POWER] = 249,
-			},
-			[276076] = {
-				[E_ICD] = 1000,
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[276079] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
-			},
-			[276083] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[276088] = {
 			},
@@ -45557,6 +46013,10 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 6,
 			},
+			[276136] = {
+			},
+			[276143] = {
+			},
 			[276146] = {
 			},
 			[276152] = {
@@ -45567,14 +46027,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[276154] = {
-			},
-			[276155] = {
-				[E_AZERITE_POWER] = 251,
-			},
-			[276156] = {
-},			[276157] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[276176] = {
 				[E_RPPM] = 1,
@@ -45622,6 +46074,10 @@ AdvancedTooltips.SpellData = {
 			},
 			[276202] = {
 			},
+			[276204] = {
+			},
+			[276211] = {
+			},
 			[276214] = {
 				[E_RPPM] = 1,
 				[E_CHANCE] = 1,
@@ -45667,7 +46123,11 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[277425] = {
-},			[277572] = {
+},			[277522] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 3,
+			},
+			[277572] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
@@ -45697,17 +46157,15 @@ AdvancedTooltips.SpellData = {
 				[E_ICD] = 500,
 				[E_AZERITE_POWER] = 379,
 			},
-			[277665] = {
-				[E_AZERITE_POWER] = 382,
-			},
 			[277666] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 6,
 				[E_AZERITE_POWER] = 447,
 			},
 			[277667] = {
 				[E_AZERITE_POWER] = 385,
 			},
 			[277669] = {
-				[E_AZERITE_POWER] = 388,
 			},
 			[277671] = {
 },			[277673] = {
@@ -45720,14 +46178,8 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 454,
 			},
 			[277676] = {
-},			[277678] = {
-				[E_AZERITE_POWER] = 453,
-			},
-			[277679] = {
-},			[277680] = {
-				[E_AZERITE_POWER] = 397,
-			},
-			[277681] = {
+},			[277679] = {
+},			[277681] = {
 				[E_AZERITE_POWER] = 400,
 			},
 			[277682] = {
@@ -45787,14 +46239,14 @@ AdvancedTooltips.SpellData = {
 			[277925] = {
 			},
 			[277926] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 6,
+			},
+			[277942] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[277942] = {
-			},
 			[277943] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[277950] = {
 			},
@@ -45935,6 +46387,14 @@ AdvancedTooltips.SpellData = {
 			},
 			[278227] = {
 			},
+			[278231] = {
+			},
+			[278248] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1.5,
+			},
+			[278249] = {
+			},
 			[278267] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
@@ -46074,15 +46534,6 @@ AdvancedTooltips.SpellData = {
 			[278515] = {
 				[E_AZERITE_POWER] = 362,
 			},
-			[278519] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[278523] = {
-			},
-			[278528] = {
-				[E_AZERITE_POWER] = 365,
-			},
 			[278529] = {
 				[E_AZERITE_POWER] = 367,
 			},
@@ -46097,14 +46548,8 @@ AdvancedTooltips.SpellData = {
 			[278532] = {
 				[E_AZERITE_POWER] = 372,
 			},
-			[278533] = {
-				[E_ICD] = 2000,
-				[E_AZERITE_POWER] = 373,
-			},
 			[278534] = {
-},			[278535] = {
-			},
-			[278536] = {
+},			[278536] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 8,
 				[E_AZERITE_POWER] = 374,
@@ -46148,17 +46593,13 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 387,
 			},
 			[278577] = {
-},			[278580] = {
-				[E_AZERITE_POWER] = 391,
-			},
-			[278593] = {
+},			[278593] = {
 },			[278594] = {
 				[E_AZERITE_POWER] = 394,
 			},
 			[278603] = {
 },			[278605] = {
 },			[278609] = {
-},			[278615] = {
 },			[278617] = {
 				[E_ICD] = 500,
 				[E_AZERITE_POWER] = 154,
@@ -46172,17 +46613,11 @@ AdvancedTooltips.SpellData = {
 			[278645] = {
 				[E_AZERITE_POWER] = 401,
 			},
-			[278655] = {
-				[E_AZERITE_POWER] = 402,
-			},
 			[278659] = {
 				[E_AZERITE_POWER] = 404,
 			},
 			[278661] = {
 				[E_AZERITE_POWER] = 405,
-			},
-			[278664] = {
-				[E_AZERITE_POWER] = 407,
 			},
 			[278666] = {
 				[E_AZERITE_POWER] = 408,
@@ -46237,12 +46672,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[278737] = {
 				[E_AZERITE_POWER] = 428,
-			},
-			[278738] = {
-				[E_ICD] = 1000,
-				[E_RPPM] = 0,
-				[E_CHANCE] = 30,
-				[E_AZERITE_POWER] = 429,
 			},
 			[278747] = {
 				[E_AZERITE_POWER] = 431,
@@ -46363,6 +46792,8 @@ AdvancedTooltips.SpellData = {
 			[278904] = {
 			},
 			[278905] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
 			},
 			[278907] = {
 			},
@@ -46377,8 +46808,7 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 1.5,
 			},
 			[278913] = {
-			},
-			[278917] = {
+},			[278917] = {
 			},
 			[278930] = {
 			},
@@ -46398,13 +46828,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 101,
 			},
 			[278981] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[278982] = {
-},			[278989] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 101,
 			},
 			[278991] = {
 },			[278999] = {
@@ -46422,10 +46845,6 @@ AdvancedTooltips.SpellData = {
 			[279028] = {
 			},
 			[279029] = {
-			},
-			[279030] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
 			},
 			[279033] = {
 			},
@@ -46722,14 +47141,6 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[279591] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
-			[279593] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 100,
-			},
 			[279600] = {
 			},
 			[279603] = {
@@ -46786,12 +47197,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 100,
 			},
 			[279664] = {
-			},
-			[279665] = {
-				[E_RPPM] = 0,
-				[E_CHANCE] = 30,
-			},
-			[279666] = {
 			},
 			[279672] = {
 				[E_ICD] = 1000,
@@ -46897,9 +47302,6 @@ AdvancedTooltips.SpellData = {
 				[E_CHANCE] = 20,
 			},
 			[279856] = {
-			},
-			[279867] = {
-				[E_AZERITE_POWER] = 127,
 			},
 			[279875] = {
 				[E_AZERITE_POWER] = 386,
@@ -47158,6 +47560,8 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
 			},
+			[280198] = {
+			},
 			[280199] = {
 },			[280200] = {
 				[E_RPPM] = 0,
@@ -47259,6 +47663,8 @@ AdvancedTooltips.SpellData = {
 			},
 			[280392] = {
 			},
+			[280398] = {
+			},
 			[280400] = {
 			},
 			[280402] = {
@@ -47336,14 +47742,9 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 486,
 			},
 			[280579] = {
-				[E_RPPM] = 1,
-				[E_CHANCE] = 3,
 				[E_AZERITE_POWER] = 487,
 			},
 			[280580] = {
-				[E_ICD] = 10000,
-				[E_RPPM] = 1,
-				[E_CHANCE] = 1,
 				[E_AZERITE_POWER] = 490,
 			},
 			[280581] = {
@@ -47380,14 +47781,9 @@ AdvancedTooltips.SpellData = {
 				[E_AZERITE_POWER] = 492,
 			},
 			[280624] = {
-				[E_RPPM] = 1,
-				[E_CHANCE] = 3,
 				[E_AZERITE_POWER] = 493,
 			},
 			[280625] = {
-				[E_ICD] = 10000,
-				[E_RPPM] = 1,
-				[E_CHANCE] = 1,
 				[E_AZERITE_POWER] = 496,
 			},
 			[280626] = {
@@ -47477,6 +47873,10 @@ AdvancedTooltips.SpellData = {
 			[280737] = {
 			},
 			[280740] = {
+			},
+			[280752] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
 			},
 			[280772] = {
 			},
@@ -47636,8 +48036,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[281265] = {
 			},
-			[281288] = {
-			},
 			[281291] = {
 			},
 			[281297] = {
@@ -47648,7 +48046,7 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
-			[281306] = {
+			[281423] = {
 			},
 			[281425] = {
 			},
@@ -47708,6 +48106,8 @@ AdvancedTooltips.SpellData = {
 			[281573] = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 101,
+			},
+			[281580] = {
 			},
 			[281613] = {
 				[E_RPPM] = 0,
@@ -47784,8 +48184,6 @@ AdvancedTooltips.SpellData = {
 			},
 			[281844] = {
 			},
-			[281847] = {
-			},
 			[281854] = {
 			},
 			[281875] = {
@@ -47794,9 +48192,145 @@ AdvancedTooltips.SpellData = {
 			},
 			[282131] = {
 			},
+			[282165] = {
+			},
+			[282166] = {
+			},
+			[282169] = {
+			},
+			[282170] = {
+			},
+			[282176] = {
+			},
+			[282177] = {
+			},
+			[282192] = {
+			},
+			[282193] = {
+			},
+			[282195] = {
+			},
+			[282196] = {
+			},
+			[282275] = {
+			},
+			[282276] = {
+			},
+			[282278] = {
+			},
+			[282281] = {
+			},
+			[282288] = {
+			},
+			[282289] = {
+			},
+			[282291] = {
+			},
+			[282292] = {
+			},
+			[282303] = {
+			},
+			[282305] = {
+			},
+			[282307] = {
+			},
+			[282308] = {
+			},
+			[282310] = {
+			},
+			[282311] = {
+			},
+			[282313] = {
+			},
+			[282314] = {
+			},
+			[282319] = {
+			},
+			[282320] = {
+			},
+			[282322] = {
+			},
+			[282323] = {
+			},
+			[282325] = {
+			},
+			[282326] = {
+			},
+			[282328] = {
+			},
+			[282329] = {
+			},
+			[282344] = {
+			},
+			[282345] = {
+			},
+			[282553] = {
+			},
 			[282720] = {
 			},
 			[282724] = {
+			},
+			[282804] = {
+			},
+			[282805] = {
+			},
+			[282807] = {
+			},
+			[282808] = {
+			},
+			[282810] = {
+			},
+			[282811] = {
+			},
+			[282855] = {
+			},
+			[282857] = {
+			},
+			[282860] = {
+			},
+			[282861] = {
+			},
+			[282863] = {
+			},
+			[282864] = {
+			},
+			[282866] = {
+			},
+			[282867] = {
+			},
+			[282869] = {
+			},
+			[282870] = {
+			},
+			[282872] = {
+			},
+			[282873] = {
+			},
+			[282878] = {
+			},
+			[282879] = {
+			},
+			[282894] = {
+			},
+			[283237] = {
+			},
+			[283238] = {
+			},
+			[283240] = {
+			},
+			[283241] = {
+			},
+			[283243] = {
+			},
+			[283244] = {
+			},
+			[283247] = {
+			},
+			[283248] = {
+			},
+			[283250] = {
+			},
+			[283251] = {
 			},
 			[283311] = {
 			},
@@ -47804,15 +48338,1154 @@ AdvancedTooltips.SpellData = {
 				[E_RPPM] = 0,
 				[E_CHANCE] = 100,
 			},
+			[283915] = {
+			},
+			[283916] = {
+			},
 			[283938] = {
+			},
+			[284292] = {
+			},
+			[284293] = {
+			},
+			[284294] = {
+			},
+			[284295] = {
+			},
+			[284296] = {
+			},
+			[284297] = {
 			},
 			[284307] = {
 			},
+			[284357] = {
+			},
+			[285052] = {
+			},
+			[285085] = {
+			},
+			[285086] = {
+			},
+			[285087] = {
+			},
+			[285088] = {
+			},
+			[285089] = {
+			},
+			[285090] = {
+			},
+			[285091] = {
+			},
+			[285092] = {
+			},
+			[285093] = {
+			},
+			[285094] = {
+			},
+			[285095] = {
+			},
+			[285096] = {
+			},
+			[285097] = {
+			},
+			[285098] = {
+			},
+			[285099] = {
+			},
+			[285100] = {
+			},
+			[285381] = {
+			},
+			[285452] = {
+			},
+			[285466] = {
+			},
+			[285469] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1.5,
+			},
+			[285470] = {
+			},
+			[285471] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 4,
+			},
+			[285472] = {
+			},
+			[285475] = {
+			},
+			[285482] = {
+			},
+			[285485] = {
+			},
+			[285489] = {
+			},
+			[285495] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2.25,
+			},
+			[285496] = {
+			},
+			[285499] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 3.5,
+			},
+			[285500] = {
+			},
+			[285514] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[285515] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[285564] = {
+			},
+			[285591] = {
+			},
+			[285594] = {
+			},
+			[285639] = {
+			},
+			[285640] = {
+			},
+			[285641] = {
+			},
+			[285644] = {
+			},
+			[285646] = {
+			},
+			[285662] = {
+			},
+			[285719] = {
+			},
+			[285840] = {
+			},
+			[285842] = {
+			},
+			[285902] = {
+			},
+			[285925] = {
+			},
+			[285926] = {
+			},
+			[285927] = {
+			},
+			[285958] = {
+				[E_AZERITE_POWER] = 382,
+			},
+			[286016] = {
+			},
+			[286019] = {
+			},
+			[286021] = {
+			},
+			[286027] = {
+				[E_AZERITE_POWER] = 127,
+			},
+			[286050] = {
+			},
+			[286121] = {
+				[E_ICD] = 1000,
+				[E_AZERITE_POWER] = 124,
+			},
+			[286124] = {
+			},
+			[286130] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[286131] = {
+			},
+			[286171] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[286229] = {
+				[E_AZERITE_POWER] = 396,
+			},
+			[286231] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[286277] = {
+			},
+			[286341] = {
+			},
+			[286342] = {
+			},
+			[286348] = {
+			},
+			[286349] = {
+			},
+			[286351] = {
+			},
+			[286390] = {
+				[E_ICD] = 2000,
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2,
+				[E_AZERITE_POWER] = 453,
+			},
+			[286392] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2,
+			},
+			[286393] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[286410] = {
+			},
+			[286438] = {
+			},
+			[286478] = {
+			},
 			[286542] = {
+			},
+			[286573] = {
+				[E_AZERITE_POWER] = 249,
 			},
 			[286577] = {
 			},
+			[286579] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[286581] = {
+			},
+			[286585] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2,
+				[E_AZERITE_POWER] = 391,
+			},
+			[286586] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2,
+			},
+			[286587] = {
+			},
 			[286603] = {
+			},
+			[286788] = {
+			},
+			[286792] = {
+			},
+			[286793] = {
+			},
+			[286794] = {
+			},
+			[286795] = {
+			},
+			[286796] = {
+			},
+			[286797] = {
+			},
+			[286798] = {
+			},
+			[286830] = {
+			},
+			[286832] = {
+				[E_AZERITE_POWER] = 142,
+			},
+			[286834] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[286835] = {
+			},
+			[286836] = {
+			},
+			[286865] = {
+			},
+			[286866] = {
+			},
+			[286868] = {
+			},
+			[286869] = {
+			},
+			[286871] = {
+			},
+			[286872] = {
+			},
+			[286874] = {
+			},
+			[286875] = {
+			},
+			[286922] = {
+			},
+			[286923] = {
+			},
+			[286949] = {
+				[E_AZERITE_POWER] = 417,
+			},
+			[286954] = {
+			},
+			[286976] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[286978] = {
+			},
+			[286979] = {
+			},
+			[287055] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+				[E_AZERITE_POWER] = 117,
+			},
+			[287059] = {
+				[E_AZERITE_POWER] = 429,
+			},
+			[287060] = {
+			},
+			[287062] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287063] = {
+			},
+			[287079] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287080] = {
+},			[287093] = {
+				[E_ICD] = 1000,
+},			[287097] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287110] = {
+			},
+			[287112] = {
+			},
+			[287126] = {
+				[E_AZERITE_POWER] = 189,
+			},
+			[287185] = {
+			},
+			[287247] = {
+			},
+			[287251] = {
+				[E_AZERITE_POWER] = 120,
+			},
+			[287253] = {
+			},
+			[287268] = {
+				[E_AZERITE_POWER] = 139,
+			},
+			[287269] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287280] = {
+			},
+			[287283] = {
+				[E_AZERITE_POWER] = 198,
+			},
+			[287300] = {
+				[E_AZERITE_POWER] = 191,
+			},
+			[287302] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287303] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287320] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287321] = {
+			},
+			[287336] = {
+				[E_AZERITE_POWER] = 402,
+			},
+			[287337] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287338] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287340] = {
+			},
+			[287355] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 50,
+				[E_AZERITE_POWER] = 397,
+			},
+			[287356] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 50,
+			},
+			[287360] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287377] = {
+				[E_AZERITE_POWER] = 237,
+			},
+			[287378] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287379] = {
+			},
+			[287448] = {
+			},
+			[287449] = {
+			},
+			[287467] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1,
+				[E_AZERITE_POWER] = 521,
+			},
+			[287468] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1,
+			},
+			[287471] = {
+			},
+			[287472] = {
+			},
+			[287568] = {
+			},
+			[287603] = {
+			},
+			[287604] = {
+				[E_AZERITE_POWER] = 522,
+			},
+			[287605] = {
+			},
+			[287608] = {
+			},
+			[287610] = {
+			},
+			[287631] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 3,
+				[E_AZERITE_POWER] = 523,
+			},
+			[287633] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 3,
+			},
+			[287637] = {
+				[E_AZERITE_POWER] = 131,
+			},
+			[287638] = {
+			},
+			[287639] = {
+			},
+			[287649] = {
+				[E_AZERITE_POWER] = 407,
+			},
+			[287650] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287653] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287656] = {
+			},
+			[287658] = {
+			},
+			[287660] = {
+			},
+			[287662] = {
+				[E_AZERITE_POWER] = 526,
+			},
+			[287664] = {
+			},
+			[287665] = {
+			},
+			[287671] = {
+			},
+			[287707] = {
+},			[287711] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287717] = {
+},			[287719] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287722] = {
+			},
+			[287723] = {
+			},
+			[287729] = {
+},			[287730] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287731] = {
+			},
+			[287768] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 8,
+				[E_AZERITE_POWER] = 530,
+			},
+			[287773] = {
+				[E_AZERITE_POWER] = 200,
+			},
+			[287774] = {
+},			[287775] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287777] = {
+			},
+			[287778] = {
+			},
+			[287784] = {
+},			[287790] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287801] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 8,
+			},
+			[287802] = {
+			},
+			[287803] = {
+				[E_AZERITE_POWER] = 540,
+			},
+			[287805] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287808] = {
+			},
+			[287818] = {
+				[E_AZERITE_POWER] = 541,
+			},
+			[287821] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[287822] = {
+				[E_AZERITE_POWER] = 531,
+			},
+			[287825] = {
+			},
+			[287827] = {
+			},
+			[287828] = {
+			},
+			[287829] = {
+				[E_AZERITE_POWER] = 76,
+			},
+			[287830] = {
+			},
+			[287831] = {
+			},
+			[287915] = {
+			},
+			[287916] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[287917] = {
+			},
+			[287938] = {
+				[E_AZERITE_POWER] = 543,
+			},
+			[287940] = {
+			},
+			[287967] = {
+			},
+			[287999] = {
+			},
+			[288006] = {
+			},
+			[288009] = {
+			},
+			[288029] = {
+			},
+			[288033] = {
+			},
+			[288034] = {
+			},
+			[288046] = {
+			},
+			[288056] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 8,
+				[E_AZERITE_POWER] = 119,
+			},
+			[288060] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 8,
+			},
+			[288073] = {
+			},
+			[288074] = {
+			},
+			[288075] = {
+			},
+			[288076] = {
+			},
+			[288079] = {
+				[E_AZERITE_POWER] = 548,
+			},
+			[288080] = {
+				[E_AZERITE_POWER] = 176,
+			},
+			[288084] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288085] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288086] = {
+			},
+			[288087] = {
+			},
+			[288091] = {
+			},
+			[288121] = {
+},			[288125] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[288131] = {
+},			[288156] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[288164] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 5,
+				[E_AZERITE_POWER] = 170,
+			},
+			[288173] = {
+			},
+			[288186] = {
+			},
+			[288189] = {
+			},
+			[288194] = {
+			},
+			[288202] = {
+			},
+			[288204] = {
+},			[288227] = {
+			},
+			[288228] = {
+			},
+			[288229] = {
+			},
+			[288230] = {
+			},
+			[288231] = {
+			},
+			[288235] = {
+			},
+			[288237] = {
+			},
+			[288239] = {
+			},
+			[288241] = {
+			},
+			[288242] = {
+			},
+			[288243] = {
+			},
+			[288244] = {
+			},
+			[288246] = {
+			},
+			[288247] = {
+			},
+			[288248] = {
+			},
+			[288250] = {
+			},
+			[288267] = {
+			},
+			[288269] = {
+			},
+			[288282] = {
+			},
+			[288283] = {
+			},
+			[288304] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1.5,
+			},
+			[288305] = {
+			},
+			[288328] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 4,
+			},
+			[288329] = {
+			},
+			[288330] = {
+			},
+			[288332] = {
+			},
+			[288333] = {
+			},
+			[288340] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2,
+				[E_AZERITE_POWER] = 166,
+			},
+			[288342] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 2,
+			},
+			[288343] = {
+			},
+			[288371] = {
+			},
+			[288391] = {
+			},
+			[288417] = {
+				[E_AZERITE_POWER] = 109,
+			},
+			[288424] = {
+},			[288425] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[288426] = {
+			},
+			[288452] = {
+				[E_AZERITE_POWER] = 121,
+			},
+			[288466] = {
+			},
+			[288515] = {
+			},
+			[288528] = {
+			},
+			[288544] = {
+			},
+			[288546] = {
+			},
+			[288548] = {
+			},
+			[288555] = {
+			},
+			[288570] = {
+				[E_AZERITE_POWER] = 373,
+			},
+			[288571] = {
+},			[288573] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[288613] = {
+			},
+			[288634] = {
+				[E_AZERITE_POWER] = 388,
+			},
+			[288636] = {
+			},
+			[288641] = {
+				[E_AZERITE_POWER] = 554,
+			},
+			[288642] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288644] = {
+			},
+			[288675] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288733] = {
+			},
+			[288749] = {
+				[E_ICD] = 500,
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1,
+				[E_AZERITE_POWER] = 561,
+			},
+			[288754] = {
+				[E_AZERITE_POWER] = 220,
+			},
+			[288755] = {
+},			[288757] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1,
+			},
+			[288758] = {
+			},
+			[288777] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288784] = {
+			},
+			[288795] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[288800] = {
+			},
+			[288802] = {
+				[E_AZERITE_POWER] = 560,
+			},
+			[288803] = {
+			},
+			[288804] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 1,
+				[E_AZERITE_POWER] = 560,
+			},
+			[288826] = {
+			},
+			[288839] = {
+			},
+			[288841] = {
+			},
+			[288843] = {
+			},
+			[288851] = {
+			},
+			[288865] = {
+			},
+			[288867] = {
+			},
+			[288868] = {
+			},
+			[288870] = {
+			},
+			[288875] = {
+			},
+			[288878] = {
+				[E_AZERITE_POWER] = 246,
+			},
+			[288880] = {
+				[E_ICD] = 1000,
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288882] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[288889] = {
+			},
+			[288890] = {
+			},
+			[288895] = {
+			},
+			[288901] = {
+			},
+			[288910] = {
+			},
+			[288914] = {
+			},
+			[288916] = {
+			},
+			[288919] = {
+			},
+			[288953] = {
+				[E_AZERITE_POWER] = 562,
+			},
+			[288964] = {
+			},
+			[288973] = {
+},			[288979] = {
+				[E_AZERITE_POWER] = 180,
+			},
+			[288981] = {
+			},
+			[288985] = {
+},			[288988] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[288989] = {
+			},
+			[288997] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289007] = {
+			},
+			[289014] = {
+			},
+			[289174] = {
+			},
+			[289175] = {
+			},
+			[289180] = {
+			},
+			[289181] = {
+			},
+			[289190] = {
+			},
+			[289209] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289277] = {
+			},
+			[289308] = {
+			},
+			[289313] = {
+			},
+			[289314] = {
+				[E_AZERITE_POWER] = 251,
+			},
+			[289315] = {
+			},
+			[289322] = {
+},			[289323] = {
+				[E_ICD] = 2000,
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289324] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[289330] = {
+			},
+			[289335] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289337] = {
+			},
+			[289339] = {
+				[E_ICD] = 10000,
+},			[289347] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289348] = {
+			},
+			[289349] = {
+			},
+			[289356] = {
+			},
+			[289359] = {
+			},
+			[289362] = {
+			},
+			[289364] = {
+				[E_AZERITE_POWER] = 442,
+			},
+			[289367] = {
+			},
+			[289386] = {
+			},
+			[289391] = {
+				[E_RPPM] = 1,
+				[E_CHANCE] = 3,
+			},
+			[289467] = {
+			},
+			[289520] = {
+			},
+			[289521] = {
+			},
+			[289522] = {
+			},
+			[289523] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289524] = {
+			},
+			[289525] = {
+},			[289526] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289531] = {
+			},
+			[289533] = {
+			},
+			[289536] = {
+			},
+			[289577] = {
+			},
+			[289590] = {
+			},
+			[289604] = {
+			},
+			[289605] = {
+			},
+			[289606] = {
+			},
+			[289622] = {
+			},
+			[289629] = {
+			},
+			[289633] = {
+			},
+			[289885] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[289887] = {
+			},
+			[289888] = {
+			},
+			[289941] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[289982] = {
+			},
+			[290028] = {
+			},
+			[290031] = {
+			},
+			[290032] = {
+			},
+			[290033] = {
+			},
+			[290042] = {
+			},
+			[290051] = {
+			},
+			[290052] = {
+			},
+			[290219] = {
+			},
+			[290224] = {
+			},
+			[290225] = {
+			},
+			[290234] = {
+			},
+			[290235] = {
+			},
+			[290240] = {
+			},
+			[290243] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 100,
+			},
+			[290244] = {
+			},
+			[290247] = {
+			},
+			[290249] = {
+			},
+			[290255] = {
+			},
+			[290263] = {
+			},
+			[290264] = {
+			},
+			[290267] = {
+			},
+			[290280] = {
+			},
+			[290333] = {
+			},
+			[290362] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[290364] = {
+			},
+			[290365] = {
+			},
+			[290366] = {
+			},
+			[290367] = {
+			},
+			[290370] = {
+			},
+			[290371] = {
+			},
+			[290372] = {
+			},
+			[290464] = {
+			},
+			[290467] = {
+			},
+			[290468] = {
+			},
+			[290469] = {
+			},
+			[290472] = {
+			},
+			[290473] = {
+			},
+			[290483] = {
+			},
+			[290521] = {
+			},
+			[290618] = {
+			},
+			[290627] = {
+			},
+			[290636] = {
+			},
+			[290814] = {
+			},
+			[291085] = {
+			},
+			[291086] = {
+			},
+			[291090] = {
+			},
+			[291092] = {
+			},
+			[291094] = {
+			},
+			[291096] = {
+			},
+			[291110] = {
+},			[291111] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[291112] = {
+},			[291113] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[291114] = {
+},			[291115] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[291117] = {
+},			[291118] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[291119] = {
+},			[291120] = {
+				[E_RPPM] = 0,
+				[E_CHANCE] = 101,
+			},
+			[291148] = {
+			},
+			[291150] = {
+			},
+			[291170] = {
+			},
+			[293809] = {
+			},
+			[293822] = {
+			},
+			[295643] = {
 			},
 			[0] = {
 			},
@@ -48030,7 +49703,7 @@ AdvancedTooltips.EnchantData = {
 		[1890] = 40,
 		[20016] = 40,
 		[1891] = 144768,
-		[27905] = 144768,
+		[20025] = 144768,
 		[1892] = 19990,
 		[20026] = 19990,
 		[1893] = 0,
@@ -48164,7 +49837,7 @@ AdvancedTooltips.EnchantData = {
 		[2659] = 1,
 		[27957] = 1,
 		[2661] = 144845,
-		[44616] = 144845,
+		[27960] = 144845,
 		[2662] = 0,
 		[27961] = 0,
 		[2666] = 5,
@@ -48362,7 +50035,7 @@ AdvancedTooltips.EnchantData = {
 		[3273] = 46579,
 		[46578] = 46579,
 		[3289] = 0,
-		[48555] = 0,
+		[47103] = 0,
 		[3294] = 7,
 		[47672] = 7,
 		[3296] = 25070,
@@ -49179,8 +50852,6 @@ AdvancedTooltips.EnchantData = {
 		[255078] = 40,
 		[5946] = 255148,
 		[255103] = 255148,
-		[5947] = 255149,
-		[255106] = 255149,
 		[5948] = 62,
 		[255110] = 62,
 		[5949] = 255150,
