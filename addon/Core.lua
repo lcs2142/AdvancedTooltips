@@ -553,26 +553,18 @@ end
 
 function ProcessOneOffs(rank, tooltip, full)
 	if rank == 288749 and full == true then
-		-- Get specalization stats
-		primStatStr = "Primary Stat"
-		local curSpec = GetSpecialization()
-		if curSpec ~= nil then
-			local specStatType = select(6, GetSpecializationInfo(curSpec))
-			if specStatType == 1 then
-				primStatStr = "Strength"
-			elseif specStatType == 2 then
-				primStatStr = "Agility"
-			elseif specStatType == 4 then
-				primStatStr = "Intellect"
+		-- replace the phrase all stats in the profile with the correct stats.
+		for i = 2,30 do
+			local frame = _G[tooltip:GetName() .. "TextLeft" .. i]
+			local text
+			if frame then text = frame:GetText() end
+			if text then
+				local newtext = string.gsub(text, "all stats", "all stats "..formatWithCurrentColor("(Primary Stat and Stamina)"))
+				frame:SetText(newtext)
 			end
-		else
-			print("curspec = nil")
 		end
-		tooltip:AddLine(" ")
-		tooltip:AddDoubleLine("All Stats", string.format("%s", primStatStr), AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
-		tooltip:AddDoubleLine(" ", "Stamina", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)		
-		tooltip:AddLine(" ")
-		-- Ancestral Resonance, add non-lust RPPM
+
+	-- Ancestral Resonance, add non-lust RPPM
 	elseif rank == 277666 then
 		local englishFaction = UnitFactionGroup("player")
 		local lustString = "Lust"
