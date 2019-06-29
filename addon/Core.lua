@@ -258,7 +258,7 @@ function alreadyAdded(str1, tooltip)
 		return false
 	end
 
-	for i = 1,15 do
+	for i = 1,30 do
 		local frame = _G[tooltip:GetName() .. "TextLeft" .. i]
 		local textRight = _G[tooltip:GetName().."TextRight"..i]
 		local text
@@ -268,6 +268,8 @@ function alreadyAdded(str1, tooltip)
 		if textRight then right = textRight:GetText() end
 		if right and string.find(right, str1, 1, true) then return true end
 	  end
+	  
+	  return false
 end
 
 
@@ -552,6 +554,9 @@ function scanStats(tooltip)
 end
 
 function ProcessOneOffs(rank, tooltip, full)
+	
+	local extendedAscendanceDescription = "The initial heal is divided evenly across all allies\nwithin 20 yards."
+
 	if rank == 288749 and full == true then
 		-- replace the phrase all stats in the profile with the correct stats.
 		for i = 2,30 do
@@ -589,6 +594,25 @@ function ProcessOneOffs(rank, tooltip, full)
 		end
 
 		tooltip:AddDoubleLine("Ancestral Resonance (No "..lustString..")", "RPPM: 1.00 ("..actualRPPMString..")", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	elseif rank == 114052 and alreadyAdded(extendedAscendanceDescription, tooltip) == false then
+		tooltip:AddLine(extendedAscendanceDescription, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	elseif rank == 280021 and full then
+		tooltip:AddLine(" ")
+		tooltip:AddLine("Rate of healing is increased by haste.", AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+	elseif rank == 292752 then
+		local zandalariRacial = {}
+		zandalariRacial["Akunda"] = "Additional Healing"
+		zandalariRacial["Bwonsamdi"] = "Shadow Damage / Self Heal"
+		zandalariRacial["Gonk"] = "5% Move Speed"
+		zandalariRacial["Kimbul"] = "Bleed"
+		zandalariRacial["Krag'wa"] = "Health and Armor"
+		zandalariRacial["Pa'ku"] = "4% Critical Strike"
+
+		
+		tooltip:AddLine(" ")
+		for k,v in pairs(zandalariRacial) do
+			tooltip:AddDoubleLine(k, v, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B, AdvancedTooltips_Config.R, AdvancedTooltips_Config.G, AdvancedTooltips_Config.B)
+		end
 	end
 end
 
@@ -806,7 +830,7 @@ function AdvancedTooltips:OnEnable()
 	ShoppingTooltip2:HookScript("OnTooltipSetItem", function(...) OnTooltip_Item(..., ShoppingTooltip2) end)
 	GameTooltip:HookScript("OnTooltipSetSpell", function(...) OnTooltipSpell(..., GameTooltip) end)
 	ItemRefTooltip:HookScript("OnTooltipSetSpell", function(...) OnTooltipSpell(..., ItemRefTooltip) end)
-	WorldMapTooltip.ItemTooltip.Tooltip:HookScript('OnTooltipSetItem', function(...) OnTooltip_Item(..., WorldMapTooltip.ItemTooltip.Tooltip) end)
+	--WorldMapTooltip.ItemTooltip.Tooltip:HookScript('OnTooltipSetItem', function(...) OnTooltip_Item(..., WorldMapTooltip.ItemTooltip.Tooltip) end)
 end
 
 function AdvancedTooltips:AfterEnable()
