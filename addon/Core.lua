@@ -500,6 +500,12 @@ function IsComboStats(frame, text)
 end
 
 function updateStats(frame, text, arr)
+	
+	-- validate inputs
+	if arr == nil then
+		return
+	end
+
 	for k,v in pairs(arr) do
 		for sdata in string.gmatch(text, "([,%d]+) "..v) do
 			if sdata ~= nil then
